@@ -1,11 +1,11 @@
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.BitSet;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 class Node {
 	private char m_letter;
@@ -250,20 +250,6 @@ public class WordsMain {
 		return result;
 	}
 	
-	private static int FindDistance(String sentance, Node validWords)
-	{
-		int result = 0;
-		for (String s : sentance.split(" "))
-		{
-			String upperS = s.toUpperCase();
-			int wordDist = FindWordDistance(upperS, validWords);
-			
-			result = Math.max(result, wordDist);
-		}		
-		
-		return result;
-	}
-	
 	// Returns is a solution has been found
 	private static boolean MakeFreeMoves(State seed, ArrayList<State> result, String inputWord, int cost, ArrayList<Node> visited)
 	{
@@ -347,6 +333,8 @@ public class WordsMain {
 		
 		if (args.length > 1)
 			wordFile = args[1];
+
+		int result = 0;
 		
 		try
 		{
@@ -354,30 +342,32 @@ public class WordsMain {
 			
 			Node validWords = LoadValidWords(wordFile);
 			
-			BufferedReader rd = new BufferedReader(new FileReader(inputFile));
+			Scanner rd = new Scanner(new FileInputStream(inputFile));
+
 			
 			for (;;)
 			{
-				String line = rd.readLine();
-				if (line == null)
+				String word = rd.next();
+				if (word == null)
 					break;
 				
-				line = line.trim();
-				if (line.length() > 0)
-				{
-					long start = System.currentTimeMillis();
-					int distance = FindDistance(line, validWords);
-					long takenMs = System.currentTimeMillis() - start;
-					s_log.printf("Distance for '%1$s' = %2$d.  Took %3$d [ms]\n\n", line, distance, takenMs);
-					System.out.println(distance);
-				}
+				long start = System.currentTimeMillis();
+				int distance = FindWordDistance(word.toUpperCase(), validWords);
+				long takenMs = System.currentTimeMillis() - start;
+				s_log.printf("Distance for '%1$s' = %2$d.  Took %3$d [ms]\n\n", word, distance, takenMs);
+				result += distance;
 			}			
+		}
+		catch (NoSuchElementException e)
+		{
+			// End of input reached
 		}
 		catch (IOException e)
 		{
 			System.out.println(e.getMessage());
 		}
 
+		System.out.println(result);
 		
 	}
 
