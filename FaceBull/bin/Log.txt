@@ -1,8 +1,0 @@
-6 machines and 3 compounds
-Min Out Costs = [277317, 26247, 112344]
-Min In Costs = [26247, 112344, 370287]
-Total price = 2,195,303
-Mem memory = 922 [MB]
-[0, 591070, 478726]
-[26247, 0, 504973]
-[138591, 112344, 0]
