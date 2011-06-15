@@ -1,4939 +1,1071 @@
-72 machines and 9 compounds
-Mem memory = 945 [MB]
-PopCount 100 : Top Cost = 1,014; Penalty = 16; 
-Queue Size = 4,122; #Invalid = 1,627; Mem 1[MB]
-ShortCut 0
-
-PopCount 200 : Top Cost = 1,053; Penalty = 16; 
-Queue Size = 7,384; #Invalid = 3,450; Mem 3[MB]
-ShortCut 0
-
-PopCount 300 : Top Cost = 1,082; Penalty = 16; 
-Queue Size = 9,557; #Invalid = 5,337; Mem 4[MB]
-ShortCut 0
-
-PopCount 400 : Top Cost = 1,107; Penalty = 16; 
-Queue Size = 12,058; #Invalid = 7,109; Mem 2[MB]
-ShortCut 0
-
-PopCount 500 : Top Cost = 1,124; Penalty = 16; 
-Queue Size = 14,058; #Invalid = 9,265; Mem 3[MB]
-ShortCut 0
-
-PopCount 600 : Top Cost = 1,136; Penalty = 16; 
-Queue Size = 16,844; #Invalid = 10,919; Mem 4[MB]
-ShortCut 0
-
-PopCount 700 : Top Cost = 1,147; Penalty = 16; 
-Queue Size = 19,043; #Invalid = 12,966; Mem 5[MB]
-ShortCut 0
-
-PopCount 800 : Top Cost = 1,157; Penalty = 16; 
-Queue Size = 21,227; #Invalid = 15,073; Mem 4[MB]
-ShortCut 0
-
-PopCount 900 : Top Cost = 1,166; Penalty = 16; 
-Queue Size = 23,195; #Invalid = 17,182; Mem 5[MB]
-ShortCut 0
-
-PopCount 1,000 : Top Cost = 1,173; Penalty = 16; 
-Queue Size = 24,873; #Invalid = 19,237; Mem 6[MB]
-ShortCut 0
-
-PopCount 1,100 : Top Cost = 1,182; Penalty = 348; 
-Queue Size = 26,702; #Invalid = 21,413; Mem 7[MB]
-ShortCut 0
-
-PopCount 1,200 : Top Cost = 1,190; Penalty = 315; 
-Queue Size = 28,178; #Invalid = 23,543; Mem 7[MB]
-ShortCut 0
-
-PopCount 1,300 : Top Cost = 1,196; Penalty = 16; 
-Queue Size = 30,281; #Invalid = 25,549; Mem 6[MB]
-ShortCut 0
-
-PopCount 1,400 : Top Cost = 1,202; Penalty = 16; 
-Queue Size = 32,683; #Invalid = 27,350; Mem 7[MB]
-ShortCut 0
-
-PopCount 1,500 : Top Cost = 1,207; Penalty = 16; 
-Queue Size = 35,019; #Invalid = 29,467; Mem 8[MB]
-ShortCut 0
-
-PopCount 1,600 : Top Cost = 1,213; Penalty = 69; 
-Queue Size = 37,024; #Invalid = 31,500; Mem 9[MB]
-ShortCut 0
-
-PopCount 1,700 : Top Cost = 1,218; Penalty = 315; 
-Queue Size = 39,518; #Invalid = 33,557; Mem 7[MB]
-ShortCut 0
-
-PopCount 1,800 : Top Cost = 1,222; Penalty = 69; 
-Queue Size = 41,770; #Invalid = 35,682; Mem 8[MB]
-ShortCut 0
-
-PopCount 1,900 : Top Cost = 1,226; Penalty = 16; 
-Queue Size = 43,462; #Invalid = 37,852; Mem 9[MB]
-ShortCut 0
-
-PopCount 2,000 : Top Cost = 1,231; Penalty = 69; 
-Queue Size = 45,822; #Invalid = 39,918; Mem 11[MB]
-ShortCut 0
-
-PopCount 2,100 : Top Cost = 1,235; Penalty = 16; 
-Queue Size = 47,544; #Invalid = 42,043; Mem 11[MB]
-ShortCut 0
-
-PopCount 2,200 : Top Cost = 1,239; Penalty = 304; 
-Queue Size = 48,812; #Invalid = 44,621; Mem 10[MB]
-ShortCut 0
-
-PopCount 2,300 : Top Cost = 1,243; Penalty = 16; 
-Queue Size = 50,737; #Invalid = 46,655; Mem 11[MB]
-ShortCut 0
-
-PopCount 2,400 : Top Cost = 1,246; Penalty = 16; 
-Queue Size = 52,816; #Invalid = 48,529; Mem 11[MB]
-ShortCut 0
-
-PopCount 2,500 : Top Cost = 1,250; Penalty = 16; 
-Queue Size = 54,257; #Invalid = 51,035; Mem 12[MB]
-ShortCut 0
-
-PopCount 2,600 : Top Cost = 1,254; Penalty = 69; 
-Queue Size = 55,820; #Invalid = 53,122; Mem 13[MB]
-ShortCut 0
-
-PopCount 2,700 : Top Cost = 1,257; Penalty = 69; 
-Queue Size = 57,915; #Invalid = 55,132; Mem 11[MB]
-ShortCut 0
-
-PopCount 2,800 : Top Cost = 1,261; Penalty = 69; 
-Queue Size = 59,599; #Invalid = 57,210; Mem 12[MB]
-ShortCut 0
-
-PopCount 2,900 : Top Cost = 1,264; Penalty = 16; 
-Queue Size = 61,013; #Invalid = 59,142; Mem 13[MB]
-ShortCut 0
-
-PopCount 3,000 : Top Cost = 1,268; Penalty = 16; 
-Queue Size = 62,284; #Invalid = 61,703; Mem 14[MB]
-ShortCut 0
-
-PopCount 3,100 : Top Cost = 1,271; Penalty = 16; 
-Queue Size = 63,550; #Invalid = 63,892; Mem 15[MB]
-ShortCut 0
-
-PopCount 3,200 : Top Cost = 1,274; Penalty = 16; 
-Queue Size = 65,613; #Invalid = 65,587; Mem 16[MB]
-ShortCut 0
-
-PopCount 3,300 : Top Cost = 1,277; Penalty = 16; 
-Queue Size = 67,195; #Invalid = 67,967; Mem 17[MB]
-ShortCut 0
-
-PopCount 3,400 : Top Cost = 1,280; Penalty = 16; 
-Queue Size = 68,733; #Invalid = 70,234; Mem 18[MB]
-ShortCut 0
-
-PopCount 3,500 : Top Cost = 1,283; Penalty = 16; 
-Queue Size = 70,068; #Invalid = 72,358; Mem 14[MB]
-ShortCut 0
-
-PopCount 3,600 : Top Cost = 1,286; Penalty = 16; 
-Queue Size = 71,337; #Invalid = 74,899; Mem 15[MB]
-ShortCut 0
-
-PopCount 3,700 : Top Cost = 1,288; Penalty = 16; 
-Queue Size = 73,012; #Invalid = 76,990; Mem 16[MB]
-ShortCut 0
-
-PopCount 3,800 : Top Cost = 1,291; Penalty = 16; 
-Queue Size = 74,610; #Invalid = 79,368; Mem 17[MB]
-ShortCut 0
-
-PopCount 3,900 : Top Cost = 1,294; Penalty = 16; 
-Queue Size = 75,757; #Invalid = 81,526; Mem 18[MB]
-ShortCut 0
-
-PopCount 4,000 : Top Cost = 1,296; Penalty = 69; 
-Queue Size = 77,737; #Invalid = 83,276; Mem 19[MB]
-ShortCut 0
-
-PopCount 4,100 : Top Cost = 1,298; Penalty = 315; 
-Queue Size = 79,316; #Invalid = 85,512; Mem 19[MB]
-ShortCut 0
-
-PopCount 4,200 : Top Cost = 1,301; Penalty = 16; 
-Queue Size = 81,104; #Invalid = 87,647; Mem 20[MB]
-ShortCut 0
-
-PopCount 4,300 : Top Cost = 1,303; Penalty = 16; 
-Queue Size = 83,489; #Invalid = 89,740; Mem 17[MB]
-ShortCut 0
-
-PopCount 4,400 : Top Cost = 1,305; Penalty = 69; 
-Queue Size = 85,084; #Invalid = 91,894; Mem 17[MB]
-ShortCut 0
-
-PopCount 4,500 : Top Cost = 1,307; Penalty = 69; 
-Queue Size = 86,747; #Invalid = 93,921; Mem 18[MB]
-ShortCut 0
-
-PopCount 4,600 : Top Cost = 1,310; Penalty = 16; 
-Queue Size = 88,502; #Invalid = 96,195; Mem 19[MB]
-ShortCut 0
-
-PopCount 4,700 : Top Cost = 1,312; Penalty = 16; 
-Queue Size = 90,625; #Invalid = 98,150; Mem 20[MB]
-ShortCut 0
-
-PopCount 4,800 : Top Cost = 1,314; Penalty = 69; 
-Queue Size = 92,088; #Invalid = 100,752; Mem 21[MB]
-ShortCut 0
-
-PopCount 4,900 : Top Cost = 1,315; Penalty = 16; 
-Queue Size = 93,424; #Invalid = 102,870; Mem 22[MB]
-ShortCut 0
-
-PopCount 5,000 : Top Cost = 1,318; Penalty = 69; 
-Queue Size = 94,779; #Invalid = 105,346; Mem 23[MB]
-ShortCut 0
-
-PopCount 5,100 : Top Cost = 1,319; Penalty = 69; 
-Queue Size = 96,768; #Invalid = 107,377; Mem 19[MB]
-ShortCut 0
-
-PopCount 5,200 : Top Cost = 1,321; Penalty = 69; 
-Queue Size = 98,129; #Invalid = 109,696; Mem 20[MB]
-ShortCut 0
-
-PopCount 5,300 : Top Cost = 1,323; Penalty = 69; 
-Queue Size = 99,927; #Invalid = 111,789; Mem 21[MB]
-ShortCut 0
-
-PopCount 5,400 : Top Cost = 1,325; Penalty = 16; 
-Queue Size = 101,778; #Invalid = 113,719; Mem 22[MB]
-ShortCut 0
-
-PopCount 5,500 : Top Cost = 1,326; Penalty = 16; 
-Queue Size = 103,266; #Invalid = 115,969; Mem 23[MB]
-ShortCut 0
-
-PopCount 5,600 : Top Cost = 1,328; Penalty = 16; 
-Queue Size = 105,141; #Invalid = 117,922; Mem 24[MB]
-ShortCut 0
-
-PopCount 5,700 : Top Cost = 1,330; Penalty = 69; 
-Queue Size = 106,788; #Invalid = 120,339; Mem 25[MB]
-ShortCut 0
-
-PopCount 5,800 : Top Cost = 1,331; Penalty = 315; 
-Queue Size = 108,603; #Invalid = 122,410; Mem 26[MB]
-ShortCut 0
-
-PopCount 5,900 : Top Cost = 1,333; Penalty = 16; 
-Queue Size = 110,361; #Invalid = 124,561; Mem 27[MB]
-ShortCut 0
-
-PopCount 6,000 : Top Cost = 1,335; Penalty = 16; 
-Queue Size = 112,217; #Invalid = 126,323; Mem 27[MB]
-ShortCut 0
-
-PopCount 6,100 : Top Cost = 1,337; Penalty = 304; 
-Queue Size = 113,110; #Invalid = 129,081; Mem 28[MB]
-ShortCut 0
-
-PopCount 6,200 : Top Cost = 1,338; Penalty = 16; 
-Queue Size = 114,553; #Invalid = 131,190; Mem 29[MB]
-ShortCut 0
-
-PopCount 6,300 : Top Cost = 1,340; Penalty = 16; 
-Queue Size = 115,440; #Invalid = 133,933; Mem 30[MB]
-ShortCut 0
-
-PopCount 6,400 : Top Cost = 1,341; Penalty = 16; 
-Queue Size = 117,564; #Invalid = 136,251; Mem 24[MB]
-ShortCut 0
-
-PopCount 6,500 : Top Cost = 1,342; Penalty = 16; 
-Queue Size = 119,413; #Invalid = 138,340; Mem 25[MB]
-ShortCut 0
-
-PopCount 6,600 : Top Cost = 1,344; Penalty = 16; 
-Queue Size = 121,280; #Invalid = 140,370; Mem 25[MB]
-ShortCut 0
-
-PopCount 6,700 : Top Cost = 1,345; Penalty = 69; 
-Queue Size = 122,926; #Invalid = 142,573; Mem 26[MB]
-ShortCut 0
-
-PopCount 6,800 : Top Cost = 1,347; Penalty = 16; 
-Queue Size = 124,904; #Invalid = 144,906; Mem 27[MB]
-ShortCut 0
-
-PopCount 6,900 : Top Cost = 1,348; Penalty = 16; 
-Queue Size = 126,045; #Invalid = 147,132; Mem 28[MB]
-ShortCut 0
-
-PopCount 7,000 : Top Cost = 1,350; Penalty = 315; 
-Queue Size = 127,456; #Invalid = 149,434; Mem 29[MB]
-ShortCut 0
-
-PopCount 7,100 : Top Cost = 1,351; Penalty = 16; 
-Queue Size = 128,717; #Invalid = 151,824; Mem 30[MB]
-ShortCut 0
-
-PopCount 7,200 : Top Cost = 1,352; Penalty = 69; 
-Queue Size = 130,087; #Invalid = 154,708; Mem 31[MB]
-ShortCut 0
-
-PopCount 7,300 : Top Cost = 1,353; Penalty = 16; 
-Queue Size = 131,855; #Invalid = 156,480; Mem 32[MB]
-ShortCut 0
-
-PopCount 7,400 : Top Cost = 1,355; Penalty = 16; 
-Queue Size = 132,902; #Invalid = 159,247; Mem 32[MB]
-ShortCut 0
-
-PopCount 7,500 : Top Cost = 1,356; Penalty = 304; 
-Queue Size = 134,724; #Invalid = 161,467; Mem 33[MB]
-ShortCut 0
-
-PopCount 7,600 : Top Cost = 1,358; Penalty = 16; 
-Queue Size = 136,253; #Invalid = 163,372; Mem 34[MB]
-ShortCut 0
-
-PopCount 7,700 : Top Cost = 1,359; Penalty = 16; 
-Queue Size = 137,983; #Invalid = 165,532; Mem 35[MB]
-ShortCut 0
-
-PopCount 7,800 : Top Cost = 1,360; Penalty = 69; 
-Queue Size = 139,510; #Invalid = 167,599; Mem 36[MB]
-ShortCut 0
-
-PopCount 7,900 : Top Cost = 1,361; Penalty = 16; 
-Queue Size = 141,015; #Invalid = 169,660; Mem 29[MB]
-ShortCut 0
-
-PopCount 8,000 : Top Cost = 1,363; Penalty = 16; 
-Queue Size = 142,166; #Invalid = 172,334; Mem 29[MB]
-ShortCut 0
-
-PopCount 8,100 : Top Cost = 1,363; Penalty = 16; 
-Queue Size = 144,283; #Invalid = 174,312; Mem 30[MB]
-ShortCut 0
-
-PopCount 8,200 : Top Cost = 1,365; Penalty = 16; 
-Queue Size = 145,540; #Invalid = 176,708; Mem 31[MB]
-ShortCut 0
-
-PopCount 8,300 : Top Cost = 1,366; Penalty = 16; 
-Queue Size = 146,919; #Invalid = 179,214; Mem 32[MB]
-ShortCut 0
-
-PopCount 8,400 : Top Cost = 1,367; Penalty = 69; 
-Queue Size = 148,102; #Invalid = 181,634; Mem 33[MB]
-ShortCut 0
-
-PopCount 8,500 : Top Cost = 1,369; Penalty = 16; 
-Queue Size = 149,261; #Invalid = 184,147; Mem 34[MB]
-ShortCut 0
-
-PopCount 8,600 : Top Cost = 1,370; Penalty = 16; 
-Queue Size = 150,908; #Invalid = 186,496; Mem 35[MB]
-ShortCut 0
-
-PopCount 8,700 : Top Cost = 1,371; Penalty = 16; 
-Queue Size = 152,775; #Invalid = 188,775; Mem 36[MB]
-ShortCut 0
-
-PopCount 8,800 : Top Cost = 1,372; Penalty = 16; 
-Queue Size = 154,534; #Invalid = 190,710; Mem 37[MB]
-ShortCut 0
-
-PopCount 8,900 : Top Cost = 1,373; Penalty = 16; 
-Queue Size = 155,788; #Invalid = 193,070; Mem 38[MB]
-ShortCut 0
-
-PopCount 9,000 : Top Cost = 1,374; Penalty = 16; 
-Queue Size = 157,112; #Invalid = 195,356; Mem 39[MB]
-ShortCut 0
-
-PopCount 9,100 : Top Cost = 1,375; Penalty = 315; 
-Queue Size = 158,541; #Invalid = 197,857; Mem 40[MB]
-ShortCut 0
-
-PopCount 9,200 : Top Cost = 1,377; Penalty = 16; 
-Queue Size = 160,285; #Invalid = 199,931; Mem 32[MB]
-ShortCut 0
-
-PopCount 9,300 : Top Cost = 1,378; Penalty = 16; 
-Queue Size = 161,431; #Invalid = 202,786; Mem 33[MB]
-ShortCut 0
-
-PopCount 9,400 : Top Cost = 1,379; Penalty = 16; 
-Queue Size = 163,460; #Invalid = 204,658; Mem 34[MB]
-ShortCut 0
-
-PopCount 9,500 : Top Cost = 1,380; Penalty = 16; 
-Queue Size = 164,673; #Invalid = 207,197; Mem 35[MB]
-ShortCut 0
-
-PopCount 9,600 : Top Cost = 1,381; Penalty = 16; 
-Queue Size = 166,079; #Invalid = 209,498; Mem 36[MB]
-ShortCut 0
-
-PopCount 9,700 : Top Cost = 1,382; Penalty = 315; 
-Queue Size = 167,474; #Invalid = 211,831; Mem 37[MB]
-ShortCut 0
-
-PopCount 9,800 : Top Cost = 1,383; Penalty = 304; 
-Queue Size = 169,006; #Invalid = 213,913; Mem 37[MB]
-ShortCut 0
-
-PopCount 9,900 : Top Cost = 1,385; Penalty = 16; 
-Queue Size = 170,116; #Invalid = 216,229; Mem 38[MB]
-ShortCut 0
-
-PopCount 10,000 : Top Cost = 1,386; Penalty = 16; 
-Queue Size = 171,531; #Invalid = 218,700; Mem 39[MB]
-ShortCut 0
-
-PopCount 10,100 : Top Cost = 1,386; Penalty = 315; 
-Queue Size = 173,422; #Invalid = 220,469; Mem 40[MB]
-ShortCut 0
-
-PopCount 10,200 : Top Cost = 1,388; Penalty = 16; 
-Queue Size = 175,353; #Invalid = 222,317; Mem 41[MB]
-ShortCut 0
-
-PopCount 10,300 : Top Cost = 1,388; Penalty = 304; 
-Queue Size = 176,559; #Invalid = 224,766; Mem 42[MB]
-ShortCut 0
-
-PopCount 10,400 : Top Cost = 1,389; Penalty = 16; 
-Queue Size = 177,996; #Invalid = 227,040; Mem 42[MB]
-ShortCut 0
-
-PopCount 10,500 : Top Cost = 1,390; Penalty = 16; 
-Queue Size = 179,167; #Invalid = 229,173; Mem 43[MB]
-ShortCut 0
-
-PopCount 10,600 : Top Cost = 1,391; Penalty = 16; 
-Queue Size = 181,160; #Invalid = 231,321; Mem 44[MB]
-ShortCut 0
-
-PopCount 10,700 : Top Cost = 1,393; Penalty = 315; 
-Queue Size = 182,827; #Invalid = 233,919; Mem 45[MB]
-ShortCut 0
-
-PopCount 10,800 : Top Cost = 1,393; Penalty = 16; 
-Queue Size = 184,294; #Invalid = 236,255; Mem 46[MB]
-ShortCut 0
-
-PopCount 10,900 : Top Cost = 1,395; Penalty = 304; 
-Queue Size = 186,121; #Invalid = 238,352; Mem 47[MB]
-ShortCut 0
-
-PopCount 11,000 : Top Cost = 1,396; Penalty = 16; 
-Queue Size = 187,884; #Invalid = 240,600; Mem 48[MB]
-ShortCut 0
-
-PopCount 11,100 : Top Cost = 1,397; Penalty = 16; 
-Queue Size = 189,291; #Invalid = 243,146; Mem 49[MB]
-ShortCut 0
-
-PopCount 11,200 : Top Cost = 1,398; Penalty = 69; 
-Queue Size = 190,951; #Invalid = 245,149; Mem 49[MB]
-ShortCut 0
-
-PopCount 11,300 : Top Cost = 1,398; Penalty = 315; 
-Queue Size = 192,177; #Invalid = 247,505; Mem 50[MB]
-ShortCut 0
-
-PopCount 11,400 : Top Cost = 1,399; Penalty = 315; 
-Queue Size = 193,504; #Invalid = 249,700; Mem 51[MB]
-ShortCut 0
-
-PopCount 11,500 : Top Cost = 1,400; Penalty = 16; 
-Queue Size = 195,315; #Invalid = 251,509; Mem 52[MB]
-ShortCut 0
-
-PopCount 11,600 : Top Cost = 1,401; Penalty = 16; 
-Queue Size = 196,875; #Invalid = 253,709; Mem 40[MB]
-ShortCut 0
-
-PopCount 11,700 : Top Cost = 1,402; Penalty = 16; 
-Queue Size = 198,771; #Invalid = 255,752; Mem 41[MB]
-ShortCut 0
-
-PopCount 11,800 : Top Cost = 1,403; Penalty = 16; 
-Queue Size = 199,964; #Invalid = 258,225; Mem 42[MB]
-ShortCut 0
-
-PopCount 11,900 : Top Cost = 1,404; Penalty = 16; 
-Queue Size = 201,258; #Invalid = 260,696; Mem 43[MB]
-ShortCut 0
-
-PopCount 12,000 : Top Cost = 1,405; Penalty = 16; 
-Queue Size = 202,473; #Invalid = 263,151; Mem 43[MB]
-ShortCut 0
-
-PopCount 12,100 : Top Cost = 1,405; Penalty = 16; 
-Queue Size = 203,676; #Invalid = 265,738; Mem 44[MB]
-ShortCut 0
-
-PopCount 12,200 : Top Cost = 1,406; Penalty = 16; 
-Queue Size = 205,058; #Invalid = 268,094; Mem 45[MB]
-ShortCut 0
-
-PopCount 12,300 : Top Cost = 1,407; Penalty = 16; 
-Queue Size = 206,598; #Invalid = 270,243; Mem 46[MB]
-ShortCut 0
-
-PopCount 12,400 : Top Cost = 1,408; Penalty = 16; 
-Queue Size = 208,086; #Invalid = 272,752; Mem 47[MB]
-ShortCut 0
-
-PopCount 12,500 : Top Cost = 1,409; Penalty = 16; 
-Queue Size = 209,434; #Invalid = 275,316; Mem 48[MB]
-ShortCut 0
-
-PopCount 12,600 : Top Cost = 1,410; Penalty = 16; 
-Queue Size = 210,868; #Invalid = 277,472; Mem 48[MB]
-ShortCut 0
-
-PopCount 12,700 : Top Cost = 1,411; Penalty = 16; 
-Queue Size = 212,980; #Invalid = 279,473; Mem 49[MB]
-ShortCut 0
-
-PopCount 12,800 : Top Cost = 1,412; Penalty = 69; 
-Queue Size = 214,891; #Invalid = 281,407; Mem 50[MB]
-ShortCut 0
-
-PopCount 12,900 : Top Cost = 1,412; Penalty = 304; 
-Queue Size = 216,152; #Invalid = 283,751; Mem 51[MB]
-ShortCut 0
-
-PopCount 13,000 : Top Cost = 1,413; Penalty = 16; 
-Queue Size = 217,459; #Invalid = 285,928; Mem 52[MB]
-ShortCut 0
-
-PopCount 13,100 : Top Cost = 1,414; Penalty = 315; 
-Queue Size = 219,029; #Invalid = 288,518; Mem 53[MB]
-ShortCut 0
-
-PopCount 13,200 : Top Cost = 1,415; Penalty = 16; 
-Queue Size = 220,675; #Invalid = 290,761; Mem 54[MB]
-ShortCut 0
-
-PopCount 13,300 : Top Cost = 1,416; Penalty = 315; 
-Queue Size = 221,589; #Invalid = 293,816; Mem 55[MB]
-ShortCut 0
-
-PopCount 13,400 : Top Cost = 1,416; Penalty = 16; 
-Queue Size = 223,957; #Invalid = 295,492; Mem 55[MB]
-ShortCut 0
-
-PopCount 13,500 : Top Cost = 1,417; Penalty = 16; 
-Queue Size = 225,701; #Invalid = 297,645; Mem 58[MB]
-ShortCut 0
-
-PopCount 13,600 : Top Cost = 1,418; Penalty = 16; 
-Queue Size = 227,059; #Invalid = 300,064; Mem 58[MB]
-ShortCut 0
-
-PopCount 13,700 : Top Cost = 1,418; Penalty = 16; 
-Queue Size = 228,333; #Invalid = 302,362; Mem 59[MB]
-ShortCut 0
-
-PopCount 13,800 : Top Cost = 1,419; Penalty = 69; 
-Queue Size = 229,731; #Invalid = 304,627; Mem 46[MB]
-ShortCut 0
-
-PopCount 13,900 : Top Cost = 1,420; Penalty = 16; 
-Queue Size = 231,397; #Invalid = 306,674; Mem 47[MB]
-ShortCut 0
-
-PopCount 14,000 : Top Cost = 1,421; Penalty = 16; 
-Queue Size = 232,775; #Invalid = 308,632; Mem 48[MB]
-ShortCut 0
-
-PopCount 14,100 : Top Cost = 1,422; Penalty = 69; 
-Queue Size = 233,864; #Invalid = 311,267; Mem 49[MB]
-ShortCut 0
-
-PopCount 14,200 : Top Cost = 1,423; Penalty = 16; 
-Queue Size = 235,374; #Invalid = 313,677; Mem 50[MB]
-ShortCut 0
-
-PopCount 14,300 : Top Cost = 1,423; Penalty = 69; 
-Queue Size = 236,756; #Invalid = 316,028; Mem 50[MB]
-ShortCut 0
-
-PopCount 14,400 : Top Cost = 1,424; Penalty = 16; 
-Queue Size = 238,433; #Invalid = 318,187; Mem 51[MB]
-ShortCut 0
-
-PopCount 14,500 : Top Cost = 1,425; Penalty = 16; 
-Queue Size = 239,819; #Invalid = 320,418; Mem 52[MB]
-ShortCut 0
-
-PopCount 14,600 : Top Cost = 1,426; Penalty = 16; 
-Queue Size = 240,923; #Invalid = 322,971; Mem 53[MB]
-ShortCut 0
-
-PopCount 14,700 : Top Cost = 1,427; Penalty = 16; 
-Queue Size = 241,752; #Invalid = 325,687; Mem 54[MB]
-ShortCut 0
-
-PopCount 14,800 : Top Cost = 1,427; Penalty = 69; 
-Queue Size = 243,129; #Invalid = 328,186; Mem 55[MB]
-ShortCut 0
-
-PopCount 14,900 : Top Cost = 1,428; Penalty = 16; 
-Queue Size = 244,819; #Invalid = 330,300; Mem 55[MB]
-ShortCut 0
-
-PopCount 15,000 : Top Cost = 1,428; Penalty = 69; 
-Queue Size = 246,381; #Invalid = 332,599; Mem 56[MB]
-ShortCut 0
-
-PopCount 15,100 : Top Cost = 1,429; Penalty = 69; 
-Queue Size = 247,511; #Invalid = 335,056; Mem 57[MB]
-ShortCut 0
-
-PopCount 15,200 : Top Cost = 1,430; Penalty = 16; 
-Queue Size = 249,139; #Invalid = 337,161; Mem 58[MB]
-ShortCut 0
-
-PopCount 15,300 : Top Cost = 1,431; Penalty = 16; 
-Queue Size = 250,706; #Invalid = 339,805; Mem 59[MB]
-ShortCut 0
-
-PopCount 15,400 : Top Cost = 1,431; Penalty = 69; 
-Queue Size = 252,480; #Invalid = 341,887; Mem 60[MB]
-ShortCut 0
-
-PopCount 15,500 : Top Cost = 1,432; Penalty = 16; 
-Queue Size = 254,080; #Invalid = 343,763; Mem 61[MB]
-ShortCut 0
-
-PopCount 15,600 : Top Cost = 1,433; Penalty = 16; 
-Queue Size = 255,186; #Invalid = 346,140; Mem 62[MB]
-ShortCut 0
-
-PopCount 15,700 : Top Cost = 1,434; Penalty = 16; 
-Queue Size = 256,262; #Invalid = 348,790; Mem 62[MB]
-ShortCut 0
-
-PopCount 15,800 : Top Cost = 1,434; Penalty = 69; 
-Queue Size = 257,970; #Invalid = 350,770; Mem 63[MB]
-ShortCut 0
-
-PopCount 15,900 : Top Cost = 1,435; Penalty = 16; 
-Queue Size = 259,523; #Invalid = 352,792; Mem 64[MB]
-ShortCut 0
-
-PopCount 16,000 : Top Cost = 1,436; Penalty = 69; 
-Queue Size = 260,731; #Invalid = 355,188; Mem 65[MB]
-ShortCut 0
-
-PopCount 16,100 : Top Cost = 1,437; Penalty = 69; 
-Queue Size = 262,115; #Invalid = 357,328; Mem 66[MB]
-ShortCut 0
-
-PopCount 16,200 : Top Cost = 1,437; Penalty = 16; 
-Queue Size = 263,445; #Invalid = 359,572; Mem 66[MB]
-ShortCut 0
-
-PopCount 16,300 : Top Cost = 1,438; Penalty = 16; 
-Queue Size = 264,527; #Invalid = 362,189; Mem 53[MB]
-ShortCut 0
-
-PopCount 16,400 : Top Cost = 1,439; Penalty = 304; 
-Queue Size = 265,743; #Invalid = 364,758; Mem 54[MB]
-ShortCut 0
-
-PopCount 16,500 : Top Cost = 1,439; Penalty = 16; 
-Queue Size = 267,751; #Invalid = 366,618; Mem 55[MB]
-ShortCut 0
-
-PopCount 16,600 : Top Cost = 1,440; Penalty = 16; 
-Queue Size = 268,988; #Invalid = 368,962; Mem 56[MB]
-ShortCut 0
-
-PopCount 16,700 : Top Cost = 1,441; Penalty = 16; 
-Queue Size = 270,151; #Invalid = 371,423; Mem 56[MB]
-ShortCut 0
-
-PopCount 16,800 : Top Cost = 1,441; Penalty = 16; 
-Queue Size = 271,292; #Invalid = 373,721; Mem 57[MB]
-ShortCut 0
-
-PopCount 16,900 : Top Cost = 1,442; Penalty = 69; 
-Queue Size = 272,586; #Invalid = 376,336; Mem 58[MB]
-ShortCut 0
-
-PopCount 17,000 : Top Cost = 1,442; Penalty = 16; 
-Queue Size = 274,062; #Invalid = 378,541; Mem 59[MB]
-ShortCut 0
-
-PopCount 17,100 : Top Cost = 1,443; Penalty = 16; 
-Queue Size = 275,267; #Invalid = 381,053; Mem 60[MB]
-ShortCut 0
-
-PopCount 17,200 : Top Cost = 1,444; Penalty = 16; 
-Queue Size = 276,539; #Invalid = 383,697; Mem 61[MB]
-ShortCut 0
-
-PopCount 17,300 : Top Cost = 1,444; Penalty = 16; 
-Queue Size = 278,949; #Invalid = 385,302; Mem 61[MB]
-ShortCut 0
-
-PopCount 17,400 : Top Cost = 1,445; Penalty = 304; 
-Queue Size = 280,266; #Invalid = 387,938; Mem 62[MB]
-ShortCut 0
-
-PopCount 17,500 : Top Cost = 1,446; Penalty = 16; 
-Queue Size = 281,865; #Invalid = 390,067; Mem 63[MB]
-ShortCut 0
-
-PopCount 17,600 : Top Cost = 1,446; Penalty = 304; 
-Queue Size = 283,501; #Invalid = 392,269; Mem 64[MB]
-ShortCut 0
-
-PopCount 17,700 : Top Cost = 1,447; Penalty = 16; 
-Queue Size = 284,269; #Invalid = 395,123; Mem 65[MB]
-ShortCut 0
-
-PopCount 17,800 : Top Cost = 1,448; Penalty = 16; 
-Queue Size = 285,430; #Invalid = 397,329; Mem 66[MB]
-ShortCut 0
-
-PopCount 17,900 : Top Cost = 1,448; Penalty = 16; 
-Queue Size = 286,738; #Invalid = 399,275; Mem 67[MB]
-ShortCut 0
-
-PopCount 18,000 : Top Cost = 1,449; Penalty = 69; 
-Queue Size = 288,163; #Invalid = 401,990; Mem 67[MB]
-ShortCut 0
-
-PopCount 18,100 : Top Cost = 1,450; Penalty = 304; 
-Queue Size = 289,879; #Invalid = 404,152; Mem 68[MB]
-ShortCut 0
-
-PopCount 18,200 : Top Cost = 1,450; Penalty = 69; 
-Queue Size = 291,104; #Invalid = 406,121; Mem 69[MB]
-ShortCut 0
-
-PopCount 18,300 : Top Cost = 1,451; Penalty = 69; 
-Queue Size = 292,217; #Invalid = 408,289; Mem 70[MB]
-ShortCut 0
-
-PopCount 18,400 : Top Cost = 1,452; Penalty = 16; 
-Queue Size = 293,574; #Invalid = 410,302; Mem 71[MB]
-ShortCut 0
-
-PopCount 18,500 : Top Cost = 1,452; Penalty = 16; 
-Queue Size = 294,263; #Invalid = 413,009; Mem 71[MB]
-ShortCut 0
-
-PopCount 18,600 : Top Cost = 1,453; Penalty = 16; 
-Queue Size = 295,490; #Invalid = 415,849; Mem 73[MB]
-ShortCut 0
-
-PopCount 18,700 : Top Cost = 1,453; Penalty = 304; 
-Queue Size = 297,020; #Invalid = 417,884; Mem 73[MB]
-ShortCut 0
-
-PopCount 18,800 : Top Cost = 1,454; Penalty = 16; 
-Queue Size = 298,067; #Invalid = 420,685; Mem 58[MB]
-ShortCut 0
-
-PopCount 18,900 : Top Cost = 1,455; Penalty = 304; 
-Queue Size = 299,763; #Invalid = 422,773; Mem 58[MB]
-ShortCut 0
-
-PopCount 19,000 : Top Cost = 1,455; Penalty = 16; 
-Queue Size = 301,110; #Invalid = 424,784; Mem 59[MB]
-ShortCut 0
-
-PopCount 19,100 : Top Cost = 1,456; Penalty = 16; 
-Queue Size = 302,066; #Invalid = 427,272; Mem 60[MB]
-ShortCut 0
-
-PopCount 19,200 : Top Cost = 1,456; Penalty = 16; 
-Queue Size = 303,342; #Invalid = 429,872; Mem 61[MB]
-ShortCut 0
-
-PopCount 19,300 : Top Cost = 1,457; Penalty = 16; 
-Queue Size = 304,481; #Invalid = 432,650; Mem 61[MB]
-ShortCut 0
-
-PopCount 19,400 : Top Cost = 1,458; Penalty = 69; 
-Queue Size = 305,967; #Invalid = 434,610; Mem 62[MB]
-ShortCut 0
-
-PopCount 19,500 : Top Cost = 1,458; Penalty = 16; 
-Queue Size = 307,419; #Invalid = 436,844; Mem 63[MB]
-ShortCut 0
-
-PopCount 19,600 : Top Cost = 1,459; Penalty = 16; 
-Queue Size = 308,661; #Invalid = 439,287; Mem 64[MB]
-ShortCut 0
-
-PopCount 19,700 : Top Cost = 1,460; Penalty = 16; 
-Queue Size = 309,894; #Invalid = 441,520; Mem 65[MB]
-ShortCut 0
-
-PopCount 19,800 : Top Cost = 1,460; Penalty = 69; 
-Queue Size = 311,197; #Invalid = 443,986; Mem 66[MB]
-ShortCut 0
-
-PopCount 19,900 : Top Cost = 1,461; Penalty = 16; 
-Queue Size = 312,760; #Invalid = 445,978; Mem 67[MB]
-ShortCut 0
-
-PopCount 20,000 : Top Cost = 1,461; Penalty = 69; 
-Queue Size = 313,988; #Invalid = 448,065; Mem 68[MB]
-ShortCut 0
-
-PopCount 20,100 : Top Cost = 1,462; Penalty = 16; 
-Queue Size = 315,123; #Invalid = 450,232; Mem 68[MB]
-ShortCut 0
-
-PopCount 20,200 : Top Cost = 1,463; Penalty = 69; 
-Queue Size = 316,494; #Invalid = 452,146; Mem 69[MB]
-ShortCut 0
-
-PopCount 20,300 : Top Cost = 1,463; Penalty = 69; 
-Queue Size = 317,485; #Invalid = 454,388; Mem 69[MB]
-ShortCut 0
-
-PopCount 20,400 : Top Cost = 1,464; Penalty = 69; 
-Queue Size = 318,864; #Invalid = 456,728; Mem 71[MB]
-ShortCut 0
-
-PopCount 20,500 : Top Cost = 1,464; Penalty = 69; 
-Queue Size = 320,309; #Invalid = 459,150; Mem 72[MB]
-ShortCut 0
-
-PopCount 20,600 : Top Cost = 1,465; Penalty = 69; 
-Queue Size = 321,964; #Invalid = 461,145; Mem 72[MB]
-ShortCut 0
-
-PopCount 20,700 : Top Cost = 1,465; Penalty = 69; 
-Queue Size = 323,235; #Invalid = 463,561; Mem 73[MB]
-ShortCut 0
-
-PopCount 20,800 : Top Cost = 1,466; Penalty = 69; 
-Queue Size = 324,182; #Invalid = 466,074; Mem 74[MB]
-ShortCut 0
-
-PopCount 20,900 : Top Cost = 1,467; Penalty = 304; 
-Queue Size = 325,246; #Invalid = 468,718; Mem 75[MB]
-ShortCut 0
-
-PopCount 21,000 : Top Cost = 1,467; Penalty = 16; 
-Queue Size = 326,950; #Invalid = 470,475; Mem 75[MB]
-ShortCut 0
-
-PopCount 21,100 : Top Cost = 1,468; Penalty = 16; 
-Queue Size = 327,425; #Invalid = 474,010; Mem 76[MB]
-ShortCut 0
-
-PopCount 21,200 : Top Cost = 1,468; Penalty = 16; 
-Queue Size = 329,179; #Invalid = 476,211; Mem 77[MB]
-ShortCut 0
-
-PopCount 21,300 : Top Cost = 1,469; Penalty = 69; 
-Queue Size = 331,342; #Invalid = 478,139; Mem 78[MB]
-ShortCut 0
-
-PopCount 21,400 : Top Cost = 1,469; Penalty = 69; 
-Queue Size = 332,689; #Invalid = 480,604; Mem 79[MB]
-ShortCut 0
-
-PopCount 21,500 : Top Cost = 1,470; Penalty = 69; 
-Queue Size = 334,645; #Invalid = 482,362; Mem 80[MB]
-ShortCut 0
-
-PopCount 21,600 : Top Cost = 1,471; Penalty = 304; 
-Queue Size = 336,009; #Invalid = 484,892; Mem 81[MB]
-ShortCut 0
-
-PopCount 21,700 : Top Cost = 1,471; Penalty = 304; 
-Queue Size = 337,140; #Invalid = 487,052; Mem 84[MB]
-ShortCut 0
-
-PopCount 21,800 : Top Cost = 1,472; Penalty = 69; 
-Queue Size = 338,564; #Invalid = 489,299; Mem 84[MB]
-ShortCut 0
-
-PopCount 21,900 : Top Cost = 1,472; Penalty = 69; 
-Queue Size = 339,715; #Invalid = 491,328; Mem 85[MB]
-ShortCut 0
-
-PopCount 22,000 : Top Cost = 1,473; Penalty = 16; 
-Queue Size = 341,036; #Invalid = 493,660; Mem 86[MB]
-ShortCut 0
-
-PopCount 22,100 : Top Cost = 1,473; Penalty = 16; 
-Queue Size = 342,480; #Invalid = 495,759; Mem 87[MB]
-ShortCut 0
-
-PopCount 22,200 : Top Cost = 1,474; Penalty = 16; 
-Queue Size = 343,944; #Invalid = 497,861; Mem 88[MB]
-ShortCut 0
-
-PopCount 22,300 : Top Cost = 1,474; Penalty = 16; 
-Queue Size = 345,637; #Invalid = 499,633; Mem 88[MB]
-ShortCut 0
-
-PopCount 22,400 : Top Cost = 1,475; Penalty = 16; 
-Queue Size = 346,605; #Invalid = 502,094; Mem 89[MB]
-ShortCut 0
-
-PopCount 22,500 : Top Cost = 1,475; Penalty = 16; 
-Queue Size = 347,832; #Invalid = 504,219; Mem 90[MB]
-ShortCut 0
-
-PopCount 22,600 : Top Cost = 1,476; Penalty = 16; 
-Queue Size = 349,020; #Invalid = 506,910; Mem 91[MB]
-ShortCut 0
-
-PopCount 22,700 : Top Cost = 1,476; Penalty = 16; 
-Queue Size = 350,773; #Invalid = 508,965; Mem 91[MB]
-ShortCut 0
-
-PopCount 22,800 : Top Cost = 1,477; Penalty = 16; 
-Queue Size = 352,106; #Invalid = 511,707; Mem 92[MB]
-ShortCut 0
-
-PopCount 22,900 : Top Cost = 1,477; Penalty = 16; 
-Queue Size = 353,801; #Invalid = 513,721; Mem 94[MB]
-ShortCut 0
-
-PopCount 23,000 : Top Cost = 1,478; Penalty = 16; 
-Queue Size = 354,937; #Invalid = 516,342; Mem 95[MB]
-ShortCut 0
-
-PopCount 23,100 : Top Cost = 1,478; Penalty = 16; 
-Queue Size = 356,601; #Invalid = 518,051; Mem 95[MB]
-ShortCut 0
-
-PopCount 23,200 : Top Cost = 1,479; Penalty = 16; 
-Queue Size = 358,653; #Invalid = 520,599; Mem 72[MB]
-ShortCut 0
-
-PopCount 23,300 : Top Cost = 1,479; Penalty = 69; 
-Queue Size = 360,805; #Invalid = 522,584; Mem 73[MB]
-ShortCut 0
-
-PopCount 23,400 : Top Cost = 1,480; Penalty = 69; 
-Queue Size = 361,711; #Invalid = 525,675; Mem 73[MB]
-ShortCut 0
-
-PopCount 23,500 : Top Cost = 1,480; Penalty = 69; 
-Queue Size = 363,170; #Invalid = 528,173; Mem 74[MB]
-ShortCut 0
-
-PopCount 23,600 : Top Cost = 1,480; Penalty = 69; 
-Queue Size = 364,098; #Invalid = 530,602; Mem 75[MB]
-ShortCut 0
-
-PopCount 23,700 : Top Cost = 1,481; Penalty = 16; 
-Queue Size = 365,114; #Invalid = 532,948; Mem 76[MB]
-ShortCut 0
-
-PopCount 23,800 : Top Cost = 1,481; Penalty = 69; 
-Queue Size = 366,218; #Invalid = 535,195; Mem 77[MB]
-ShortCut 0
-
-PopCount 23,900 : Top Cost = 1,482; Penalty = 69; 
-Queue Size = 367,407; #Invalid = 537,274; Mem 77[MB]
-ShortCut 0
-
-PopCount 24,000 : Top Cost = 1,483; Penalty = 69; 
-Queue Size = 368,483; #Invalid = 540,083; Mem 78[MB]
-ShortCut 0
-
-PopCount 24,100 : Top Cost = 1,483; Penalty = 16; 
-Queue Size = 369,458; #Invalid = 542,627; Mem 79[MB]
-ShortCut 0
-
-PopCount 24,200 : Top Cost = 1,484; Penalty = 16; 
-Queue Size = 370,940; #Invalid = 544,931; Mem 80[MB]
-ShortCut 0
-
-PopCount 24,300 : Top Cost = 1,484; Penalty = 16; 
-Queue Size = 371,985; #Invalid = 547,285; Mem 81[MB]
-ShortCut 0
-
-PopCount 24,400 : Top Cost = 1,485; Penalty = 16; 
-Queue Size = 373,135; #Invalid = 549,554; Mem 82[MB]
-ShortCut 0
-
-PopCount 24,500 : Top Cost = 1,485; Penalty = 69; 
-Queue Size = 374,170; #Invalid = 551,544; Mem 83[MB]
-ShortCut 0
-
-PopCount 24,600 : Top Cost = 1,486; Penalty = 16; 
-Queue Size = 375,199; #Invalid = 554,114; Mem 83[MB]
-ShortCut 0
-
-PopCount 24,700 : Top Cost = 1,486; Penalty = 16; 
-Queue Size = 376,595; #Invalid = 556,276; Mem 84[MB]
-ShortCut 0
-
-PopCount 24,800 : Top Cost = 1,487; Penalty = 16; 
-Queue Size = 378,211; #Invalid = 558,218; Mem 85[MB]
-ShortCut 0
-
-PopCount 24,900 : Top Cost = 1,487; Penalty = 16; 
-Queue Size = 379,584; #Invalid = 560,946; Mem 86[MB]
-ShortCut 0
-
-PopCount 25,000 : Top Cost = 1,488; Penalty = 304; 
-Queue Size = 381,036; #Invalid = 563,061; Mem 86[MB]
-ShortCut 0
-
-PopCount 25,100 : Top Cost = 1,488; Penalty = 304; 
-Queue Size = 382,710; #Invalid = 564,910; Mem 87[MB]
-ShortCut 0
-
-PopCount 25,200 : Top Cost = 1,488; Penalty = 16; 
-Queue Size = 383,930; #Invalid = 566,992; Mem 88[MB]
-ShortCut 0
-
-PopCount 25,300 : Top Cost = 1,489; Penalty = 69; 
-Queue Size = 385,091; #Invalid = 569,520; Mem 89[MB]
-ShortCut 0
-
-PopCount 25,400 : Top Cost = 1,489; Penalty = 16; 
-Queue Size = 386,410; #Invalid = 571,669; Mem 90[MB]
-ShortCut 0
-
-PopCount 25,500 : Top Cost = 1,490; Penalty = 16; 
-Queue Size = 387,704; #Invalid = 574,066; Mem 90[MB]
-ShortCut 0
-
-PopCount 25,600 : Top Cost = 1,490; Penalty = 304; 
-Queue Size = 389,718; #Invalid = 575,982; Mem 91[MB]
-ShortCut 0
-
-PopCount 25,700 : Top Cost = 1,491; Penalty = 16; 
-Queue Size = 390,937; #Invalid = 578,279; Mem 92[MB]
-ShortCut 0
-
-PopCount 25,800 : Top Cost = 1,491; Penalty = 16; 
-Queue Size = 392,535; #Invalid = 580,539; Mem 93[MB]
-ShortCut 0
-
-PopCount 25,900 : Top Cost = 1,491; Penalty = 69; 
-Queue Size = 393,511; #Invalid = 583,056; Mem 94[MB]
-ShortCut 0
-
-PopCount 26,000 : Top Cost = 1,492; Penalty = 69; 
-Queue Size = 395,093; #Invalid = 585,194; Mem 95[MB]
-ShortCut 0
-
-PopCount 26,100 : Top Cost = 1,492; Penalty = 16; 
-Queue Size = 397,190; #Invalid = 587,534; Mem 96[MB]
-ShortCut 0
-
-PopCount 26,200 : Top Cost = 1,493; Penalty = 16; 
-Queue Size = 398,868; #Invalid = 589,304; Mem 96[MB]
-ShortCut 0
-
-PopCount 26,300 : Top Cost = 1,493; Penalty = 16; 
-Queue Size = 400,251; #Invalid = 592,039; Mem 97[MB]
-ShortCut 0
-
-PopCount 26,400 : Top Cost = 1,494; Penalty = 16; 
-Queue Size = 402,034; #Invalid = 594,196; Mem 98[MB]
-ShortCut 0
-
-PopCount 26,500 : Top Cost = 1,494; Penalty = 304; 
-Queue Size = 403,408; #Invalid = 596,654; Mem 99[MB]
-ShortCut 0
-
-PopCount 26,600 : Top Cost = 1,495; Penalty = 69; 
-Queue Size = 405,152; #Invalid = 599,075; Mem 100[MB]
-ShortCut 0
-
-PopCount 26,700 : Top Cost = 1,495; Penalty = 16; 
-Queue Size = 406,222; #Invalid = 601,443; Mem 101[MB]
-ShortCut 0
-
-PopCount 26,800 : Top Cost = 1,495; Penalty = 16; 
-Queue Size = 407,288; #Invalid = 603,870; Mem 102[MB]
-ShortCut 0
-
-PopCount 26,900 : Top Cost = 1,496; Penalty = 16; 
-Queue Size = 408,522; #Invalid = 605,824; Mem 103[MB]
-ShortCut 0
-
-PopCount 27,000 : Top Cost = 1,496; Penalty = 16; 
-Queue Size = 409,554; #Invalid = 608,032; Mem 103[MB]
-ShortCut 0
-
-PopCount 27,100 : Top Cost = 1,497; Penalty = 16; 
-Queue Size = 410,865; #Invalid = 610,499; Mem 104[MB]
-ShortCut 0
-
-PopCount 27,200 : Top Cost = 1,497; Penalty = 16; 
-Queue Size = 412,389; #Invalid = 612,798; Mem 105[MB]
-ShortCut 0
-
-PopCount 27,300 : Top Cost = 1,498; Penalty = 16; 
-Queue Size = 414,091; #Invalid = 614,762; Mem 106[MB]
-ShortCut 0
-
-PopCount 27,400 : Top Cost = 1,498; Penalty = 16; 
-Queue Size = 414,959; #Invalid = 617,518; Mem 106[MB]
-ShortCut 0
-
-PopCount 27,500 : Top Cost = 1,499; Penalty = 69; 
-Queue Size = 416,574; #Invalid = 619,968; Mem 107[MB]
-ShortCut 0
-
-PopCount 27,600 : Top Cost = 1,499; Penalty = 69; 
-Queue Size = 418,300; #Invalid = 622,034; Mem 108[MB]
-ShortCut 0
-
-PopCount 27,700 : Top Cost = 1,500; Penalty = 16; 
-Queue Size = 419,184; #Invalid = 624,791; Mem 83[MB]
-ShortCut 0
-
-PopCount 27,800 : Top Cost = 1,500; Penalty = 16; 
-Queue Size = 420,815; #Invalid = 626,534; Mem 84[MB]
-ShortCut 0
-
-PopCount 27,900 : Top Cost = 1,500; Penalty = 69; 
-Queue Size = 421,872; #Invalid = 629,146; Mem 85[MB]
-ShortCut 0
-
-PopCount 28,000 : Top Cost = 1,501; Penalty = 16; 
-Queue Size = 423,647; #Invalid = 630,886; Mem 86[MB]
-ShortCut 0
-
-PopCount 28,100 : Top Cost = 1,501; Penalty = 69; 
-Queue Size = 424,929; #Invalid = 633,599; Mem 86[MB]
-ShortCut 0
-
-PopCount 28,200 : Top Cost = 1,502; Penalty = 16; 
-Queue Size = 426,310; #Invalid = 635,769; Mem 87[MB]
-ShortCut 0
-
-PopCount 28,300 : Top Cost = 1,502; Penalty = 16; 
-Queue Size = 428,455; #Invalid = 637,858; Mem 88[MB]
-ShortCut 0
-
-PopCount 28,400 : Top Cost = 1,502; Penalty = 69; 
-Queue Size = 429,927; #Invalid = 640,297; Mem 90[MB]
-ShortCut 0
-
-PopCount 28,500 : Top Cost = 1,503; Penalty = 69; 
-Queue Size = 430,961; #Invalid = 642,639; Mem 90[MB]
-ShortCut 0
-
-PopCount 28,600 : Top Cost = 1,503; Penalty = 16; 
-Queue Size = 432,440; #Invalid = 645,275; Mem 91[MB]
-ShortCut 0
-
-PopCount 28,700 : Top Cost = 1,504; Penalty = 16; 
-Queue Size = 433,518; #Invalid = 647,775; Mem 92[MB]
-ShortCut 0
-
-PopCount 28,800 : Top Cost = 1,504; Penalty = 16; 
-Queue Size = 435,220; #Invalid = 649,317; Mem 93[MB]
-ShortCut 0
-
-PopCount 28,900 : Top Cost = 1,504; Penalty = 69; 
-Queue Size = 436,466; #Invalid = 651,595; Mem 93[MB]
-ShortCut 0
-
-PopCount 29,000 : Top Cost = 1,505; Penalty = 69; 
-Queue Size = 437,361; #Invalid = 654,365; Mem 94[MB]
-ShortCut 0
-
-PopCount 29,100 : Top Cost = 1,505; Penalty = 16; 
-Queue Size = 438,841; #Invalid = 656,250; Mem 95[MB]
-ShortCut 0
-
-PopCount 29,200 : Top Cost = 1,505; Penalty = 16; 
-Queue Size = 439,984; #Invalid = 658,780; Mem 96[MB]
-ShortCut 0
-
-PopCount 29,300 : Top Cost = 1,506; Penalty = 315; 
-Queue Size = 441,279; #Invalid = 661,418; Mem 96[MB]
-ShortCut 0
-
-PopCount 29,400 : Top Cost = 1,506; Penalty = 16; 
-Queue Size = 441,961; #Invalid = 664,380; Mem 97[MB]
-ShortCut 0
-
-PopCount 29,500 : Top Cost = 1,507; Penalty = 69; 
-Queue Size = 443,083; #Invalid = 666,815; Mem 98[MB]
-ShortCut 0
-
-PopCount 29,600 : Top Cost = 1,507; Penalty = 69; 
-Queue Size = 444,953; #Invalid = 668,473; Mem 99[MB]
-ShortCut 0
-
-PopCount 29,700 : Top Cost = 1,507; Penalty = 16; 
-Queue Size = 446,330; #Invalid = 670,671; Mem 100[MB]
-ShortCut 0
-
-PopCount 29,800 : Top Cost = 1,508; Penalty = 16; 
-Queue Size = 448,083; #Invalid = 673,199; Mem 101[MB]
-ShortCut 0
-
-PopCount 29,900 : Top Cost = 1,508; Penalty = 304; 
-Queue Size = 449,059; #Invalid = 675,260; Mem 102[MB]
-ShortCut 0
-
-PopCount 30,000 : Top Cost = 1,509; Penalty = 16; 
-Queue Size = 450,246; #Invalid = 677,696; Mem 103[MB]
-ShortCut 0
-
-PopCount 30,100 : Top Cost = 1,509; Penalty = 16; 
-Queue Size = 451,594; #Invalid = 679,950; Mem 103[MB]
-ShortCut 0
-
-PopCount 30,200 : Top Cost = 1,509; Penalty = 16; 
-Queue Size = 452,895; #Invalid = 682,346; Mem 104[MB]
-ShortCut 0
-
-PopCount 30,300 : Top Cost = 1,510; Penalty = 69; 
-Queue Size = 454,332; #Invalid = 684,540; Mem 105[MB]
-ShortCut 0
-
-PopCount 30,400 : Top Cost = 1,510; Penalty = 16; 
-Queue Size = 455,696; #Invalid = 686,784; Mem 106[MB]
-ShortCut 0
-
-PopCount 30,500 : Top Cost = 1,510; Penalty = 16; 
-Queue Size = 457,019; #Invalid = 689,140; Mem 107[MB]
-ShortCut 0
-
-PopCount 30,600 : Top Cost = 1,511; Penalty = 304; 
-Queue Size = 458,634; #Invalid = 690,683; Mem 107[MB]
-ShortCut 0
-
-PopCount 30,700 : Top Cost = 1,511; Penalty = 16; 
-Queue Size = 459,564; #Invalid = 693,577; Mem 108[MB]
-ShortCut 0
-
-PopCount 30,800 : Top Cost = 1,512; Penalty = 69; 
-Queue Size = 460,896; #Invalid = 695,639; Mem 109[MB]
-ShortCut 0
-
-PopCount 30,900 : Top Cost = 1,512; Penalty = 16; 
-Queue Size = 462,781; #Invalid = 697,392; Mem 110[MB]
-ShortCut 0
-
-PopCount 31,000 : Top Cost = 1,512; Penalty = 16; 
-Queue Size = 463,240; #Invalid = 700,323; Mem 110[MB]
-ShortCut 0
-
-PopCount 31,100 : Top Cost = 1,513; Penalty = 304; 
-Queue Size = 464,340; #Invalid = 702,946; Mem 111[MB]
-ShortCut 0
-
-PopCount 31,200 : Top Cost = 1,513; Penalty = 16; 
-Queue Size = 465,726; #Invalid = 705,149; Mem 112[MB]
-ShortCut 0
-
-PopCount 31,300 : Top Cost = 1,513; Penalty = 16; 
-Queue Size = 467,782; #Invalid = 707,350; Mem 113[MB]
-ShortCut 0
-
-PopCount 31,400 : Top Cost = 1,514; Penalty = 69; 
-Queue Size = 469,081; #Invalid = 709,304; Mem 114[MB]
-ShortCut 0
-
-PopCount 31,500 : Top Cost = 1,514; Penalty = 16; 
-Queue Size = 469,886; #Invalid = 712,000; Mem 115[MB]
-ShortCut 0
-
-PopCount 31,600 : Top Cost = 1,515; Penalty = 16; 
-Queue Size = 470,835; #Invalid = 714,374; Mem 116[MB]
-ShortCut 0
-
-PopCount 31,700 : Top Cost = 1,515; Penalty = 16; 
-Queue Size = 472,417; #Invalid = 716,561; Mem 117[MB]
-ShortCut 0
-
-PopCount 31,800 : Top Cost = 1,515; Penalty = 69; 
-Queue Size = 473,695; #Invalid = 719,036; Mem 117[MB]
-ShortCut 0
-
-PopCount 31,900 : Top Cost = 1,516; Penalty = 304; 
-Queue Size = 474,812; #Invalid = 721,532; Mem 118[MB]
-ShortCut 0
-
-PopCount 32,000 : Top Cost = 1,516; Penalty = 16; 
-Queue Size = 476,497; #Invalid = 723,335; Mem 119[MB]
-ShortCut 0
-
-PopCount 32,100 : Top Cost = 1,517; Penalty = 16; 
-Queue Size = 477,493; #Invalid = 726,002; Mem 120[MB]
-ShortCut 0
-
-PopCount 32,200 : Top Cost = 1,517; Penalty = 348; 
-Queue Size = 479,162; #Invalid = 728,215; Mem 120[MB]
-ShortCut 0
-
-PopCount 32,300 : Top Cost = 1,517; Penalty = 304; 
-Queue Size = 479,939; #Invalid = 731,376; Mem 95[MB]
-ShortCut 0
-
-PopCount 32,400 : Top Cost = 1,518; Penalty = 69; 
-Queue Size = 481,883; #Invalid = 733,089; Mem 96[MB]
-ShortCut 0
-
-PopCount 32,500 : Top Cost = 1,518; Penalty = 69; 
-Queue Size = 483,344; #Invalid = 735,199; Mem 97[MB]
-ShortCut 0
-
-PopCount 32,600 : Top Cost = 1,518; Penalty = 304; 
-Queue Size = 484,583; #Invalid = 737,554; Mem 98[MB]
-ShortCut 0
-
-PopCount 32,700 : Top Cost = 1,519; Penalty = 69; 
-Queue Size = 485,674; #Invalid = 739,921; Mem 98[MB]
-ShortCut 0
-
-PopCount 32,800 : Top Cost = 1,519; Penalty = 69; 
-Queue Size = 487,444; #Invalid = 741,925; Mem 99[MB]
-ShortCut 0
-
-PopCount 32,900 : Top Cost = 1,519; Penalty = 16; 
-Queue Size = 488,212; #Invalid = 744,892; Mem 100[MB]
-ShortCut 0
-
-PopCount 33,000 : Top Cost = 1,520; Penalty = 69; 
-Queue Size = 490,068; #Invalid = 746,719; Mem 101[MB]
-ShortCut 0
-
-PopCount 33,100 : Top Cost = 1,520; Penalty = 69; 
-Queue Size = 491,611; #Invalid = 748,677; Mem 101[MB]
-ShortCut 0
-
-PopCount 33,200 : Top Cost = 1,520; Penalty = 16; 
-Queue Size = 492,787; #Invalid = 751,293; Mem 103[MB]
-ShortCut 0
-
-PopCount 33,300 : Top Cost = 1,521; Penalty = 69; 
-Queue Size = 494,207; #Invalid = 753,631; Mem 104[MB]
-ShortCut 0
-
-PopCount 33,400 : Top Cost = 1,521; Penalty = 69; 
-Queue Size = 495,697; #Invalid = 756,017; Mem 105[MB]
-ShortCut 0
-
-PopCount 33,500 : Top Cost = 1,521; Penalty = 69; 
-Queue Size = 497,017; #Invalid = 758,415; Mem 105[MB]
-ShortCut 0
-
-PopCount 33,600 : Top Cost = 1,521; Penalty = 69; 
-Queue Size = 497,931; #Invalid = 761,083; Mem 106[MB]
-ShortCut 0
-
-PopCount 33,700 : Top Cost = 1,522; Penalty = 69; 
-Queue Size = 499,843; #Invalid = 762,863; Mem 107[MB]
-ShortCut 0
-
-PopCount 33,800 : Top Cost = 1,522; Penalty = 16; 
-Queue Size = 500,776; #Invalid = 766,065; Mem 108[MB]
-ShortCut 0
-
-PopCount 33,900 : Top Cost = 1,523; Penalty = 16; 
-Queue Size = 502,228; #Invalid = 768,280; Mem 109[MB]
-ShortCut 0
-
-PopCount 34,000 : Top Cost = 1,523; Penalty = 16; 
-Queue Size = 504,335; #Invalid = 769,702; Mem 109[MB]
-ShortCut 0
-
-PopCount 34,100 : Top Cost = 1,523; Penalty = 16; 
-Queue Size = 505,290; #Invalid = 772,331; Mem 113[MB]
-ShortCut 0
-
-PopCount 34,200 : Top Cost = 1,524; Penalty = 16; 
-Queue Size = 506,489; #Invalid = 774,465; Mem 114[MB]
-ShortCut 0
-
-PopCount 34,300 : Top Cost = 1,524; Penalty = 304; 
-Queue Size = 508,205; #Invalid = 776,423; Mem 115[MB]
-ShortCut 0
-
-PopCount 34,400 : Top Cost = 1,524; Penalty = 16; 
-Queue Size = 509,132; #Invalid = 779,351; Mem 116[MB]
-ShortCut 0
-
-PopCount 34,500 : Top Cost = 1,525; Penalty = 69; 
-Queue Size = 510,738; #Invalid = 781,401; Mem 117[MB]
-ShortCut 0
-
-PopCount 34,600 : Top Cost = 1,525; Penalty = 304; 
-Queue Size = 512,399; #Invalid = 783,492; Mem 118[MB]
-ShortCut 0
-
-PopCount 34,700 : Top Cost = 1,525; Penalty = 16; 
-Queue Size = 513,985; #Invalid = 785,430; Mem 118[MB]
-ShortCut 0
-
-PopCount 34,800 : Top Cost = 1,526; Penalty = 69; 
-Queue Size = 515,495; #Invalid = 787,772; Mem 119[MB]
-ShortCut 0
-
-PopCount 34,900 : Top Cost = 1,526; Penalty = 16; 
-Queue Size = 516,753; #Invalid = 789,808; Mem 120[MB]
-ShortCut 0
-
-PopCount 35,000 : Top Cost = 1,526; Penalty = 16; 
-Queue Size = 517,974; #Invalid = 792,244; Mem 121[MB]
-ShortCut 0
-
-PopCount 35,100 : Top Cost = 1,527; Penalty = 304; 
-Queue Size = 519,345; #Invalid = 794,793; Mem 122[MB]
-ShortCut 0
-
-PopCount 35,200 : Top Cost = 1,527; Penalty = 16; 
-Queue Size = 520,763; #Invalid = 796,690; Mem 122[MB]
-ShortCut 0
-
-PopCount 35,300 : Top Cost = 1,527; Penalty = 16; 
-Queue Size = 522,035; #Invalid = 798,857; Mem 123[MB]
-ShortCut 0
-
-PopCount 35,400 : Top Cost = 1,528; Penalty = 16; 
-Queue Size = 523,062; #Invalid = 801,733; Mem 124[MB]
-ShortCut 0
-
-PopCount 35,500 : Top Cost = 1,528; Penalty = 16; 
-Queue Size = 524,929; #Invalid = 803,600; Mem 125[MB]
-ShortCut 0
-
-PopCount 35,600 : Top Cost = 1,528; Penalty = 69; 
-Queue Size = 525,741; #Invalid = 806,143; Mem 125[MB]
-ShortCut 0
-
-PopCount 35,700 : Top Cost = 1,529; Penalty = 16; 
-Queue Size = 526,610; #Invalid = 808,609; Mem 126[MB]
-ShortCut 0
-
-PopCount 35,800 : Top Cost = 1,529; Penalty = 16; 
-Queue Size = 527,870; #Invalid = 811,197; Mem 127[MB]
-ShortCut 0
-
-PopCount 35,900 : Top Cost = 1,529; Penalty = 16; 
-Queue Size = 528,929; #Invalid = 813,437; Mem 128[MB]
-ShortCut 0
-
-PopCount 36,000 : Top Cost = 1,530; Penalty = 69; 
-Queue Size = 531,674; #Invalid = 815,271; Mem 129[MB]
-ShortCut 0
-
-PopCount 36,100 : Top Cost = 1,530; Penalty = 16; 
-Queue Size = 532,859; #Invalid = 818,013; Mem 130[MB]
-ShortCut 0
-
-PopCount 36,200 : Top Cost = 1,530; Penalty = 304; 
-Queue Size = 534,942; #Invalid = 819,806; Mem 131[MB]
-ShortCut 0
-
-PopCount 36,300 : Top Cost = 1,530; Penalty = 16; 
-Queue Size = 535,790; #Invalid = 822,478; Mem 132[MB]
-ShortCut 0
-
-PopCount 36,400 : Top Cost = 1,531; Penalty = 16; 
-Queue Size = 537,047; #Invalid = 825,143; Mem 133[MB]
-ShortCut 0
-
-PopCount 36,500 : Top Cost = 1,531; Penalty = 69; 
-Queue Size = 538,357; #Invalid = 826,795; Mem 110[MB]
-ShortCut 0
-
-PopCount 36,600 : Top Cost = 1,531; Penalty = 304; 
-Queue Size = 538,969; #Invalid = 829,801; Mem 110[MB]
-ShortCut 0
-
-PopCount 36,700 : Top Cost = 1,532; Penalty = 16; 
-Queue Size = 540,222; #Invalid = 832,403; Mem 112[MB]
-ShortCut 0
-
-PopCount 36,800 : Top Cost = 1,532; Penalty = 16; 
-Queue Size = 541,672; #Invalid = 834,676; Mem 113[MB]
-ShortCut 0
-
-PopCount 36,900 : Top Cost = 1,532; Penalty = 16; 
-Queue Size = 543,434; #Invalid = 836,963; Mem 113[MB]
-ShortCut 0
-
-PopCount 37,000 : Top Cost = 1,533; Penalty = 304; 
-Queue Size = 544,322; #Invalid = 840,071; Mem 114[MB]
-ShortCut 0
-
-PopCount 37,100 : Top Cost = 1,533; Penalty = 69; 
-Queue Size = 545,809; #Invalid = 842,224; Mem 114[MB]
-ShortCut 0
-
-PopCount 37,200 : Top Cost = 1,533; Penalty = 16; 
-Queue Size = 546,706; #Invalid = 844,406; Mem 116[MB]
-ShortCut 0
-
-PopCount 37,300 : Top Cost = 1,534; Penalty = 16; 
-Queue Size = 548,306; #Invalid = 846,436; Mem 117[MB]
-ShortCut 0
-
-PopCount 37,400 : Top Cost = 1,534; Penalty = 315; 
-Queue Size = 549,544; #Invalid = 848,911; Mem 117[MB]
-ShortCut 0
-
-PopCount 37,500 : Top Cost = 1,534; Penalty = 16; 
-Queue Size = 550,757; #Invalid = 851,211; Mem 119[MB]
-ShortCut 0
-
-PopCount 37,600 : Top Cost = 1,535; Penalty = 16; 
-Queue Size = 552,789; #Invalid = 853,169; Mem 119[MB]
-ShortCut 0
-
-PopCount 37,700 : Top Cost = 1,535; Penalty = 16; 
-Queue Size = 554,102; #Invalid = 855,800; Mem 120[MB]
-ShortCut 0
-
-PopCount 37,800 : Top Cost = 1,535; Penalty = 16; 
-Queue Size = 555,469; #Invalid = 857,822; Mem 121[MB]
-ShortCut 0
-
-PopCount 37,900 : Top Cost = 1,536; Penalty = 69; 
-Queue Size = 556,654; #Invalid = 860,286; Mem 121[MB]
-ShortCut 0
-
-PopCount 38,000 : Top Cost = 1,536; Penalty = 16; 
-Queue Size = 557,788; #Invalid = 862,752; Mem 123[MB]
-ShortCut 0
-
-PopCount 38,100 : Top Cost = 1,536; Penalty = 16; 
-Queue Size = 559,207; #Invalid = 864,869; Mem 123[MB]
-ShortCut 0
-
-PopCount 38,200 : Top Cost = 1,537; Penalty = 16; 
-Queue Size = 560,952; #Invalid = 867,413; Mem 124[MB]
-ShortCut 0
-
-PopCount 38,300 : Top Cost = 1,537; Penalty = 304; 
-Queue Size = 562,032; #Invalid = 869,868; Mem 126[MB]
-ShortCut 0
-
-PopCount 38,400 : Top Cost = 1,537; Penalty = 16; 
-Queue Size = 563,487; #Invalid = 871,676; Mem 126[MB]
-ShortCut 0
-
-PopCount 38,500 : Top Cost = 1,537; Penalty = 16; 
-Queue Size = 563,927; #Invalid = 874,620; Mem 127[MB]
-ShortCut 0
-
-PopCount 38,600 : Top Cost = 1,538; Penalty = 16; 
-Queue Size = 564,858; #Invalid = 877,161; Mem 127[MB]
-ShortCut 0
-
-PopCount 38,700 : Top Cost = 1,538; Penalty = 16; 
-Queue Size = 566,677; #Invalid = 879,035; Mem 128[MB]
-ShortCut 0
-
-PopCount 38,800 : Top Cost = 1,539; Penalty = 16; 
-Queue Size = 567,971; #Invalid = 881,251; Mem 128[MB]
-ShortCut 0
-
-PopCount 38,900 : Top Cost = 1,539; Penalty = 69; 
-Queue Size = 569,111; #Invalid = 883,787; Mem 130[MB]
-ShortCut 0
-
-PopCount 39,000 : Top Cost = 1,539; Penalty = 16; 
-Queue Size = 569,748; #Invalid = 886,544; Mem 131[MB]
-ShortCut 0
-
-PopCount 39,100 : Top Cost = 1,539; Penalty = 69; 
-Queue Size = 571,321; #Invalid = 888,262; Mem 131[MB]
-ShortCut 0
-
-PopCount 39,200 : Top Cost = 1,540; Penalty = 16; 
-Queue Size = 571,855; #Invalid = 891,044; Mem 133[MB]
-ShortCut 0
-
-PopCount 39,300 : Top Cost = 1,540; Penalty = 16; 
-Queue Size = 573,431; #Invalid = 893,097; Mem 133[MB]
-ShortCut 0
-
-PopCount 39,400 : Top Cost = 1,540; Penalty = 69; 
-Queue Size = 574,548; #Invalid = 895,777; Mem 134[MB]
-ShortCut 0
-
-PopCount 39,500 : Top Cost = 1,541; Penalty = 16; 
-Queue Size = 576,104; #Invalid = 897,808; Mem 135[MB]
-ShortCut 0
-
-PopCount 39,600 : Top Cost = 1,541; Penalty = 16; 
-Queue Size = 577,234; #Invalid = 900,180; Mem 135[MB]
-ShortCut 0
-
-PopCount 39,700 : Top Cost = 1,541; Penalty = 16; 
-Queue Size = 578,474; #Invalid = 902,520; Mem 137[MB]
-ShortCut 0
-
-PopCount 39,800 : Top Cost = 1,541; Penalty = 16; 
-Queue Size = 580,138; #Invalid = 904,311; Mem 137[MB]
-ShortCut 0
-
-PopCount 39,900 : Top Cost = 1,542; Penalty = 304; 
-Queue Size = 580,805; #Invalid = 907,169; Mem 138[MB]
-ShortCut 0
-
-PopCount 40,000 : Top Cost = 1,542; Penalty = 69; 
-Queue Size = 582,146; #Invalid = 909,736; Mem 138[MB]
-ShortCut 0
-
-PopCount 40,100 : Top Cost = 1,542; Penalty = 16; 
-Queue Size = 583,522; #Invalid = 911,712; Mem 140[MB]
-ShortCut 0
-
-PopCount 40,200 : Top Cost = 1,543; Penalty = 16; 
-Queue Size = 584,822; #Invalid = 913,823; Mem 141[MB]
-ShortCut 0
-
-PopCount 40,300 : Top Cost = 1,543; Penalty = 16; 
-Queue Size = 586,579; #Invalid = 916,123; Mem 141[MB]
-ShortCut 0
-
-PopCount 40,400 : Top Cost = 1,543; Penalty = 16; 
-Queue Size = 587,729; #Invalid = 918,585; Mem 142[MB]
-ShortCut 0
-
-PopCount 40,500 : Top Cost = 1,543; Penalty = 16; 
-Queue Size = 589,341; #Invalid = 920,481; Mem 142[MB]
-ShortCut 0
-
-PopCount 40,600 : Top Cost = 1,544; Penalty = 69; 
-Queue Size = 590,329; #Invalid = 923,508; Mem 144[MB]
-ShortCut 0
-
-PopCount 40,700 : Top Cost = 1,544; Penalty = 69; 
-Queue Size = 592,837; #Invalid = 924,909; Mem 145[MB]
-ShortCut 0
-
-PopCount 40,800 : Top Cost = 1,544; Penalty = 315; 
-Queue Size = 593,700; #Invalid = 927,952; Mem 145[MB]
-ShortCut 0
-
-PopCount 40,900 : Top Cost = 1,545; Penalty = 16; 
-Queue Size = 595,328; #Invalid = 929,660; Mem 146[MB]
-ShortCut 0
-
-PopCount 41,000 : Top Cost = 1,545; Penalty = 69; 
-Queue Size = 596,223; #Invalid = 932,562; Mem 148[MB]
-ShortCut 0
-
-PopCount 41,100 : Top Cost = 1,545; Penalty = 16; 
-Queue Size = 597,482; #Invalid = 935,079; Mem 148[MB]
-ShortCut 0
-
-PopCount 41,200 : Top Cost = 1,545; Penalty = 69; 
-Queue Size = 598,935; #Invalid = 937,605; Mem 149[MB]
-ShortCut 0
-
-PopCount 41,300 : Top Cost = 1,546; Penalty = 16; 
-Queue Size = 600,740; #Invalid = 939,422; Mem 149[MB]
-ShortCut 0
-
-PopCount 41,400 : Top Cost = 1,546; Penalty = 69; 
-Queue Size = 602,223; #Invalid = 941,500; Mem 151[MB]
-ShortCut 0
-
-PopCount 41,500 : Top Cost = 1,546; Penalty = 304; 
-Queue Size = 603,048; #Invalid = 943,977; Mem 152[MB]
-ShortCut 0
-
-PopCount 41,600 : Top Cost = 1,547; Penalty = 16; 
-Queue Size = 604,440; #Invalid = 946,141; Mem 152[MB]
-ShortCut 0
-
-PopCount 41,700 : Top Cost = 1,547; Penalty = 16; 
-Queue Size = 605,472; #Invalid = 948,768; Mem 153[MB]
-ShortCut 0
-
-PopCount 41,800 : Top Cost = 1,547; Penalty = 16; 
-Queue Size = 606,882; #Invalid = 951,354; Mem 153[MB]
-ShortCut 0
-
-PopCount 41,900 : Top Cost = 1,547; Penalty = 69; 
-Queue Size = 608,335; #Invalid = 953,907; Mem 155[MB]
-ShortCut 0
-
-PopCount 42,000 : Top Cost = 1,548; Penalty = 16; 
-Queue Size = 609,550; #Invalid = 956,267; Mem 156[MB]
-ShortCut 0
-
-PopCount 42,100 : Top Cost = 1,548; Penalty = 16; 
-Queue Size = 610,956; #Invalid = 958,075; Mem 156[MB]
-ShortCut 0
-
-PopCount 42,200 : Top Cost = 1,548; Penalty = 16; 
-Queue Size = 612,215; #Invalid = 960,650; Mem 158[MB]
-ShortCut 0
-
-PopCount 42,300 : Top Cost = 1,549; Penalty = 69; 
-Queue Size = 613,697; #Invalid = 962,702; Mem 158[MB]
-ShortCut 0
-
-PopCount 42,400 : Top Cost = 1,549; Penalty = 348; 
-Queue Size = 614,576; #Invalid = 965,048; Mem 159[MB]
-ShortCut 0
-
-PopCount 42,500 : Top Cost = 1,549; Penalty = 304; 
-Queue Size = 615,670; #Invalid = 967,353; Mem 159[MB]
-ShortCut 0
-
-PopCount 42,600 : Top Cost = 1,549; Penalty = 69; 
-Queue Size = 617,070; #Invalid = 969,368; Mem 160[MB]
-ShortCut 0
-
-PopCount 42,700 : Top Cost = 1,550; Penalty = 16; 
-Queue Size = 618,018; #Invalid = 971,894; Mem 162[MB]
-ShortCut 0
-
-PopCount 42,800 : Top Cost = 1,550; Penalty = 16; 
-Queue Size = 619,953; #Invalid = 973,765; Mem 162[MB]
-ShortCut 0
-
-PopCount 42,900 : Top Cost = 1,550; Penalty = 69; 
-Queue Size = 621,128; #Invalid = 976,313; Mem 163[MB]
-ShortCut 0
-
-PopCount 43,000 : Top Cost = 1,551; Penalty = 69; 
-Queue Size = 622,428; #Invalid = 978,141; Mem 163[MB]
-ShortCut 0
-
-PopCount 43,100 : Top Cost = 1,551; Penalty = 315; 
-Queue Size = 623,822; #Invalid = 980,790; Mem 165[MB]
-ShortCut 0
-
-PopCount 43,200 : Top Cost = 1,551; Penalty = 69; 
-Queue Size = 624,697; #Invalid = 983,534; Mem 166[MB]
-ShortCut 0
-
-PopCount 43,300 : Top Cost = 1,552; Penalty = 16; 
-Queue Size = 625,673; #Invalid = 985,964; Mem 166[MB]
-ShortCut 0
-
-PopCount 43,400 : Top Cost = 1,552; Penalty = 69; 
-Queue Size = 626,714; #Invalid = 988,674; Mem 167[MB]
-ShortCut 0
-
-PopCount 43,500 : Top Cost = 1,552; Penalty = 69; 
-Queue Size = 627,656; #Invalid = 991,073; Mem 167[MB]
-ShortCut 0
-
-PopCount 43,600 : Top Cost = 1,552; Penalty = 69; 
-Queue Size = 628,896; #Invalid = 993,147; Mem 169[MB]
-ShortCut 0
-
-PopCount 43,700 : Top Cost = 1,553; Penalty = 16; 
-Queue Size = 630,360; #Invalid = 995,379; Mem 169[MB]
-ShortCut 0
-
-PopCount 43,800 : Top Cost = 1,553; Penalty = 69; 
-Queue Size = 631,755; #Invalid = 997,654; Mem 170[MB]
-ShortCut 0
-
-PopCount 43,900 : Top Cost = 1,553; Penalty = 304; 
-Queue Size = 632,785; #Invalid = 1,000,261; Mem 172[MB]
-ShortCut 0
-
-PopCount 44,000 : Top Cost = 1,553; Penalty = 16; 
-Queue Size = 634,259; #Invalid = 1,001,988; Mem 172[MB]
-ShortCut 0
-
-PopCount 44,100 : Top Cost = 1,554; Penalty = 16; 
-Queue Size = 635,388; #Invalid = 1,004,325; Mem 173[MB]
-ShortCut 0
-
-PopCount 44,200 : Top Cost = 1,554; Penalty = 16; 
-Queue Size = 637,020; #Invalid = 1,006,519; Mem 173[MB]
-ShortCut 0
-
-PopCount 44,300 : Top Cost = 1,554; Penalty = 304; 
-Queue Size = 638,118; #Invalid = 1,009,232; Mem 174[MB]
-ShortCut 0
-
-PopCount 44,400 : Top Cost = 1,555; Penalty = 16; 
-Queue Size = 639,003; #Invalid = 1,011,954; Mem 130[MB]
-ShortCut 0
-
-PopCount 44,500 : Top Cost = 1,555; Penalty = 16; 
-Queue Size = 640,362; #Invalid = 1,014,480; Mem 130[MB]
-ShortCut 0
-
-PopCount 44,600 : Top Cost = 1,555; Penalty = 16; 
-Queue Size = 642,384; #Invalid = 1,016,319; Mem 132[MB]
-ShortCut 0
-
-PopCount 44,700 : Top Cost = 1,555; Penalty = 16; 
-Queue Size = 643,382; #Invalid = 1,019,449; Mem 133[MB]
-ShortCut 0
-
-PopCount 44,800 : Top Cost = 1,556; Penalty = 16; 
-Queue Size = 644,554; #Invalid = 1,021,664; Mem 133[MB]
-ShortCut 0
-
-PopCount 44,900 : Top Cost = 1,556; Penalty = 16; 
-Queue Size = 645,553; #Invalid = 1,024,231; Mem 134[MB]
-ShortCut 0
-
-PopCount 45,000 : Top Cost = 1,556; Penalty = 16; 
-Queue Size = 647,668; #Invalid = 1,025,564; Mem 136[MB]
-ShortCut 0
-
-PopCount 45,100 : Top Cost = 1,556; Penalty = 16; 
-Queue Size = 648,406; #Invalid = 1,028,732; Mem 136[MB]
-ShortCut 0
-
-PopCount 45,200 : Top Cost = 1,557; Penalty = 69; 
-Queue Size = 650,340; #Invalid = 1,030,430; Mem 137[MB]
-ShortCut 0
-
-PopCount 45,300 : Top Cost = 1,557; Penalty = 16; 
-Queue Size = 651,181; #Invalid = 1,033,142; Mem 137[MB]
-ShortCut 0
-
-PopCount 45,400 : Top Cost = 1,557; Penalty = 16; 
-Queue Size = 652,201; #Invalid = 1,035,401; Mem 138[MB]
-ShortCut 0
-
-PopCount 45,500 : Top Cost = 1,557; Penalty = 69; 
-Queue Size = 653,187; #Invalid = 1,038,138; Mem 140[MB]
-ShortCut 0
-
-PopCount 45,600 : Top Cost = 1,558; Penalty = 304; 
-Queue Size = 654,100; #Invalid = 1,040,786; Mem 140[MB]
-ShortCut 0
-
-PopCount 45,700 : Top Cost = 1,558; Penalty = 304; 
-Queue Size = 655,616; #Invalid = 1,042,362; Mem 141[MB]
-ShortCut 0
-
-PopCount 45,800 : Top Cost = 1,558; Penalty = 16; 
-Queue Size = 657,249; #Invalid = 1,044,533; Mem 141[MB]
-ShortCut 0
-
-PopCount 45,900 : Top Cost = 1,558; Penalty = 16; 
-Queue Size = 658,523; #Invalid = 1,047,474; Mem 143[MB]
-ShortCut 0
-
-PopCount 46,000 : Top Cost = 1,559; Penalty = 16; 
-Queue Size = 659,371; #Invalid = 1,049,970; Mem 144[MB]
-ShortCut 0
-
-PopCount 46,100 : Top Cost = 1,559; Penalty = 16; 
-Queue Size = 660,744; #Invalid = 1,052,131; Mem 144[MB]
-ShortCut 0
-
-PopCount 46,200 : Top Cost = 1,559; Penalty = 16; 
-Queue Size = 661,941; #Invalid = 1,054,707; Mem 145[MB]
-ShortCut 0
-
-PopCount 46,300 : Top Cost = 1,560; Penalty = 16; 
-Queue Size = 664,102; #Invalid = 1,056,623; Mem 145[MB]
-ShortCut 0
-
-PopCount 46,400 : Top Cost = 1,560; Penalty = 69; 
-Queue Size = 664,823; #Invalid = 1,059,293; Mem 147[MB]
-ShortCut 0
-
-PopCount 46,500 : Top Cost = 1,560; Penalty = 16; 
-Queue Size = 666,343; #Invalid = 1,061,053; Mem 148[MB]
-ShortCut 0
-
-PopCount 46,600 : Top Cost = 1,560; Penalty = 16; 
-Queue Size = 667,659; #Invalid = 1,063,468; Mem 148[MB]
-ShortCut 0
-
-PopCount 46,700 : Top Cost = 1,561; Penalty = 69; 
-Queue Size = 669,337; #Invalid = 1,065,974; Mem 149[MB]
-ShortCut 0
-
-PopCount 46,800 : Top Cost = 1,561; Penalty = 69; 
-Queue Size = 669,973; #Invalid = 1,068,628; Mem 149[MB]
-ShortCut 0
-
-PopCount 46,900 : Top Cost = 1,561; Penalty = 69; 
-Queue Size = 671,928; #Invalid = 1,070,459; Mem 151[MB]
-ShortCut 0
-
-PopCount 47,000 : Top Cost = 1,561; Penalty = 16; 
-Queue Size = 673,008; #Invalid = 1,072,903; Mem 152[MB]
-ShortCut 0
-
-PopCount 47,100 : Top Cost = 1,562; Penalty = 16; 
-Queue Size = 674,410; #Invalid = 1,074,977; Mem 152[MB]
-ShortCut 0
-
-PopCount 47,200 : Top Cost = 1,562; Penalty = 16; 
-Queue Size = 675,244; #Invalid = 1,077,599; Mem 154[MB]
-ShortCut 0
-
-PopCount 47,300 : Top Cost = 1,562; Penalty = 16; 
-Queue Size = 677,477; #Invalid = 1,079,360; Mem 154[MB]
-ShortCut 0
-
-PopCount 47,400 : Top Cost = 1,563; Penalty = 69; 
-Queue Size = 678,689; #Invalid = 1,081,926; Mem 155[MB]
-ShortCut 0
-
-PopCount 47,500 : Top Cost = 1,563; Penalty = 16; 
-Queue Size = 679,488; #Invalid = 1,084,666; Mem 156[MB]
-ShortCut 0
-
-PopCount 47,600 : Top Cost = 1,563; Penalty = 304; 
-Queue Size = 680,730; #Invalid = 1,086,406; Mem 156[MB]
-ShortCut 0
-
-PopCount 47,700 : Top Cost = 1,563; Penalty = 69; 
-Queue Size = 682,826; #Invalid = 1,088,037; Mem 158[MB]
-ShortCut 0
-
-PopCount 47,800 : Top Cost = 1,563; Penalty = 16; 
-Queue Size = 683,748; #Invalid = 1,090,724; Mem 158[MB]
-ShortCut 0
-
-PopCount 47,900 : Top Cost = 1,564; Penalty = 16; 
-Queue Size = 684,896; #Invalid = 1,093,092; Mem 159[MB]
-ShortCut 0
-
-PopCount 48,000 : Top Cost = 1,564; Penalty = 69; 
-Queue Size = 686,092; #Invalid = 1,095,049; Mem 159[MB]
-ShortCut 0
-
-PopCount 48,100 : Top Cost = 1,564; Penalty = 16; 
-Queue Size = 687,189; #Invalid = 1,097,224; Mem 160[MB]
-ShortCut 0
-
-PopCount 48,200 : Top Cost = 1,565; Penalty = 69; 
-Queue Size = 688,335; #Invalid = 1,099,445; Mem 162[MB]
-ShortCut 0
-
-PopCount 48,300 : Top Cost = 1,565; Penalty = 16; 
-Queue Size = 688,682; #Invalid = 1,102,727; Mem 162[MB]
-ShortCut 0
-
-PopCount 48,400 : Top Cost = 1,565; Penalty = 16; 
-Queue Size = 690,147; #Invalid = 1,104,749; Mem 163[MB]
-ShortCut 0
-
-PopCount 48,500 : Top Cost = 1,565; Penalty = 16; 
-Queue Size = 691,553; #Invalid = 1,107,167; Mem 163[MB]
-ShortCut 0
-
-PopCount 48,600 : Top Cost = 1,566; Penalty = 69; 
-Queue Size = 692,692; #Invalid = 1,109,741; Mem 165[MB]
-ShortCut 0
-
-PopCount 48,700 : Top Cost = 1,566; Penalty = 16; 
-Queue Size = 693,175; #Invalid = 1,112,722; Mem 166[MB]
-ShortCut 0
-
-PopCount 48,800 : Top Cost = 1,566; Penalty = 16; 
-Queue Size = 694,143; #Invalid = 1,114,832; Mem 166[MB]
-ShortCut 0
-
-PopCount 48,900 : Top Cost = 1,566; Penalty = 16; 
-Queue Size = 694,963; #Invalid = 1,117,532; Mem 167[MB]
-ShortCut 0
-
-PopCount 49,000 : Top Cost = 1,567; Penalty = 16; 
-Queue Size = 696,904; #Invalid = 1,119,531; Mem 167[MB]
-ShortCut 0
-
-PopCount 49,100 : Top Cost = 1,567; Penalty = 304; 
-Queue Size = 697,611; #Invalid = 1,122,568; Mem 169[MB]
-ShortCut 0
-
-PopCount 49,200 : Top Cost = 1,567; Penalty = 315; 
-Queue Size = 698,837; #Invalid = 1,124,851; Mem 170[MB]
-ShortCut 0
-
-PopCount 49,300 : Top Cost = 1,567; Penalty = 16; 
-Queue Size = 700,386; #Invalid = 1,127,484; Mem 170[MB]
-ShortCut 0
-
-PopCount 49,400 : Top Cost = 1,568; Penalty = 16; 
-Queue Size = 702,225; #Invalid = 1,129,134; Mem 171[MB]
-ShortCut 0
-
-PopCount 49,500 : Top Cost = 1,568; Penalty = 69; 
-Queue Size = 702,741; #Invalid = 1,132,159; Mem 171[MB]
-ShortCut 0
-
-PopCount 49,600 : Top Cost = 1,568; Penalty = 315; 
-Queue Size = 704,027; #Invalid = 1,134,384; Mem 173[MB]
-ShortCut 0
-
-PopCount 49,700 : Top Cost = 1,568; Penalty = 69; 
-Queue Size = 704,965; #Invalid = 1,137,045; Mem 174[MB]
-ShortCut 0
-
-PopCount 49,800 : Top Cost = 1,569; Penalty = 16; 
-Queue Size = 706,725; #Invalid = 1,139,131; Mem 174[MB]
-ShortCut 0
-
-PopCount 49,900 : Top Cost = 1,569; Penalty = 16; 
-Queue Size = 707,687; #Invalid = 1,141,688; Mem 175[MB]
-ShortCut 0
-
-PopCount 50,000 : Top Cost = 1,569; Penalty = 315; 
-Queue Size = 709,490; #Invalid = 1,143,645; Mem 175[MB]
-ShortCut 0
-
-PopCount 50,100 : Top Cost = 1,569; Penalty = 16; 
-Queue Size = 710,322; #Invalid = 1,146,254; Mem 177[MB]
-ShortCut 0
-
-PopCount 50,200 : Top Cost = 1,570; Penalty = 16; 
-Queue Size = 711,919; #Invalid = 1,148,343; Mem 178[MB]
-ShortCut 0
-
-PopCount 50,300 : Top Cost = 1,570; Penalty = 16; 
-Queue Size = 712,451; #Invalid = 1,151,551; Mem 178[MB]
-ShortCut 0
-
-PopCount 50,400 : Top Cost = 1,570; Penalty = 16; 
-Queue Size = 714,261; #Invalid = 1,153,544; Mem 180[MB]
-ShortCut 0
-
-PopCount 50,500 : Top Cost = 1,570; Penalty = 16; 
-Queue Size = 716,365; #Invalid = 1,155,466; Mem 181[MB]
-ShortCut 0
-
-PopCount 50,600 : Top Cost = 1,571; Penalty = 16; 
-Queue Size = 717,112; #Invalid = 1,158,565; Mem 181[MB]
-ShortCut 0
-
-PopCount 50,700 : Top Cost = 1,571; Penalty = 16; 
-Queue Size = 717,932; #Invalid = 1,161,314; Mem 182[MB]
-ShortCut 0
-
-PopCount 50,800 : Top Cost = 1,571; Penalty = 69; 
-Queue Size = 719,545; #Invalid = 1,163,409; Mem 182[MB]
-ShortCut 0
-
-PopCount 50,900 : Top Cost = 1,571; Penalty = 16; 
-Queue Size = 721,181; #Invalid = 1,165,693; Mem 184[MB]
-ShortCut 0
-
-PopCount 51,000 : Top Cost = 1,572; Penalty = 16; 
-Queue Size = 722,320; #Invalid = 1,167,975; Mem 185[MB]
-ShortCut 0
-
-PopCount 51,100 : Top Cost = 1,572; Penalty = 304; 
-Queue Size = 723,338; #Invalid = 1,170,480; Mem 185[MB]
-ShortCut 0
-
-PopCount 51,200 : Top Cost = 1,572; Penalty = 16; 
-Queue Size = 724,822; #Invalid = 1,171,864; Mem 186[MB]
-ShortCut 0
-
-PopCount 51,300 : Top Cost = 1,572; Penalty = 69; 
-Queue Size = 726,432; #Invalid = 1,174,012; Mem 186[MB]
-ShortCut 0
-
-PopCount 51,400 : Top Cost = 1,573; Penalty = 16; 
-Queue Size = 727,013; #Invalid = 1,176,916; Mem 188[MB]
-ShortCut 0
-
-PopCount 51,500 : Top Cost = 1,573; Penalty = 16; 
-Queue Size = 727,789; #Invalid = 1,179,521; Mem 189[MB]
-ShortCut 0
-
-PopCount 51,600 : Top Cost = 1,573; Penalty = 304; 
-Queue Size = 729,347; #Invalid = 1,181,227; Mem 189[MB]
-ShortCut 0
-
-PopCount 51,700 : Top Cost = 1,573; Penalty = 16; 
-Queue Size = 731,263; #Invalid = 1,183,149; Mem 191[MB]
-ShortCut 0
-
-PopCount 51,800 : Top Cost = 1,573; Penalty = 16; 
-Queue Size = 732,163; #Invalid = 1,186,281; Mem 191[MB]
-ShortCut 0
-
-PopCount 51,900 : Top Cost = 1,574; Penalty = 16; 
-Queue Size = 733,832; #Invalid = 1,188,264; Mem 192[MB]
-ShortCut 0
-
-PopCount 52,000 : Top Cost = 1,574; Penalty = 16; 
-Queue Size = 734,938; #Invalid = 1,190,451; Mem 193[MB]
-ShortCut 0
-
-PopCount 52,100 : Top Cost = 1,574; Penalty = 69; 
-Queue Size = 736,646; #Invalid = 1,192,343; Mem 193[MB]
-ShortCut 0
-
-PopCount 52,200 : Top Cost = 1,574; Penalty = 69; 
-Queue Size = 737,363; #Invalid = 1,195,244; Mem 195[MB]
-ShortCut 0
-
-PopCount 52,300 : Top Cost = 1,575; Penalty = 16; 
-Queue Size = 738,767; #Invalid = 1,197,369; Mem 195[MB]
-ShortCut 0
-
-PopCount 52,400 : Top Cost = 1,575; Penalty = 16; 
-Queue Size = 740,235; #Invalid = 1,199,601; Mem 196[MB]
-ShortCut 0
-
-PopCount 52,500 : Top Cost = 1,575; Penalty = 16; 
-Queue Size = 741,052; #Invalid = 1,202,183; Mem 196[MB]
-ShortCut 0
-
-PopCount 52,600 : Top Cost = 1,575; Penalty = 69; 
-Queue Size = 742,554; #Invalid = 1,204,773; Mem 197[MB]
-ShortCut 0
-
-PopCount 52,700 : Top Cost = 1,576; Penalty = 16; 
-Queue Size = 744,517; #Invalid = 1,206,366; Mem 199[MB]
-ShortCut 0
-
-PopCount 52,800 : Top Cost = 1,576; Penalty = 69; 
-Queue Size = 745,499; #Invalid = 1,208,786; Mem 199[MB]
-ShortCut 0
-
-PopCount 52,900 : Top Cost = 1,576; Penalty = 69; 
-Queue Size = 746,691; #Invalid = 1,210,771; Mem 151[MB]
-ShortCut 0
-
-PopCount 53,000 : Top Cost = 1,576; Penalty = 16; 
-Queue Size = 748,444; #Invalid = 1,212,575; Mem 153[MB]
-ShortCut 0
-
-PopCount 53,100 : Top Cost = 1,577; Penalty = 16; 
-Queue Size = 749,510; #Invalid = 1,215,056; Mem 153[MB]
-ShortCut 0
-
-PopCount 53,200 : Top Cost = 1,577; Penalty = 69; 
-Queue Size = 750,262; #Invalid = 1,218,097; Mem 154[MB]
-ShortCut 0
-
-PopCount 53,300 : Top Cost = 1,577; Penalty = 69; 
-Queue Size = 751,593; #Invalid = 1,220,233; Mem 154[MB]
-ShortCut 0
-
-PopCount 53,400 : Top Cost = 1,577; Penalty = 16; 
-Queue Size = 754,240; #Invalid = 1,221,768; Mem 155[MB]
-ShortCut 0
-
-PopCount 53,500 : Top Cost = 1,578; Penalty = 304; 
-Queue Size = 755,106; #Invalid = 1,224,456; Mem 157[MB]
-ShortCut 0
-
-PopCount 53,600 : Top Cost = 1,578; Penalty = 16; 
-Queue Size = 756,112; #Invalid = 1,227,040; Mem 157[MB]
-ShortCut 0
-
-PopCount 53,700 : Top Cost = 1,578; Penalty = 16; 
-Queue Size = 758,234; #Invalid = 1,228,635; Mem 162[MB]
-ShortCut 0
-
-PopCount 53,800 : Top Cost = 1,578; Penalty = 304; 
-Queue Size = 759,289; #Invalid = 1,230,772; Mem 162[MB]
-ShortCut 0
-
-PopCount 53,900 : Top Cost = 1,578; Penalty = 16; 
-Queue Size = 760,896; #Invalid = 1,233,146; Mem 164[MB]
-ShortCut 0
-
-PopCount 54,000 : Top Cost = 1,579; Penalty = 16; 
-Queue Size = 762,419; #Invalid = 1,235,254; Mem 165[MB]
-ShortCut 0
-
-PopCount 54,100 : Top Cost = 1,579; Penalty = 315; 
-Queue Size = 762,864; #Invalid = 1,238,421; Mem 165[MB]
-ShortCut 0
-
-PopCount 54,200 : Top Cost = 1,579; Penalty = 16; 
-Queue Size = 765,022; #Invalid = 1,239,693; Mem 167[MB]
-ShortCut 0
-
-PopCount 54,300 : Top Cost = 1,579; Penalty = 69; 
-Queue Size = 766,595; #Invalid = 1,241,601; Mem 167[MB]
-ShortCut 0
-
-PopCount 54,400 : Top Cost = 1,580; Penalty = 69; 
-Queue Size = 767,293; #Invalid = 1,244,200; Mem 168[MB]
-ShortCut 0
-
-PopCount 54,500 : Top Cost = 1,580; Penalty = 16; 
-Queue Size = 768,130; #Invalid = 1,246,829; Mem 168[MB]
-ShortCut 0
-
-PopCount 54,600 : Top Cost = 1,580; Penalty = 16; 
-Queue Size = 769,937; #Invalid = 1,248,836; Mem 169[MB]
-ShortCut 0
-
-PopCount 54,700 : Top Cost = 1,580; Penalty = 69; 
-Queue Size = 771,086; #Invalid = 1,251,382; Mem 171[MB]
-ShortCut 0
-
-PopCount 54,800 : Top Cost = 1,581; Penalty = 69; 
-Queue Size = 771,776; #Invalid = 1,254,019; Mem 171[MB]
-ShortCut 0
-
-PopCount 54,900 : Top Cost = 1,581; Penalty = 16; 
-Queue Size = 773,130; #Invalid = 1,255,883; Mem 172[MB]
-ShortCut 0
-
-PopCount 55,000 : Top Cost = 1,581; Penalty = 16; 
-Queue Size = 774,529; #Invalid = 1,258,872; Mem 172[MB]
-ShortCut 0
-
-PopCount 55,100 : Top Cost = 1,581; Penalty = 315; 
-Queue Size = 775,646; #Invalid = 1,260,898; Mem 174[MB]
-ShortCut 0
-
-PopCount 55,200 : Top Cost = 1,581; Penalty = 16; 
-Queue Size = 777,328; #Invalid = 1,263,426; Mem 175[MB]
-ShortCut 0
-
-PopCount 55,300 : Top Cost = 1,582; Penalty = 16; 
-Queue Size = 778,340; #Invalid = 1,266,205; Mem 175[MB]
-ShortCut 0
-
-PopCount 55,400 : Top Cost = 1,582; Penalty = 16; 
-Queue Size = 778,397; #Invalid = 1,269,664; Mem 177[MB]
-ShortCut 0
-
-PopCount 55,500 : Top Cost = 1,582; Penalty = 304; 
-Queue Size = 780,429; #Invalid = 1,270,991; Mem 177[MB]
-ShortCut 0
-
-PopCount 55,600 : Top Cost = 1,582; Penalty = 69; 
-Queue Size = 781,975; #Invalid = 1,273,070; Mem 178[MB]
-ShortCut 0
-
-PopCount 55,700 : Top Cost = 1,583; Penalty = 69; 
-Queue Size = 782,754; #Invalid = 1,275,618; Mem 178[MB]
-ShortCut 0
-
-PopCount 55,800 : Top Cost = 1,583; Penalty = 16; 
-Queue Size = 784,024; #Invalid = 1,277,678; Mem 179[MB]
-ShortCut 0
-
-PopCount 55,900 : Top Cost = 1,583; Penalty = 16; 
-Queue Size = 785,103; #Invalid = 1,280,343; Mem 181[MB]
-ShortCut 0
-
-PopCount 56,000 : Top Cost = 1,583; Penalty = 16; 
-Queue Size = 787,031; #Invalid = 1,282,236; Mem 181[MB]
-ShortCut 0
-
-PopCount 56,100 : Top Cost = 1,583; Penalty = 16; 
-Queue Size = 788,617; #Invalid = 1,285,003; Mem 182[MB]
-ShortCut 0
-
-PopCount 56,200 : Top Cost = 1,584; Penalty = 16; 
-Queue Size = 789,790; #Invalid = 1,287,102; Mem 182[MB]
-ShortCut 0
-
-PopCount 56,300 : Top Cost = 1,584; Penalty = 16; 
-Queue Size = 790,735; #Invalid = 1,289,629; Mem 184[MB]
-ShortCut 0
-
-PopCount 56,400 : Top Cost = 1,584; Penalty = 16; 
-Queue Size = 791,924; #Invalid = 1,291,940; Mem 185[MB]
-ShortCut 0
-
-PopCount 56,500 : Top Cost = 1,584; Penalty = 16; 
-Queue Size = 793,614; #Invalid = 1,294,358; Mem 185[MB]
-ShortCut 0
-
-PopCount 56,600 : Top Cost = 1,585; Penalty = 69; 
-Queue Size = 795,184; #Invalid = 1,296,483; Mem 186[MB]
-ShortCut 0
-
-PopCount 56,700 : Top Cost = 1,585; Penalty = 16; 
-Queue Size = 796,779; #Invalid = 1,298,264; Mem 186[MB]
-ShortCut 0
-
-PopCount 56,800 : Top Cost = 1,585; Penalty = 16; 
-Queue Size = 797,223; #Invalid = 1,302,067; Mem 188[MB]
-ShortCut 0
-
-PopCount 56,900 : Top Cost = 1,585; Penalty = 69; 
-Queue Size = 798,337; #Invalid = 1,304,589; Mem 189[MB]
-ShortCut 0
-
-PopCount 57,000 : Top Cost = 1,585; Penalty = 16; 
-Queue Size = 799,658; #Invalid = 1,307,208; Mem 189[MB]
-ShortCut 0
-
-PopCount 57,100 : Top Cost = 1,586; Penalty = 16; 
-Queue Size = 801,908; #Invalid = 1,308,213; Mem 191[MB]
-ShortCut 0
-
-PopCount 57,200 : Top Cost = 1,586; Penalty = 16; 
-Queue Size = 803,106; #Invalid = 1,310,495; Mem 191[MB]
-ShortCut 0
-
-PopCount 57,300 : Top Cost = 1,586; Penalty = 16; 
-Queue Size = 804,063; #Invalid = 1,313,273; Mem 192[MB]
-ShortCut 0
-
-PopCount 57,400 : Top Cost = 1,586; Penalty = 304; 
-Queue Size = 805,671; #Invalid = 1,314,988; Mem 193[MB]
-ShortCut 0
-
-PopCount 57,500 : Top Cost = 1,586; Penalty = 16; 
-Queue Size = 806,856; #Invalid = 1,317,716; Mem 193[MB]
-ShortCut 0
-
-PopCount 57,600 : Top Cost = 1,587; Penalty = 304; 
-Queue Size = 809,103; #Invalid = 1,318,476; Mem 195[MB]
-ShortCut 0
-
-PopCount 57,700 : Top Cost = 1,587; Penalty = 304; 
-Queue Size = 809,351; #Invalid = 1,321,910; Mem 195[MB]
-ShortCut 0
-
-PopCount 57,800 : Top Cost = 1,587; Penalty = 348; 
-Queue Size = 810,335; #Invalid = 1,324,434; Mem 196[MB]
-ShortCut 0
-
-PopCount 57,900 : Top Cost = 1,587; Penalty = 16; 
-Queue Size = 811,814; #Invalid = 1,326,715; Mem 198[MB]
-ShortCut 0
-
-PopCount 58,000 : Top Cost = 1,588; Penalty = 304; 
-Queue Size = 813,839; #Invalid = 1,328,109; Mem 198[MB]
-ShortCut 0
-
-PopCount 58,100 : Top Cost = 1,588; Penalty = 16; 
-Queue Size = 814,690; #Invalid = 1,330,358; Mem 199[MB]
-ShortCut 0
-
-PopCount 58,200 : Top Cost = 1,588; Penalty = 16; 
-Queue Size = 815,059; #Invalid = 1,333,982; Mem 199[MB]
-ShortCut 0
-
-PopCount 58,300 : Top Cost = 1,588; Penalty = 531; 
-Queue Size = 816,955; #Invalid = 1,335,457; Mem 200[MB]
-ShortCut 0
-
-PopCount 58,400 : Top Cost = 1,588; Penalty = 16; 
-Queue Size = 818,565; #Invalid = 1,337,972; Mem 200[MB]
-ShortCut 0
-
-PopCount 58,500 : Top Cost = 1,589; Penalty = 16; 
-Queue Size = 819,966; #Invalid = 1,339,444; Mem 202[MB]
-ShortCut 0
-
-PopCount 58,600 : Top Cost = 1,589; Penalty = 16; 
-Queue Size = 821,248; #Invalid = 1,341,579; Mem 203[MB]
-ShortCut 0
-
-PopCount 58,700 : Top Cost = 1,589; Penalty = 69; 
-Queue Size = 822,253; #Invalid = 1,344,453; Mem 203[MB]
-ShortCut 0
-
-PopCount 58,800 : Top Cost = 1,589; Penalty = 69; 
-Queue Size = 824,276; #Invalid = 1,346,187; Mem 205[MB]
-ShortCut 0
-
-PopCount 58,900 : Top Cost = 1,590; Penalty = 16; 
-Queue Size = 824,738; #Invalid = 1,349,537; Mem 205[MB]
-ShortCut 0
-
-PopCount 59,000 : Top Cost = 1,590; Penalty = 69; 
-Queue Size = 826,850; #Invalid = 1,350,604; Mem 206[MB]
-ShortCut 0
-
-PopCount 59,100 : Top Cost = 1,590; Penalty = 16; 
-Queue Size = 827,638; #Invalid = 1,353,340; Mem 206[MB]
-ShortCut 0
-
-PopCount 59,200 : Top Cost = 1,590; Penalty = 16; 
-Queue Size = 828,484; #Invalid = 1,356,125; Mem 207[MB]
-ShortCut 0
-
-PopCount 59,300 : Top Cost = 1,590; Penalty = 16; 
-Queue Size = 830,242; #Invalid = 1,358,207; Mem 209[MB]
-ShortCut 0
-
-PopCount 59,400 : Top Cost = 1,591; Penalty = 304; 
-Queue Size = 830,862; #Invalid = 1,361,179; Mem 209[MB]
-ShortCut 0
-
-PopCount 59,500 : Top Cost = 1,591; Penalty = 16; 
-Queue Size = 833,249; #Invalid = 1,362,594; Mem 210[MB]
-ShortCut 0
-
-PopCount 59,600 : Top Cost = 1,591; Penalty = 16; 
-Queue Size = 833,270; #Invalid = 1,365,938; Mem 210[MB]
-ShortCut 0
-
-PopCount 59,700 : Top Cost = 1,591; Penalty = 16; 
-Queue Size = 834,288; #Invalid = 1,368,706; Mem 212[MB]
-ShortCut 0
-
-PopCount 59,800 : Top Cost = 1,592; Penalty = 16; 
-Queue Size = 835,435; #Invalid = 1,371,034; Mem 213[MB]
-ShortCut 0
-
-PopCount 59,900 : Top Cost = 1,592; Penalty = 69; 
-Queue Size = 837,194; #Invalid = 1,372,778; Mem 213[MB]
-ShortCut 0
-
-PopCount 60,000 : Top Cost = 1,592; Penalty = 16; 
-Queue Size = 838,638; #Invalid = 1,374,958; Mem 214[MB]
-ShortCut 0
-
-PopCount 60,100 : Top Cost = 1,592; Penalty = 16; 
-Queue Size = 839,444; #Invalid = 1,378,158; Mem 214[MB]
-ShortCut 0
-
-PopCount 60,200 : Top Cost = 1,592; Penalty = 16; 
-Queue Size = 841,415; #Invalid = 1,380,061; Mem 216[MB]
-ShortCut 0
-
-PopCount 60,300 : Top Cost = 1,593; Penalty = 16; 
-Queue Size = 842,183; #Invalid = 1,382,991; Mem 217[MB]
-ShortCut 0
-
-PopCount 60,400 : Top Cost = 1,593; Penalty = 16; 
-Queue Size = 844,051; #Invalid = 1,384,159; Mem 217[MB]
-ShortCut 0
-
-PopCount 60,500 : Top Cost = 1,593; Penalty = 16; 
-Queue Size = 845,395; #Invalid = 1,386,562; Mem 219[MB]
-ShortCut 0
-
-PopCount 60,600 : Top Cost = 1,593; Penalty = 16; 
-Queue Size = 845,802; #Invalid = 1,390,133; Mem 219[MB]
-ShortCut 0
-
-PopCount 60,700 : Top Cost = 1,593; Penalty = 348; 
-Queue Size = 847,055; #Invalid = 1,392,336; Mem 220[MB]
-ShortCut 0
-
-PopCount 60,800 : Top Cost = 1,594; Penalty = 16; 
-Queue Size = 849,707; #Invalid = 1,393,800; Mem 176[MB]
-ShortCut 0
-
-PopCount 60,900 : Top Cost = 1,594; Penalty = 69; 
-Queue Size = 850,701; #Invalid = 1,396,389; Mem 177[MB]
-ShortCut 0
-
-PopCount 61,000 : Top Cost = 1,594; Penalty = 16; 
-Queue Size = 852,272; #Invalid = 1,398,116; Mem 177[MB]
-ShortCut 0
-
-PopCount 61,100 : Top Cost = 1,594; Penalty = 16; 
-Queue Size = 852,764; #Invalid = 1,401,197; Mem 179[MB]
-ShortCut 0
-
-PopCount 61,200 : Top Cost = 1,594; Penalty = 69; 
-Queue Size = 854,209; #Invalid = 1,403,623; Mem 179[MB]
-ShortCut 0
-
-PopCount 61,300 : Top Cost = 1,595; Penalty = 16; 
-Queue Size = 854,781; #Invalid = 1,406,575; Mem 180[MB]
-ShortCut 0
-
-PopCount 61,400 : Top Cost = 1,595; Penalty = 315; 
-Queue Size = 856,801; #Invalid = 1,408,065; Mem 180[MB]
-ShortCut 0
-
-PopCount 61,500 : Top Cost = 1,595; Penalty = 16; 
-Queue Size = 857,885; #Invalid = 1,410,498; Mem 181[MB]
-ShortCut 0
-
-PopCount 61,600 : Top Cost = 1,595; Penalty = 304; 
-Queue Size = 858,507; #Invalid = 1,413,740; Mem 183[MB]
-ShortCut 0
-
-PopCount 61,700 : Top Cost = 1,595; Penalty = 69; 
-Queue Size = 860,202; #Invalid = 1,415,698; Mem 183[MB]
-ShortCut 0
-
-PopCount 61,800 : Top Cost = 1,596; Penalty = 69; 
-Queue Size = 860,993; #Invalid = 1,419,003; Mem 184[MB]
-ShortCut 0
-
-PopCount 61,900 : Top Cost = 1,596; Penalty = 16; 
-Queue Size = 862,909; #Invalid = 1,420,402; Mem 186[MB]
-ShortCut 0
-
-PopCount 62,000 : Top Cost = 1,596; Penalty = 16; 
-Queue Size = 863,198; #Invalid = 1,423,440; Mem 186[MB]
-ShortCut 0
-
-PopCount 62,100 : Top Cost = 1,596; Penalty = 69; 
-Queue Size = 863,955; #Invalid = 1,426,173; Mem 187[MB]
-ShortCut 0
-
-PopCount 62,200 : Top Cost = 1,597; Penalty = 69; 
-Queue Size = 866,207; #Invalid = 1,427,645; Mem 187[MB]
-ShortCut 0
-
-PopCount 62,300 : Top Cost = 1,597; Penalty = 16; 
-Queue Size = 867,378; #Invalid = 1,430,571; Mem 188[MB]
-ShortCut 0
-
-PopCount 62,400 : Top Cost = 1,597; Penalty = 16; 
-Queue Size = 869,721; #Invalid = 1,431,565; Mem 188[MB]
-ShortCut 0
-
-PopCount 62,500 : Top Cost = 1,597; Penalty = 16; 
-Queue Size = 870,105; #Invalid = 1,434,709; Mem 190[MB]
-ShortCut 0
-
-PopCount 62,600 : Top Cost = 1,597; Penalty = 69; 
-Queue Size = 870,682; #Invalid = 1,437,687; Mem 191[MB]
-ShortCut 0
-
-PopCount 62,700 : Top Cost = 1,598; Penalty = 16; 
-Queue Size = 872,565; #Invalid = 1,439,349; Mem 191[MB]
-ShortCut 0
-
-PopCount 62,800 : Top Cost = 1,598; Penalty = 69; 
-Queue Size = 873,874; #Invalid = 1,441,883; Mem 192[MB]
-ShortCut 0
-
-PopCount 62,900 : Top Cost = 1,598; Penalty = 16; 
-Queue Size = 875,700; #Invalid = 1,443,449; Mem 192[MB]
-ShortCut 0
-
-PopCount 63,000 : Top Cost = 1,598; Penalty = 16; 
-Queue Size = 876,058; #Invalid = 1,446,453; Mem 194[MB]
-ShortCut 0
-
-PopCount 63,100 : Top Cost = 1,598; Penalty = 69; 
-Queue Size = 876,656; #Invalid = 1,449,549; Mem 195[MB]
-ShortCut 0
-
-PopCount 63,200 : Top Cost = 1,599; Penalty = 69; 
-Queue Size = 879,243; #Invalid = 1,450,856; Mem 195[MB]
-ShortCut 0
-
-PopCount 63,300 : Top Cost = 1,599; Penalty = 69; 
-Queue Size = 880,531; #Invalid = 1,453,219; Mem 197[MB]
-ShortCut 0
-
-PopCount 63,400 : Top Cost = 1,599; Penalty = 16; 
-Queue Size = 881,569; #Invalid = 1,455,490; Mem 197[MB]
-ShortCut 0
-
-PopCount 63,500 : Top Cost = 1,599; Penalty = 16; 
-Queue Size = 882,448; #Invalid = 1,458,299; Mem 198[MB]
-ShortCut 0
-
-PopCount 63,600 : Top Cost = 1,599; Penalty = 304; 
-Queue Size = 883,122; #Invalid = 1,461,145; Mem 199[MB]
-ShortCut 0
-
-PopCount 63,700 : Top Cost = 1,600; Penalty = 16; 
-Queue Size = 885,051; #Invalid = 1,463,059; Mem 199[MB]
-ShortCut 0
-
-PopCount 63,800 : Top Cost = 1,600; Penalty = 69; 
-Queue Size = 886,269; #Invalid = 1,465,050; Mem 201[MB]
-ShortCut 0
-
-PopCount 63,900 : Top Cost = 1,600; Penalty = 16; 
-Queue Size = 887,388; #Invalid = 1,467,374; Mem 201[MB]
-ShortCut 0
-
-PopCount 64,000 : Top Cost = 1,600; Penalty = 16; 
-Queue Size = 888,477; #Invalid = 1,470,389; Mem 202[MB]
-ShortCut 0
-
-PopCount 64,100 : Top Cost = 1,600; Penalty = 16; 
-Queue Size = 889,368; #Invalid = 1,472,783; Mem 202[MB]
-ShortCut 0
-
-PopCount 64,200 : Top Cost = 1,601; Penalty = 16; 
-Queue Size = 890,948; #Invalid = 1,474,691; Mem 204[MB]
-ShortCut 0
-
-PopCount 64,300 : Top Cost = 1,601; Penalty = 69; 
-Queue Size = 892,718; #Invalid = 1,476,413; Mem 205[MB]
-ShortCut 0
-
-PopCount 64,400 : Top Cost = 1,601; Penalty = 16; 
-Queue Size = 894,065; #Invalid = 1,479,002; Mem 205[MB]
-ShortCut 0
-
-PopCount 64,500 : Top Cost = 1,601; Penalty = 16; 
-Queue Size = 895,174; #Invalid = 1,481,651; Mem 206[MB]
-ShortCut 0
-
-PopCount 64,600 : Top Cost = 1,601; Penalty = 69; 
-Queue Size = 896,303; #Invalid = 1,484,116; Mem 206[MB]
-ShortCut 0
-
-PopCount 64,700 : Top Cost = 1,602; Penalty = 16; 
-Queue Size = 898,693; #Invalid = 1,485,639; Mem 208[MB]
-ShortCut 0
-
-PopCount 64,800 : Top Cost = 1,602; Penalty = 69; 
-Queue Size = 900,178; #Invalid = 1,487,843; Mem 209[MB]
-ShortCut 0
-
-PopCount 64,900 : Top Cost = 1,602; Penalty = 16; 
-Queue Size = 901,486; #Invalid = 1,489,984; Mem 209[MB]
-ShortCut 0
-
-PopCount 65,000 : Top Cost = 1,602; Penalty = 16; 
-Queue Size = 902,556; #Invalid = 1,492,379; Mem 211[MB]
-ShortCut 0
-
-PopCount 65,100 : Top Cost = 1,602; Penalty = 315; 
-Queue Size = 903,392; #Invalid = 1,495,186; Mem 211[MB]
-ShortCut 0
-
-PopCount 65,200 : Top Cost = 1,602; Penalty = 16; 
-Queue Size = 905,258; #Invalid = 1,496,597; Mem 212[MB]
-ShortCut 0
-
-PopCount 65,300 : Top Cost = 1,603; Penalty = 16; 
-Queue Size = 906,217; #Invalid = 1,499,240; Mem 213[MB]
-ShortCut 0
-
-PopCount 65,400 : Top Cost = 1,603; Penalty = 16; 
-Queue Size = 908,596; #Invalid = 1,500,136; Mem 213[MB]
-ShortCut 0
-
-PopCount 65,500 : Top Cost = 1,603; Penalty = 16; 
-Queue Size = 908,811; #Invalid = 1,503,518; Mem 215[MB]
-ShortCut 0
-
-PopCount 65,600 : Top Cost = 1,603; Penalty = 16; 
-Queue Size = 910,055; #Invalid = 1,505,818; Mem 215[MB]
-ShortCut 0
-
-PopCount 65,700 : Top Cost = 1,603; Penalty = 348; 
-Queue Size = 910,791; #Invalid = 1,508,572; Mem 216[MB]
-ShortCut 0
-
-PopCount 65,800 : Top Cost = 1,604; Penalty = 16; 
-Queue Size = 912,782; #Invalid = 1,510,979; Mem 218[MB]
-ShortCut 0
-
-PopCount 65,900 : Top Cost = 1,604; Penalty = 69; 
-Queue Size = 914,222; #Invalid = 1,512,921; Mem 218[MB]
-ShortCut 0
-
-PopCount 66,000 : Top Cost = 1,604; Penalty = 16; 
-Queue Size = 915,352; #Invalid = 1,515,622; Mem 219[MB]
-ShortCut 0
-
-PopCount 66,100 : Top Cost = 1,604; Penalty = 16; 
-Queue Size = 916,618; #Invalid = 1,517,981; Mem 219[MB]
-ShortCut 0
-
-PopCount 66,200 : Top Cost = 1,604; Penalty = 16; 
-Queue Size = 917,560; #Invalid = 1,520,494; Mem 220[MB]
-ShortCut 0
-
-PopCount 66,300 : Top Cost = 1,604; Penalty = 16; 
-Queue Size = 920,239; #Invalid = 1,521,945; Mem 222[MB]
-ShortCut 0
-
-PopCount 66,400 : Top Cost = 1,605; Penalty = 69; 
-Queue Size = 921,527; #Invalid = 1,524,633; Mem 222[MB]
-ShortCut 0
-
-PopCount 66,500 : Top Cost = 1,605; Penalty = 69; 
-Queue Size = 923,734; #Invalid = 1,525,817; Mem 223[MB]
-ShortCut 0
-
-PopCount 66,600 : Top Cost = 1,605; Penalty = 16; 
-Queue Size = 924,136; #Invalid = 1,528,849; Mem 223[MB]
-ShortCut 0
-
-PopCount 66,700 : Top Cost = 1,605; Penalty = 16; 
-Queue Size = 924,858; #Invalid = 1,532,044; Mem 225[MB]
-ShortCut 0
-
-PopCount 66,800 : Top Cost = 1,605; Penalty = 304; 
-Queue Size = 926,370; #Invalid = 1,533,984; Mem 226[MB]
-ShortCut 0
-
-PopCount 66,900 : Top Cost = 1,606; Penalty = 16; 
-Queue Size = 927,294; #Invalid = 1,537,005; Mem 226[MB]
-ShortCut 0
-
-PopCount 67,000 : Top Cost = 1,606; Penalty = 16; 
-Queue Size = 929,099; #Invalid = 1,538,246; Mem 227[MB]
-ShortCut 0
-
-PopCount 67,100 : Top Cost = 1,606; Penalty = 16; 
-Queue Size = 930,205; #Invalid = 1,540,678; Mem 227[MB]
-ShortCut 0
-
-PopCount 67,200 : Top Cost = 1,606; Penalty = 16; 
-Queue Size = 931,851; #Invalid = 1,542,908; Mem 229[MB]
-ShortCut 0
-
-PopCount 67,300 : Top Cost = 1,606; Penalty = 16; 
-Queue Size = 933,431; #Invalid = 1,544,880; Mem 230[MB]
-ShortCut 0
-
-PopCount 67,400 : Top Cost = 1,607; Penalty = 16; 
-Queue Size = 935,150; #Invalid = 1,546,853; Mem 230[MB]
-ShortCut 0
-
-PopCount 67,500 : Top Cost = 1,607; Penalty = 69; 
-Queue Size = 936,143; #Invalid = 1,549,873; Mem 231[MB]
-ShortCut 0
-
-PopCount 67,600 : Top Cost = 1,607; Penalty = 16; 
-Queue Size = 938,209; #Invalid = 1,551,044; Mem 231[MB]
-ShortCut 0
-
-PopCount 67,700 : Top Cost = 1,607; Penalty = 16; 
-Queue Size = 938,238; #Invalid = 1,554,524; Mem 233[MB]
-ShortCut 0
-
-PopCount 67,800 : Top Cost = 1,607; Penalty = 16; 
-Queue Size = 938,949; #Invalid = 1,557,433; Mem 234[MB]
-ShortCut 0
-
-PopCount 67,900 : Top Cost = 1,608; Penalty = 16; 
-Queue Size = 940,996; #Invalid = 1,558,939; Mem 234[MB]
-ShortCut 0
-
-PopCount 68,000 : Top Cost = 1,608; Penalty = 69; 
-Queue Size = 942,144; #Invalid = 1,561,885; Mem 236[MB]
-ShortCut 0
-
-PopCount 68,100 : Top Cost = 1,608; Penalty = 69; 
-Queue Size = 944,339; #Invalid = 1,562,919; Mem 236[MB]
-ShortCut 0
-
-PopCount 68,200 : Top Cost = 1,608; Penalty = 16; 
-Queue Size = 944,780; #Invalid = 1,566,115; Mem 237[MB]
-ShortCut 0
-
-PopCount 68,300 : Top Cost = 1,608; Penalty = 16; 
-Queue Size = 945,450; #Invalid = 1,569,375; Mem 238[MB]
-ShortCut 0
-
-PopCount 68,400 : Top Cost = 1,608; Penalty = 16; 
-Queue Size = 947,049; #Invalid = 1,571,698; Mem 238[MB]
-ShortCut 0
-
-PopCount 68,500 : Top Cost = 1,609; Penalty = 16; 
-Queue Size = 949,354; #Invalid = 1,572,937; Mem 240[MB]
-ShortCut 0
-
-PopCount 68,600 : Top Cost = 1,609; Penalty = 69; 
-Queue Size = 950,540; #Invalid = 1,575,557; Mem 240[MB]
-ShortCut 0
-
-PopCount 68,700 : Top Cost = 1,609; Penalty = 16; 
-Queue Size = 952,677; #Invalid = 1,576,788; Mem 241[MB]
-ShortCut 0
-
-PopCount 68,800 : Top Cost = 1,609; Penalty = 304; 
-Queue Size = 952,861; #Invalid = 1,580,241; Mem 243[MB]
-ShortCut 0
-
-PopCount 68,900 : Top Cost = 1,609; Penalty = 16; 
-Queue Size = 953,630; #Invalid = 1,583,341; Mem 243[MB]
-ShortCut 0
-
-PopCount 69,000 : Top Cost = 1,610; Penalty = 16; 
-Queue Size = 955,038; #Invalid = 1,585,245; Mem 244[MB]
-ShortCut 0
-
-PopCount 69,100 : Top Cost = 1,610; Penalty = 69; 
-Queue Size = 955,901; #Invalid = 1,588,281; Mem 244[MB]
-ShortCut 0
-
-PopCount 69,200 : Top Cost = 1,610; Penalty = 16; 
-Queue Size = 958,092; #Invalid = 1,589,350; Mem 195[MB]
-ShortCut 0
-
-PopCount 69,300 : Top Cost = 1,610; Penalty = 16; 
-Queue Size = 958,128; #Invalid = 1,592,348; Mem 195[MB]
-ShortCut 0
-
-PopCount 69,400 : Top Cost = 1,610; Penalty = 16; 
-Queue Size = 958,941; #Invalid = 1,595,432; Mem 195[MB]
-ShortCut 0
-
-PopCount 69,500 : Top Cost = 1,611; Penalty = 69; 
-Queue Size = 960,962; #Invalid = 1,596,906; Mem 198[MB]
-ShortCut 0
-
-PopCount 69,600 : Top Cost = 1,611; Penalty = 69; 
-Queue Size = 961,307; #Invalid = 1,600,348; Mem 198[MB]
-ShortCut 0
-
-PopCount 69,700 : Top Cost = 1,611; Penalty = 16; 
-Queue Size = 963,829; #Invalid = 1,601,065; Mem 198[MB]
-ShortCut 0
-
-PopCount 69,800 : Top Cost = 1,611; Penalty = 16; 
-Queue Size = 965,400; #Invalid = 1,603,630; Mem 200[MB]
-ShortCut 0
-
-PopCount 69,900 : Top Cost = 1,611; Penalty = 16; 
-Queue Size = 965,894; #Invalid = 1,606,762; Mem 200[MB]
-ShortCut 0
-
-PopCount 70,000 : Top Cost = 1,611; Penalty = 16; 
-Queue Size = 966,758; #Invalid = 1,609,398; Mem 200[MB]
-ShortCut 0
-
-PopCount 70,100 : Top Cost = 1,612; Penalty = 69; 
-Queue Size = 968,346; #Invalid = 1,611,527; Mem 203[MB]
-ShortCut 0
-
-PopCount 70,200 : Top Cost = 1,612; Penalty = 69; 
-Queue Size = 969,324; #Invalid = 1,614,114; Mem 203[MB]
-ShortCut 0
-
-PopCount 70,300 : Top Cost = 1,612; Penalty = 16; 
-Queue Size = 971,899; #Invalid = 1,615,097; Mem 203[MB]
-ShortCut 0
-
-PopCount 70,400 : Top Cost = 1,612; Penalty = 16; 
-Queue Size = 971,983; #Invalid = 1,618,467; Mem 205[MB]
-ShortCut 0
-
-PopCount 70,500 : Top Cost = 1,612; Penalty = 16; 
-Queue Size = 973,000; #Invalid = 1,621,238; Mem 205[MB]
-ShortCut 0
-
-PopCount 70,600 : Top Cost = 1,612; Penalty = 16; 
-Queue Size = 974,449; #Invalid = 1,623,421; Mem 205[MB]
-ShortCut 0
-
-PopCount 70,700 : Top Cost = 1,613; Penalty = 16; 
-Queue Size = 975,291; #Invalid = 1,625,791; Mem 205[MB]
-ShortCut 0
-
-PopCount 70,800 : Top Cost = 1,613; Penalty = 69; 
-Queue Size = 977,578; #Invalid = 1,626,503; Mem 208[MB]
-ShortCut 0
-
-PopCount 70,900 : Top Cost = 1,613; Penalty = 16; 
-Queue Size = 978,266; #Invalid = 1,629,662; Mem 208[MB]
-ShortCut 0
-
-PopCount 71,000 : Top Cost = 1,613; Penalty = 16; 
-Queue Size = 978,746; #Invalid = 1,632,912; Mem 208[MB]
-ShortCut 0
-
-PopCount 71,100 : Top Cost = 1,613; Penalty = 16; 
-Queue Size = 979,585; #Invalid = 1,635,624; Mem 210[MB]
-ShortCut 0
-
-PopCount 71,200 : Top Cost = 1,614; Penalty = 16; 
-Queue Size = 981,345; #Invalid = 1,637,825; Mem 210[MB]
-ShortCut 0
-
-PopCount 71,300 : Top Cost = 1,614; Penalty = 69; 
-Queue Size = 982,860; #Invalid = 1,639,907; Mem 210[MB]
-ShortCut 0
-
-PopCount 71,400 : Top Cost = 1,614; Penalty = 304; 
-Queue Size = 984,799; #Invalid = 1,641,439; Mem 213[MB]
-ShortCut 0
-
-PopCount 71,500 : Top Cost = 1,614; Penalty = 16; 
-Queue Size = 985,124; #Invalid = 1,644,473; Mem 213[MB]
-ShortCut 0
-
-PopCount 71,600 : Top Cost = 1,614; Penalty = 304; 
-Queue Size = 985,965; #Invalid = 1,647,444; Mem 213[MB]
-ShortCut 0
-
-PopCount 71,700 : Top Cost = 1,615; Penalty = 16; 
-Queue Size = 987,366; #Invalid = 1,649,461; Mem 215[MB]
-ShortCut 0
-
-PopCount 71,800 : Top Cost = 1,615; Penalty = 69; 
-Queue Size = 988,567; #Invalid = 1,651,838; Mem 215[MB]
-ShortCut 0
-
-PopCount 71,900 : Top Cost = 1,615; Penalty = 304; 
-Queue Size = 990,931; #Invalid = 1,653,019; Mem 215[MB]
-ShortCut 0
-
-PopCount 72,000 : Top Cost = 1,615; Penalty = 16; 
-Queue Size = 991,511; #Invalid = 1,655,822; Mem 218[MB]
-ShortCut 0
-
-PopCount 72,100 : Top Cost = 1,615; Penalty = 16; 
-Queue Size = 992,542; #Invalid = 1,658,558; Mem 218[MB]
-ShortCut 0
-
-PopCount 72,200 : Top Cost = 1,615; Penalty = 69; 
-Queue Size = 993,596; #Invalid = 1,660,911; Mem 218[MB]
-ShortCut 0
-
-PopCount 72,300 : Top Cost = 1,616; Penalty = 16; 
-Queue Size = 994,950; #Invalid = 1,663,149; Mem 221[MB]
-ShortCut 0
-
-PopCount 72,400 : Top Cost = 1,616; Penalty = 69; 
-Queue Size = 997,049; #Invalid = 1,664,213; Mem 221[MB]
-ShortCut 0
-
-PopCount 72,500 : Top Cost = 1,616; Penalty = 69; 
-Queue Size = 998,931; #Invalid = 1,666,254; Mem 221[MB]
-ShortCut 0
-
-PopCount 72,600 : Top Cost = 1,616; Penalty = 304; 
-Queue Size = 999,476; #Invalid = 1,669,014; Mem 223[MB]
-ShortCut 0
-
-PopCount 72,700 : Top Cost = 1,616; Penalty = 304; 
-Queue Size = 1,000,703; #Invalid = 1,671,489; Mem 223[MB]
-ShortCut 0
-
-PopCount 72,800 : Top Cost = 1,616; Penalty = 304; 
-Queue Size = 1,002,122; #Invalid = 1,673,586; Mem 223[MB]
-ShortCut 0
-
-PopCount 72,900 : Top Cost = 1,617; Penalty = 16; 
-Queue Size = 1,003,168; #Invalid = 1,676,056; Mem 226[MB]
-ShortCut 0
-
-PopCount 73,000 : Top Cost = 1,617; Penalty = 16; 
-Queue Size = 1,005,284; #Invalid = 1,677,121; Mem 226[MB]
-ShortCut 0
-
-PopCount 73,100 : Top Cost = 1,617; Penalty = 16; 
-Queue Size = 1,006,345; #Invalid = 1,679,811; Mem 226[MB]
-ShortCut 0
-
-PopCount 73,200 : Top Cost = 1,617; Penalty = 16; 
-Queue Size = 1,007,036; #Invalid = 1,682,659; Mem 226[MB]
-ShortCut 0
-
-PopCount 73,300 : Top Cost = 1,617; Penalty = 69; 
-Queue Size = 1,007,632; #Invalid = 1,685,376; Mem 228[MB]
-ShortCut 0
-
-PopCount 73,400 : Top Cost = 1,618; Penalty = 16; 
-Queue Size = 1,009,349; #Invalid = 1,687,866; Mem 228[MB]
-ShortCut 0
-
-PopCount 73,500 : Top Cost = 1,618; Penalty = 69; 
-Queue Size = 1,010,992; #Invalid = 1,689,716; Mem 228[MB]
-ShortCut 0
-
-PopCount 73,600 : Top Cost = 1,618; Penalty = 16; 
-Queue Size = 1,012,990; #Invalid = 1,691,061; Mem 231[MB]
-ShortCut 0
-
-PopCount 73,700 : Top Cost = 1,618; Penalty = 16; 
-Queue Size = 1,013,082; #Invalid = 1,694,532; Mem 231[MB]
-ShortCut 0
-
-PopCount 73,800 : Top Cost = 1,618; Penalty = 69; 
-Queue Size = 1,014,360; #Invalid = 1,696,875; Mem 231[MB]
-ShortCut 0
-
-PopCount 73,900 : Top Cost = 1,618; Penalty = 16; 
-Queue Size = 1,015,029; #Invalid = 1,699,468; Mem 233[MB]
-ShortCut 0
-
-PopCount 74,000 : Top Cost = 1,619; Penalty = 69; 
-Queue Size = 1,017,184; #Invalid = 1,701,047; Mem 233[MB]
-ShortCut 0
-
-PopCount 74,100 : Top Cost = 1,619; Penalty = 315; 
-Queue Size = 1,018,471; #Invalid = 1,703,904; Mem 233[MB]
-ShortCut 0
-
-PopCount 74,200 : Top Cost = 1,619; Penalty = 16; 
-Queue Size = 1,020,265; #Invalid = 1,705,319; Mem 236[MB]
-ShortCut 0
-
-PopCount 74,300 : Top Cost = 1,619; Penalty = 16; 
-Queue Size = 1,020,932; #Invalid = 1,708,382; Mem 236[MB]
-ShortCut 0
-
-PopCount 74,400 : Top Cost = 1,619; Penalty = 16; 
-Queue Size = 1,021,973; #Invalid = 1,710,928; Mem 236[MB]
-ShortCut 0
-
-PopCount 74,500 : Top Cost = 1,619; Penalty = 69; 
-Queue Size = 1,022,716; #Invalid = 1,713,645; Mem 238[MB]
-ShortCut 0
-
-PopCount 74,600 : Top Cost = 1,620; Penalty = 16; 
-Queue Size = 1,024,894; #Invalid = 1,715,302; Mem 238[MB]
-ShortCut 0
-
-PopCount 74,700 : Top Cost = 1,620; Penalty = 69; 
-Queue Size = 1,025,743; #Invalid = 1,718,518; Mem 238[MB]
-ShortCut 0
-
-PopCount 74,800 : Top Cost = 1,620; Penalty = 16; 
-Queue Size = 1,028,023; #Invalid = 1,719,567; Mem 241[MB]
-ShortCut 0
-
-PopCount 74,900 : Top Cost = 1,620; Penalty = 16; 
-Queue Size = 1,028,056; #Invalid = 1,723,017; Mem 241[MB]
-ShortCut 0
-
-PopCount 75,000 : Top Cost = 1,620; Penalty = 16; 
-Queue Size = 1,029,452; #Invalid = 1,725,108; Mem 241[MB]
-ShortCut 0
-
-PopCount 75,100 : Top Cost = 1,620; Penalty = 16; 
-Queue Size = 1,030,204; #Invalid = 1,727,999; Mem 243[MB]
-ShortCut 0
-
-PopCount 75,200 : Top Cost = 1,621; Penalty = 16; 
-Queue Size = 1,031,723; #Invalid = 1,730,376; Mem 243[MB]
-ShortCut 0
-
-PopCount 75,300 : Top Cost = 1,621; Penalty = 69; 
-Queue Size = 1,033,216; #Invalid = 1,732,147; Mem 243[MB]
-ShortCut 0
-
-PopCount 75,400 : Top Cost = 1,621; Penalty = 16; 
-Queue Size = 1,035,123; #Invalid = 1,733,954; Mem 246[MB]
-ShortCut 0
-
-PopCount 75,500 : Top Cost = 1,621; Penalty = 16; 
-Queue Size = 1,035,137; #Invalid = 1,737,336; Mem 246[MB]
-ShortCut 0
-
-PopCount 75,600 : Top Cost = 1,621; Penalty = 16; 
-Queue Size = 1,036,290; #Invalid = 1,739,978; Mem 246[MB]
-ShortCut 0
-
-PopCount 75,700 : Top Cost = 1,622; Penalty = 16; 
-Queue Size = 1,037,329; #Invalid = 1,742,458; Mem 249[MB]
-ShortCut 0
-
-PopCount 75,800 : Top Cost = 1,622; Penalty = 16; 
-Queue Size = 1,038,570; #Invalid = 1,744,755; Mem 249[MB]
-ShortCut 0
-
-PopCount 75,900 : Top Cost = 1,622; Penalty = 69; 
-Queue Size = 1,040,664; #Invalid = 1,746,418; Mem 249[MB]
-ShortCut 0
-
-PopCount 76,000 : Top Cost = 1,622; Penalty = 16; 
-Queue Size = 1,042,173; #Invalid = 1,748,602; Mem 251[MB]
-ShortCut 0
-
-PopCount 76,100 : Top Cost = 1,622; Penalty = 69; 
-Queue Size = 1,042,618; #Invalid = 1,751,657; Mem 251[MB]
-ShortCut 0
-
-PopCount 76,200 : Top Cost = 1,622; Penalty = 304; 
-Queue Size = 1,043,597; #Invalid = 1,754,078; Mem 251[MB]
-ShortCut 0
-
-PopCount 76,300 : Top Cost = 1,623; Penalty = 69; 
-Queue Size = 1,044,889; #Invalid = 1,756,453; Mem 251[MB]
-ShortCut 0
-
-PopCount 76,400 : Top Cost = 1,623; Penalty = 16; 
-Queue Size = 1,045,286; #Invalid = 1,760,032; Mem 254[MB]
-ShortCut 0
-
-PopCount 76,500 : Top Cost = 1,623; Penalty = 69; 
-Queue Size = 1,047,568; #Invalid = 1,761,208; Mem 254[MB]
-ShortCut 0
-
-PopCount 76,600 : Top Cost = 1,623; Penalty = 16; 
-Queue Size = 1,049,258; #Invalid = 1,763,198; Mem 254[MB]
-ShortCut 0
-
-PopCount 76,700 : Top Cost = 1,623; Penalty = 16; 
-Queue Size = 1,049,508; #Invalid = 1,766,681; Mem 256[MB]
-ShortCut 0
-
-PopCount 76,800 : Top Cost = 1,623; Penalty = 16; 
-Queue Size = 1,050,776; #Invalid = 1,769,068; Mem 256[MB]
-ShortCut 0
-
-PopCount 76,900 : Top Cost = 1,624; Penalty = 16; 
-Queue Size = 1,051,695; #Invalid = 1,771,954; Mem 256[MB]
-ShortCut 0
-
-PopCount 77,000 : Top Cost = 1,624; Penalty = 16; 
-Queue Size = 1,052,601; #Invalid = 1,774,633; Mem 259[MB]
-ShortCut 0
-
-PopCount 77,100 : Top Cost = 1,624; Penalty = 16; 
-Queue Size = 1,054,333; #Invalid = 1,776,744; Mem 259[MB]
-ShortCut 0
-
-PopCount 77,200 : Top Cost = 1,624; Penalty = 16; 
-Queue Size = 1,055,643; #Invalid = 1,778,661; Mem 259[MB]
-ShortCut 0
-
-PopCount 77,300 : Top Cost = 1,624; Penalty = 16; 
-Queue Size = 1,057,213; #Invalid = 1,780,661; Mem 261[MB]
-ShortCut 0
-
-PopCount 77,400 : Top Cost = 1,624; Penalty = 16; 
-Queue Size = 1,057,242; #Invalid = 1,783,935; Mem 261[MB]
-ShortCut 0
-
-PopCount 77,500 : Top Cost = 1,625; Penalty = 69; 
-Queue Size = 1,059,487; #Invalid = 1,785,793; Mem 261[MB]
-ShortCut 0
-
-PopCount 77,600 : Top Cost = 1,625; Penalty = 69; 
-Queue Size = 1,059,976; #Invalid = 1,788,586; Mem 264[MB]
-ShortCut 0
-
-PopCount 77,700 : Top Cost = 1,625; Penalty = 69; 
-Queue Size = 1,061,412; #Invalid = 1,790,669; Mem 264[MB]
-ShortCut 0
-
-PopCount 77,800 : Top Cost = 1,625; Penalty = 69; 
-Queue Size = 1,063,038; #Invalid = 1,792,814; Mem 264[MB]
-ShortCut 0
-
-PopCount 77,900 : Top Cost = 1,625; Penalty = 16; 
-Queue Size = 1,063,952; #Invalid = 1,795,404; Mem 266[MB]
-ShortCut 0
-
-PopCount 78,000 : Top Cost = 1,626; Penalty = 69; 
-Queue Size = 1,064,625; #Invalid = 1,797,856; Mem 266[MB]
-ShortCut 0
-
-PopCount 78,100 : Top Cost = 1,626; Penalty = 69; 
-Queue Size = 1,066,772; #Invalid = 1,799,212; Mem 266[MB]
-ShortCut 0
-
-PopCount 78,200 : Top Cost = 1,626; Penalty = 16; 
-Queue Size = 1,067,155; #Invalid = 1,802,385; Mem 269[MB]
-ShortCut 0
-
-PopCount 78,300 : Top Cost = 1,626; Penalty = 16; 
-Queue Size = 1,069,581; #Invalid = 1,803,784; Mem 269[MB]
-ShortCut 0
-
-PopCount 78,400 : Top Cost = 1,626; Penalty = 16; 
-Queue Size = 1,070,808; #Invalid = 1,805,638; Mem 269[MB]
-ShortCut 0
-
-PopCount 78,500 : Top Cost = 1,626; Penalty = 16; 
-Queue Size = 1,071,821; #Invalid = 1,808,068; Mem 272[MB]
-ShortCut 0
-
-PopCount 78,600 : Top Cost = 1,626; Penalty = 16; 
-Queue Size = 1,071,855; #Invalid = 1,811,093; Mem 272[MB]
-ShortCut 0
-
-PopCount 78,700 : Top Cost = 1,627; Penalty = 69; 
-Queue Size = 1,073,743; #Invalid = 1,812,876; Mem 272[MB]
-ShortCut 0
-
-PopCount 78,800 : Top Cost = 1,627; Penalty = 16; 
-Queue Size = 1,074,086; #Invalid = 1,815,775; Mem 272[MB]
-ShortCut 0
-
-PopCount 78,900 : Top Cost = 1,627; Penalty = 69; 
-Queue Size = 1,076,763; #Invalid = 1,817,392; Mem 274[MB]
-ShortCut 0
-
-PopCount 79,000 : Top Cost = 1,627; Penalty = 16; 
-Queue Size = 1,077,764; #Invalid = 1,819,342; Mem 274[MB]
-ShortCut 0
-
-PopCount 79,100 : Top Cost = 1,627; Penalty = 16; 
-Queue Size = 1,079,370; #Invalid = 1,821,689; Mem 274[MB]
-ShortCut 0
-
-PopCount 79,200 : Top Cost = 1,628; Penalty = 315; 
-Queue Size = 1,079,831; #Invalid = 1,824,740; Mem 277[MB]
-ShortCut 0
-
-PopCount 79,300 : Top Cost = 1,628; Penalty = 69; 
-Queue Size = 1,082,336; #Invalid = 1,826,203; Mem 277[MB]
-ShortCut 0
-
-PopCount 79,400 : Top Cost = 1,628; Penalty = 69; 
-Queue Size = 1,082,681; #Invalid = 1,829,691; Mem 277[MB]
-ShortCut 0
-
-PopCount 79,500 : Top Cost = 1,628; Penalty = 69; 
-Queue Size = 1,084,305; #Invalid = 1,831,600; Mem 279[MB]
-ShortCut 0
-
-PopCount 79,600 : Top Cost = 1,628; Penalty = 69; 
-Queue Size = 1,085,633; #Invalid = 1,833,786; Mem 279[MB]
-ShortCut 0
-
-PopCount 79,700 : Top Cost = 1,628; Penalty = 16; 
-Queue Size = 1,087,226; #Invalid = 1,835,675; Mem 279[MB]
-ShortCut 0
-
-PopCount 79,800 : Top Cost = 1,628; Penalty = 16; 
-Queue Size = 1,087,258; #Invalid = 1,838,722; Mem 282[MB]
-ShortCut 0
-
-PopCount 79,900 : Top Cost = 1,629; Penalty = 69; 
-Queue Size = 1,089,325; #Invalid = 1,840,292; Mem 282[MB]
-ShortCut 0
-
-PopCount 80,000 : Top Cost = 1,629; Penalty = 16; 
-Queue Size = 1,089,732; #Invalid = 1,843,482; Mem 282[MB]
-ShortCut 0
-
-PopCount 80,100 : Top Cost = 1,629; Penalty = 16; 
-Queue Size = 1,092,226; #Invalid = 1,845,419; Mem 284[MB]
-ShortCut 0
-
-PopCount 80,200 : Top Cost = 1,629; Penalty = 16; 
-Queue Size = 1,093,969; #Invalid = 1,847,374; Mem 284[MB]
-ShortCut 0
-
-PopCount 80,300 : Top Cost = 1,629; Penalty = 16; 
-Queue Size = 1,095,608; #Invalid = 1,849,456; Mem 284[MB]
-ShortCut 0
-
-PopCount 80,400 : Top Cost = 1,629; Penalty = 16; 
-Queue Size = 1,095,646; #Invalid = 1,852,839; Mem 287[MB]
-ShortCut 0
-
-PopCount 80,500 : Top Cost = 1,630; Penalty = 16; 
-Queue Size = 1,097,637; #Invalid = 1,854,464; Mem 287[MB]
-ShortCut 0
-
-PopCount 80,600 : Top Cost = 1,630; Penalty = 16; 
-Queue Size = 1,098,852; #Invalid = 1,856,749; Mem 287[MB]
-ShortCut 0
-
-PopCount 80,700 : Top Cost = 1,630; Penalty = 16; 
-Queue Size = 1,099,807; #Invalid = 1,859,727; Mem 289[MB]
-ShortCut 0
-
-PopCount 80,800 : Top Cost = 1,630; Penalty = 69; 
-Queue Size = 1,101,065; #Invalid = 1,861,320; Mem 289[MB]
-ShortCut 0
-
-PopCount 80,900 : Top Cost = 1,630; Penalty = 16; 
-Queue Size = 1,102,552; #Invalid = 1,862,971; Mem 289[MB]
-ShortCut 0
-
-PopCount 81,000 : Top Cost = 1,630; Penalty = 16; 
-Queue Size = 1,102,620; #Invalid = 1,866,445; Mem 292[MB]
-ShortCut 0
-
-PopCount 81,100 : Top Cost = 1,631; Penalty = 16; 
-Queue Size = 1,104,466; #Invalid = 1,868,421; Mem 292[MB]
-ShortCut 0
-
-PopCount 81,200 : Top Cost = 1,631; Penalty = 16; 
-Queue Size = 1,105,777; #Invalid = 1,870,304; Mem 292[MB]
-ShortCut 0
-
-PopCount 81,300 : Top Cost = 1,631; Penalty = 69; 
-Queue Size = 1,106,646; #Invalid = 1,873,379; Mem 295[MB]
-ShortCut 0
-
-PopCount 81,400 : Top Cost = 1,631; Penalty = 69; 
-Queue Size = 1,107,912; #Invalid = 1,875,329; Mem 295[MB]
-ShortCut 0
-
-PopCount 81,500 : Top Cost = 1,631; Penalty = 69; 
-Queue Size = 1,109,589; #Invalid = 1,877,312; Mem 295[MB]
-ShortCut 0
-
-PopCount 81,600 : Top Cost = 1,631; Penalty = 16; 
-Queue Size = 1,110,333; #Invalid = 1,880,007; Mem 295[MB]
-ShortCut 0
-
-PopCount 81,700 : Top Cost = 1,632; Penalty = 69; 
-Queue Size = 1,111,427; #Invalid = 1,882,428; Mem 297[MB]
-ShortCut 0
-
-PopCount 81,800 : Top Cost = 1,632; Penalty = 69; 
-Queue Size = 1,113,006; #Invalid = 1,883,838; Mem 297[MB]
-ShortCut 0
-
-PopCount 81,900 : Top Cost = 1,632; Penalty = 16; 
-Queue Size = 1,113,300; #Invalid = 1,887,086; Mem 297[MB]
-ShortCut 0
-
-PopCount 82,000 : Top Cost = 1,632; Penalty = 16; 
-Queue Size = 1,115,355; #Invalid = 1,888,974; Mem 300[MB]
-ShortCut 0
-
-PopCount 82,100 : Top Cost = 1,632; Penalty = 16; 
-Queue Size = 1,116,533; #Invalid = 1,890,697; Mem 300[MB]
-ShortCut 0
-
-PopCount 82,200 : Top Cost = 1,632; Penalty = 16; 
-Queue Size = 1,118,336; #Invalid = 1,892,503; Mem 300[MB]
-ShortCut 0
-
-PopCount 82,300 : Top Cost = 1,632; Penalty = 16; 
-Queue Size = 1,118,768; #Invalid = 1,895,402; Mem 302[MB]
-ShortCut 0
-
-PopCount 82,400 : Top Cost = 1,633; Penalty = 304; 
-Queue Size = 1,119,175; #Invalid = 1,898,535; Mem 302[MB]
-ShortCut 0
-
-PopCount 82,500 : Top Cost = 1,633; Penalty = 16; 
-Queue Size = 1,121,058; #Invalid = 1,900,056; Mem 302[MB]
-ShortCut 0
-
-PopCount 82,600 : Top Cost = 1,633; Penalty = 69; 
-Queue Size = 1,121,235; #Invalid = 1,903,449; Mem 305[MB]
-ShortCut 0
-
-PopCount 82,700 : Top Cost = 1,633; Penalty = 69; 
-Queue Size = 1,122,758; #Invalid = 1,905,390; Mem 305[MB]
-ShortCut 0
-
-PopCount 82,800 : Top Cost = 1,633; Penalty = 16; 
-Queue Size = 1,124,044; #Invalid = 1,907,629; Mem 305[MB]
-ShortCut 0
-
-PopCount 82,900 : Top Cost = 1,633; Penalty = 16; 
-Queue Size = 1,125,336; #Invalid = 1,910,012; Mem 307[MB]
-ShortCut 0
-
-PopCount 83,000 : Top Cost = 1,634; Penalty = 16; 
-Queue Size = 1,125,608; #Invalid = 1,913,747; Mem 307[MB]
-ShortCut 0
-
-PopCount 83,100 : Top Cost = 1,634; Penalty = 69; 
-Queue Size = 1,126,089; #Invalid = 1,916,745; Mem 307[MB]
-ShortCut 0
-
-PopCount 83,200 : Top Cost = 1,634; Penalty = 315; 
-Queue Size = 1,128,437; #Invalid = 1,918,475; Mem 310[MB]
-ShortCut 0
-
-PopCount 83,300 : Top Cost = 1,634; Penalty = 16; 
-Queue Size = 1,129,741; #Invalid = 1,920,991; Mem 310[MB]
-ShortCut 0
-
-PopCount 83,400 : Top Cost = 1,634; Penalty = 69; 
-Queue Size = 1,130,911; #Invalid = 1,923,566; Mem 310[MB]
-ShortCut 0
-
-PopCount 83,500 : Top Cost = 1,634; Penalty = 16; 
-Queue Size = 1,132,458; #Invalid = 1,925,358; Mem 312[MB]
-ShortCut 0
-
-PopCount 83,600 : Top Cost = 1,634; Penalty = 16; 
-Queue Size = 1,133,295; #Invalid = 1,927,797; Mem 312[MB]
-ShortCut 0
-
-PopCount 83,700 : Top Cost = 1,635; Penalty = 16; 
-Queue Size = 1,135,240; #Invalid = 1,929,912; Mem 237[MB]
-ShortCut 0
-
-PopCount 83,800 : Top Cost = 1,635; Penalty = 16; 
-Queue Size = 1,135,891; #Invalid = 1,932,666; Mem 237[MB]
-ShortCut 0
-
-PopCount 83,900 : Top Cost = 1,635; Penalty = 69; 
-Queue Size = 1,137,371; #Invalid = 1,934,344; Mem 237[MB]
-ShortCut 0
-
-PopCount 84,000 : Top Cost = 1,635; Penalty = 16; 
-Queue Size = 1,138,969; #Invalid = 1,936,530; Mem 239[MB]
-ShortCut 0
-
-PopCount 84,100 : Top Cost = 1,635; Penalty = 69; 
-Queue Size = 1,139,793; #Invalid = 1,939,642; Mem 239[MB]
-ShortCut 0
-
-PopCount 84,200 : Top Cost = 1,635; Penalty = 69; 
-Queue Size = 1,141,126; #Invalid = 1,941,482; Mem 239[MB]
-ShortCut 0
-
-PopCount 84,300 : Top Cost = 1,635; Penalty = 69; 
-Queue Size = 1,142,909; #Invalid = 1,943,492; Mem 242[MB]
-ShortCut 0
-
-PopCount 84,400 : Top Cost = 1,636; Penalty = 16; 
-Queue Size = 1,144,136; #Invalid = 1,945,808; Mem 242[MB]
-ShortCut 0
-
-PopCount 84,500 : Top Cost = 1,636; Penalty = 348; 
-Queue Size = 1,144,386; #Invalid = 1,948,870; Mem 242[MB]
-ShortCut 0
-
-PopCount 84,600 : Top Cost = 1,636; Penalty = 69; 
-Queue Size = 1,146,269; #Invalid = 1,950,702; Mem 244[MB]
-ShortCut 0
-
-PopCount 84,700 : Top Cost = 1,636; Penalty = 16; 
-Queue Size = 1,146,792; #Invalid = 1,953,340; Mem 244[MB]
-ShortCut 0
-
-PopCount 84,800 : Top Cost = 1,636; Penalty = 16; 
-Queue Size = 1,148,216; #Invalid = 1,955,286; Mem 244[MB]
-ShortCut 0
-
-PopCount 84,900 : Top Cost = 1,636; Penalty = 69; 
-Queue Size = 1,149,464; #Invalid = 1,957,137; Mem 244[MB]
-ShortCut 0
-
-PopCount 85,000 : Top Cost = 1,637; Penalty = 69; 
-Queue Size = 1,151,517; #Invalid = 1,959,488; Mem 247[MB]
-ShortCut 0
-
-PopCount 85,100 : Top Cost = 1,637; Penalty = 16; 
-Queue Size = 1,152,485; #Invalid = 1,962,074; Mem 247[MB]
-ShortCut 0
-
-PopCount 85,200 : Top Cost = 1,637; Penalty = 16; 
-Queue Size = 1,153,186; #Invalid = 1,964,601; Mem 247[MB]
-ShortCut 0
-
-PopCount 85,300 : Top Cost = 1,637; Penalty = 304; 
-Queue Size = 1,155,645; #Invalid = 1,965,915; Mem 249[MB]
-ShortCut 0
-
-PopCount 85,400 : Top Cost = 1,637; Penalty = 16; 
-Queue Size = 1,156,422; #Invalid = 1,968,396; Mem 249[MB]
-ShortCut 0
-
-PopCount 85,500 : Top Cost = 1,637; Penalty = 16; 
-Queue Size = 1,157,592; #Invalid = 1,970,757; Mem 249[MB]
-ShortCut 0
-
-PopCount 85,600 : Top Cost = 1,637; Penalty = 16; 
-Queue Size = 1,159,120; #Invalid = 1,972,498; Mem 252[MB]
-ShortCut 0
-
-PopCount 85,700 : Top Cost = 1,638; Penalty = 16; 
-Queue Size = 1,160,651; #Invalid = 1,974,819; Mem 252[MB]
-ShortCut 0
-
-PopCount 85,800 : Top Cost = 1,638; Penalty = 69; 
-Queue Size = 1,160,666; #Invalid = 1,978,333; Mem 252[MB]
-ShortCut 0
-
-PopCount 85,900 : Top Cost = 1,638; Penalty = 304; 
-Queue Size = 1,163,020; #Invalid = 1,979,847; Mem 254[MB]
-ShortCut 0
-
-PopCount 86,000 : Top Cost = 1,638; Penalty = 16; 
-Queue Size = 1,164,089; #Invalid = 1,982,869; Mem 254[MB]
-ShortCut 0
-
-PopCount 86,100 : Top Cost = 1,638; Penalty = 16; 
-Queue Size = 1,165,117; #Invalid = 1,985,357; Mem 254[MB]
-ShortCut 0
-
-PopCount 86,200 : Top Cost = 1,638; Penalty = 69; 
-Queue Size = 1,167,058; #Invalid = 1,987,224; Mem 257[MB]
-ShortCut 0
-
-PopCount 86,300 : Top Cost = 1,639; Penalty = 69; 
-Queue Size = 1,168,551; #Invalid = 1,988,865; Mem 257[MB]
-ShortCut 0
-
-PopCount 86,400 : Top Cost = 1,639; Penalty = 16; 
-Queue Size = 1,169,136; #Invalid = 1,991,927; Mem 257[MB]
-ShortCut 0
-
-PopCount 86,500 : Top Cost = 1,639; Penalty = 304; 
-Queue Size = 1,170,174; #Invalid = 1,994,244; Mem 259[MB]
-ShortCut 0
-
-PopCount 86,600 : Top Cost = 1,639; Penalty = 69; 
-Queue Size = 1,172,038; #Invalid = 1,995,631; Mem 259[MB]
-ShortCut 0
-
-PopCount 86,700 : Top Cost = 1,639; Penalty = 69; 
-Queue Size = 1,172,192; #Invalid = 1,998,664; Mem 259[MB]
-ShortCut 0
-
-PopCount 86,800 : Top Cost = 1,639; Penalty = 69; 
-Queue Size = 1,173,930; #Invalid = 2,000,541; Mem 262[MB]
-ShortCut 0
-
-PopCount 86,900 : Top Cost = 1,639; Penalty = 16; 
-Queue Size = 1,175,458; #Invalid = 2,002,624; Mem 262[MB]
-ShortCut 0
-
-PopCount 87,000 : Top Cost = 1,640; Penalty = 16; 
-Queue Size = 1,176,675; #Invalid = 2,004,654; Mem 262[MB]
-ShortCut 0
-
-PopCount 87,100 : Top Cost = 1,640; Penalty = 16; 
-Queue Size = 1,176,777; #Invalid = 2,007,351; Mem 264[MB]
-ShortCut 0
-
-PopCount 87,200 : Top Cost = 1,640; Penalty = 304; 
-Queue Size = 1,178,334; #Invalid = 2,008,939; Mem 264[MB]
-ShortCut 0
-
-PopCount 87,300 : Top Cost = 1,640; Penalty = 69; 
-Queue Size = 1,178,750; #Invalid = 2,012,372; Mem 264[MB]
-ShortCut 0
-
-PopCount 87,400 : Top Cost = 1,640; Penalty = 69; 
-Queue Size = 1,180,491; #Invalid = 2,014,161; Mem 267[MB]
-ShortCut 0
-
-PopCount 87,500 : Top Cost = 1,640; Penalty = 16; 
-Queue Size = 1,181,772; #Invalid = 2,015,991; Mem 267[MB]
-ShortCut 0
-
-PopCount 87,600 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,183,541; #Invalid = 2,017,903; Mem 267[MB]
-ShortCut 0
-
-PopCount 87,700 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,183,593; #Invalid = 2,021,245; Mem 267[MB]
-ShortCut 0
-
-PopCount 87,800 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,185,396; #Invalid = 2,023,059; Mem 269[MB]
-ShortCut 0
-
-PopCount 87,900 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,187,625; #Invalid = 2,024,371; Mem 269[MB]
-ShortCut 0
-
-PopCount 88,000 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,187,740; #Invalid = 2,027,912; Mem 269[MB]
-ShortCut 0
-
-PopCount 88,100 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,189,070; #Invalid = 2,030,108; Mem 272[MB]
-ShortCut 0
-
-PopCount 88,200 : Top Cost = 1,641; Penalty = 16; 
-Queue Size = 1,190,477; #Invalid = 2,032,126; Mem 272[MB]
-ShortCut 0
-
-PopCount 88,300 : Top Cost = 1,642; Penalty = 16; 
-Queue Size = 1,191,517; #Invalid = 2,034,644; Mem 272[MB]
-ShortCut 0
-
-PopCount 88,400 : Top Cost = 1,642; Penalty = 16; 
-Queue Size = 1,192,666; #Invalid = 2,037,107; Mem 274[MB]
-ShortCut 0
-
-PopCount 88,500 : Top Cost = 1,642; Penalty = 16; 
-Queue Size = 1,193,644; #Invalid = 2,039,497; Mem 274[MB]
-ShortCut 0
-
-PopCount 88,600 : Top Cost = 1,642; Penalty = 16; 
-Queue Size = 1,195,085; #Invalid = 2,041,538; Mem 274[MB]
-ShortCut 0
-
-PopCount 88,700 : Top Cost = 1,642; Penalty = 69; 
-Queue Size = 1,195,735; #Invalid = 2,044,425; Mem 277[MB]
-ShortCut 0
-
-PopCount 88,800 : Top Cost = 1,642; Penalty = 16; 
-Queue Size = 1,197,234; #Invalid = 2,046,057; Mem 277[MB]
-ShortCut 0
-
-PopCount 88,900 : Top Cost = 1,643; Penalty = 16; 
-Queue Size = 1,198,295; #Invalid = 2,048,710; Mem 277[MB]
-ShortCut 0
-
-PopCount 89,000 : Top Cost = 1,643; Penalty = 16; 
-Queue Size = 1,199,143; #Invalid = 2,051,764; Mem 279[MB]
-ShortCut 0
-
-PopCount 89,100 : Top Cost = 1,643; Penalty = 304; 
-Queue Size = 1,200,217; #Invalid = 2,054,187; Mem 279[MB]
-ShortCut 0
-
-PopCount 89,200 : Top Cost = 1,643; Penalty = 304; 
-Queue Size = 1,201,994; #Invalid = 2,055,814; Mem 279[MB]
-ShortCut 0
-
-PopCount 89,300 : Top Cost = 1,643; Penalty = 16; 
-Queue Size = 1,202,608; #Invalid = 2,058,813; Mem 282[MB]
-ShortCut 0
-
-PopCount 89,400 : Top Cost = 1,643; Penalty = 16; 
-Queue Size = 1,203,756; #Invalid = 2,061,203; Mem 282[MB]
-ShortCut 0
-
-PopCount 89,500 : Top Cost = 1,643; Penalty = 16; 
-Queue Size = 1,205,154; #Invalid = 2,063,386; Mem 282[MB]
-ShortCut 0
-
-PopCount 89,600 : Top Cost = 1,644; Penalty = 16; 
-Queue Size = 1,205,477; #Invalid = 2,066,488; Mem 284[MB]
-ShortCut 0
-
-PopCount 89,700 : Top Cost = 1,644; Penalty = 69; 
-Queue Size = 1,207,253; #Invalid = 2,068,539; Mem 284[MB]
-ShortCut 0
-
-PopCount 89,800 : Top Cost = 1,644; Penalty = 16; 
-Queue Size = 1,208,235; #Invalid = 2,070,944; Mem 284[MB]
-ShortCut 0
-
-PopCount 89,900 : Top Cost = 1,644; Penalty = 69; 
-Queue Size = 1,210,368; #Invalid = 2,073,051; Mem 287[MB]
-ShortCut 0
-
-PopCount 90,000 : Top Cost = 1,644; Penalty = 16; 
-Queue Size = 1,210,924; #Invalid = 2,075,910; Mem 287[MB]
-ShortCut 0
-
-PopCount 90,100 : Top Cost = 1,644; Penalty = 69; 
-Queue Size = 1,212,216; #Invalid = 2,078,275; Mem 287[MB]
-ShortCut 0
-
-PopCount 90,200 : Top Cost = 1,644; Penalty = 69; 
-Queue Size = 1,213,751; #Invalid = 2,080,326; Mem 289[MB]
-ShortCut 0
-
-PopCount 90,300 : Top Cost = 1,645; Penalty = 16; 
-Queue Size = 1,214,438; #Invalid = 2,082,941; Mem 289[MB]
-ShortCut 0
-
-PopCount 90,400 : Top Cost = 1,645; Penalty = 16; 
-Queue Size = 1,215,909; #Invalid = 2,084,694; Mem 289[MB]
-ShortCut 0
-
-PopCount 90,500 : Top Cost = 1,645; Penalty = 16; 
-Queue Size = 1,216,445; #Invalid = 2,087,593; Mem 292[MB]
-ShortCut 0
-
-PopCount 90,600 : Top Cost = 1,645; Penalty = 16; 
-Queue Size = 1,218,620; #Invalid = 2,089,202; Mem 292[MB]
-ShortCut 0
-
-PopCount 90,700 : Top Cost = 1,645; Penalty = 16; 
-Queue Size = 1,219,440; #Invalid = 2,092,038; Mem 292[MB]
-ShortCut 0
-
-PopCount 90,800 : Top Cost = 1,645; Penalty = 69; 
-Queue Size = 1,220,999; #Invalid = 2,094,724; Mem 294[MB]
-ShortCut 0
-
-PopCount 90,900 : Top Cost = 1,645; Penalty = 16; 
-Queue Size = 1,222,696; #Invalid = 2,096,242; Mem 294[MB]
-ShortCut 0
-
-PopCount 91,000 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,223,384; #Invalid = 2,099,507; Mem 294[MB]
-ShortCut 0
-
-PopCount 91,100 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,224,971; #Invalid = 2,101,415; Mem 297[MB]
-ShortCut 0
-
-PopCount 91,200 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,225,662; #Invalid = 2,104,327; Mem 297[MB]
-ShortCut 0
-
-PopCount 91,300 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,228,169; #Invalid = 2,106,200; Mem 297[MB]
-ShortCut 0
-
-PopCount 91,400 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,229,132; #Invalid = 2,108,461; Mem 299[MB]
-ShortCut 0
-
-PopCount 91,500 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,230,032; #Invalid = 2,111,873; Mem 299[MB]
-ShortCut 0
-
-PopCount 91,600 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,231,768; #Invalid = 2,113,408; Mem 299[MB]
-ShortCut 0
-
-PopCount 91,700 : Top Cost = 1,646; Penalty = 16; 
-Queue Size = 1,233,058; #Invalid = 2,115,410; Mem 302[MB]
-ShortCut 0
-
-PopCount 91,800 : Top Cost = 1,647; Penalty = 16; 
-Queue Size = 1,233,974; #Invalid = 2,118,321; Mem 302[MB]
-ShortCut 0
-
-PopCount 91,900 : Top Cost = 1,647; Penalty = 16; 
-Queue Size = 1,234,700; #Invalid = 2,120,624; Mem 302[MB]
-ShortCut 0
-
-PopCount 92,000 : Top Cost = 1,647; Penalty = 304; 
-Queue Size = 1,235,921; #Invalid = 2,122,982; Mem 304[MB]
-ShortCut 0
-
-PopCount 92,100 : Top Cost = 1,647; Penalty = 69; 
-Queue Size = 1,237,769; #Invalid = 2,124,725; Mem 304[MB]
-ShortCut 0
-
-PopCount 92,200 : Top Cost = 1,647; Penalty = 16; 
-Queue Size = 1,238,147; #Invalid = 2,127,934; Mem 304[MB]
-ShortCut 0
-
-PopCount 92,300 : Top Cost = 1,647; Penalty = 16; 
-Queue Size = 1,239,677; #Invalid = 2,129,984; Mem 307[MB]
-ShortCut 0
-
-PopCount 92,400 : Top Cost = 1,648; Penalty = 16; 
-Queue Size = 1,240,752; #Invalid = 2,132,287; Mem 307[MB]
-ShortCut 0
-
-PopCount 92,500 : Top Cost = 1,648; Penalty = 16; 
-Queue Size = 1,241,606; #Invalid = 2,135,073; Mem 307[MB]
-ShortCut 0
-
-PopCount 92,600 : Top Cost = 1,648; Penalty = 16; 
-Queue Size = 1,242,861; #Invalid = 2,137,292; Mem 309[MB]
-ShortCut 0
-
-PopCount 92,700 : Top Cost = 1,648; Penalty = 304; 
-Queue Size = 1,244,131; #Invalid = 2,139,095; Mem 309[MB]
-ShortCut 0
-
-PopCount 92,800 : Top Cost = 1,648; Penalty = 16; 
-Queue Size = 1,245,336; #Invalid = 2,141,195; Mem 309[MB]
-ShortCut 0
-
-PopCount 92,900 : Top Cost = 1,648; Penalty = 16; 
-Queue Size = 1,245,937; #Invalid = 2,143,743; Mem 309[MB]
-ShortCut 0
-
-PopCount 93,000 : Top Cost = 1,648; Penalty = 69; 
-Queue Size = 1,247,349; #Invalid = 2,145,525; Mem 312[MB]
-ShortCut 0
-
-PopCount 93,100 : Top Cost = 1,649; Penalty = 16; 
-Queue Size = 1,248,252; #Invalid = 2,148,193; Mem 312[MB]
-ShortCut 0
-
-PopCount 93,200 : Top Cost = 1,649; Penalty = 16; 
-Queue Size = 1,249,348; #Invalid = 2,151,200; Mem 312[MB]
-ShortCut 0
-
-PopCount 93,300 : Top Cost = 1,649; Penalty = 16; 
-Queue Size = 1,250,782; #Invalid = 2,153,052; Mem 314[MB]
-ShortCut 0
-
-PopCount 93,400 : Top Cost = 1,649; Penalty = 315; 
-Queue Size = 1,252,402; #Invalid = 2,155,355; Mem 314[MB]
-ShortCut 0
-
-PopCount 93,500 : Top Cost = 1,649; Penalty = 16; 
-Queue Size = 1,254,261; #Invalid = 2,156,887; Mem 314[MB]
-ShortCut 0
-
-PopCount 93,600 : Top Cost = 1,649; Penalty = 16; 
-Queue Size = 1,254,346; #Invalid = 2,160,469; Mem 317[MB]
-ShortCut 0
-
-PopCount 93,700 : Top Cost = 1,649; Penalty = 16; 
-Queue Size = 1,256,260; #Invalid = 2,162,340; Mem 317[MB]
-ShortCut 0
-
-PopCount 93,800 : Top Cost = 1,650; Penalty = 16; 
-Queue Size = 1,256,942; #Invalid = 2,164,829; Mem 317[MB]
-ShortCut 0
-
-PopCount 93,900 : Top Cost = 1,650; Penalty = 16; 
-Queue Size = 1,258,083; #Invalid = 2,167,789; Mem 319[MB]
-ShortCut 0
-
-PopCount 94,000 : Top Cost = 1,650; Penalty = 16; 
-Queue Size = 1,259,306; #Invalid = 2,169,615; Mem 319[MB]
-ShortCut 0
-
-PopCount 94,100 : Top Cost = 1,650; Penalty = 69; 
-Queue Size = 1,261,493; #Invalid = 2,171,813; Mem 319[MB]
-ShortCut 0
-
-PopCount 94,200 : Top Cost = 1,650; Penalty = 16; 
-Queue Size = 1,262,765; #Invalid = 2,174,100; Mem 322[MB]
-ShortCut 0
-
-PopCount 94,300 : Top Cost = 1,650; Penalty = 69; 
-Queue Size = 1,263,737; #Invalid = 2,176,337; Mem 322[MB]
-ShortCut 0
-
-PopCount 94,400 : Top Cost = 1,650; Penalty = 69; 
-Queue Size = 1,265,230; #Invalid = 2,177,929; Mem 322[MB]
-ShortCut 0
-
-PopCount 94,500 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,266,081; #Invalid = 2,180,640; Mem 324[MB]
-ShortCut 0
-
-PopCount 94,600 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,268,064; #Invalid = 2,182,366; Mem 324[MB]
-ShortCut 0
-
-PopCount 94,700 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,268,652; #Invalid = 2,184,832; Mem 324[MB]
-ShortCut 0
-
-PopCount 94,800 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,269,984; #Invalid = 2,186,932; Mem 327[MB]
-ShortCut 0
-
-PopCount 94,900 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,271,421; #Invalid = 2,188,480; Mem 327[MB]
-ShortCut 0
-
-PopCount 95,000 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,271,677; #Invalid = 2,191,545; Mem 327[MB]
-ShortCut 0
-
-PopCount 95,100 : Top Cost = 1,651; Penalty = 16; 
-Queue Size = 1,273,287; #Invalid = 2,193,388; Mem 329[MB]
-ShortCut 0
-
-PopCount 95,200 : Top Cost = 1,652; Penalty = 16; 
-Queue Size = 1,274,528; #Invalid = 2,195,376; Mem 329[MB]
-ShortCut 0
-
-PopCount 95,300 : Top Cost = 1,652; Penalty = 16; 
-Queue Size = 1,275,952; #Invalid = 2,197,705; Mem 329[MB]
-ShortCut 0
-
-PopCount 95,400 : Top Cost = 1,652; Penalty = 16; 
-Queue Size = 1,276,701; #Invalid = 2,200,332; Mem 332[MB]
-ShortCut 0
-
-PopCount 95,500 : Top Cost = 1,652; Penalty = 16; 
-Queue Size = 1,277,763; #Invalid = 2,202,803; Mem 332[MB]
-ShortCut 0
-
-PopCount 95,600 : Top Cost = 1,652; Penalty = 16; 
-Queue Size = 1,279,757; #Invalid = 2,204,648; Mem 332[MB]
-ShortCut 0
-
-PopCount 95,700 : Top Cost = 1,652; Penalty = 69; 
-Queue Size = 1,280,063; #Invalid = 2,208,110; Mem 334[MB]
-ShortCut 0
-
-PopCount 95,800 : Top Cost = 1,652; Penalty = 16; 
-Queue Size = 1,281,609; #Invalid = 2,209,626; Mem 334[MB]
-ShortCut 0
-
-PopCount 95,900 : Top Cost = 1,653; Penalty = 16; 
-Queue Size = 1,282,587; #Invalid = 2,212,255; Mem 334[MB]
-ShortCut 0
-
-PopCount 96,000 : Top Cost = 1,653; Penalty = 69; 
-Queue Size = 1,283,790; #Invalid = 2,214,946; Mem 337[MB]
-ShortCut 0
-
-PopCount 96,100 : Top Cost = 1,653; Penalty = 16; 
-Queue Size = 1,285,169; #Invalid = 2,216,512; Mem 337[MB]
-ShortCut 0
-
-PopCount 96,200 : Top Cost = 1,653; Penalty = 16; 
-Queue Size = 1,285,799; #Invalid = 2,219,085; Mem 337[MB]
-ShortCut 0
-
-PopCount 96,300 : Top Cost = 1,653; Penalty = 16; 
-Queue Size = 1,287,814; #Invalid = 2,220,632; Mem 337[MB]
-ShortCut 0
-
-PopCount 96,400 : Top Cost = 1,653; Penalty = 16; 
-Queue Size = 1,289,500; #Invalid = 2,222,636; Mem 339[MB]
-ShortCut 0
-
-PopCount 96,500 : Top Cost = 1,653; Penalty = 69; 
-Queue Size = 1,289,907; #Invalid = 2,226,011; Mem 339[MB]
-ShortCut 0
-
-PopCount 96,600 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,290,817; #Invalid = 2,228,180; Mem 339[MB]
-ShortCut 0
-
-PopCount 96,700 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,291,346; #Invalid = 2,231,435; Mem 342[MB]
-ShortCut 0
-
-PopCount 96,800 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,292,979; #Invalid = 2,232,995; Mem 342[MB]
-ShortCut 0
-
-PopCount 96,900 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,294,778; #Invalid = 2,234,901; Mem 342[MB]
-ShortCut 0
-
-PopCount 97,000 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,296,342; #Invalid = 2,237,031; Mem 344[MB]
-ShortCut 0
-
-PopCount 97,100 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,298,370; #Invalid = 2,238,689; Mem 344[MB]
-ShortCut 0
-
-PopCount 97,200 : Top Cost = 1,654; Penalty = 16; 
-Queue Size = 1,298,600; #Invalid = 2,242,102; Mem 344[MB]
-ShortCut 0
-
-PopCount 97,300 : Top Cost = 1,655; Penalty = 16; 
-Queue Size = 1,300,082; #Invalid = 2,244,052; Mem 347[MB]
-ShortCut 0
-
-PopCount 97,400 : Top Cost = 1,655; Penalty = 16; 
-Queue Size = 1,300,594; #Invalid = 2,246,925; Mem 347[MB]
-ShortCut 0
-
-PopCount 97,500 : Top Cost = 1,655; Penalty = 69; 
-Queue Size = 1,302,130; #Invalid = 2,248,910; Mem 347[MB]
-ShortCut 0
-
-PopCount 97,600 : Top Cost = 1,655; Penalty = 16; 
-Queue Size = 1,303,599; #Invalid = 2,250,552; Mem 349[MB]
-ShortCut 0
-
-PopCount 97,700 : Top Cost = 1,655; Penalty = 16; 
-Queue Size = 1,304,394; #Invalid = 2,252,805; Mem 349[MB]
-ShortCut 0
-
-PopCount 97,800 : Top Cost = 1,655; Penalty = 16; 
-Queue Size = 1,306,512; #Invalid = 2,254,383; Mem 349[MB]
-ShortCut 0
-
-PopCount 97,900 : Top Cost = 1,655; Penalty = 16; 
-Queue Size = 1,306,855; #Invalid = 2,257,665; Mem 352[MB]
-ShortCut 0
-
-PopCount 98,000 : Top Cost = 1,656; Penalty = 69; 
-Queue Size = 1,308,004; #Invalid = 2,259,857; Mem 352[MB]
-ShortCut 0
-
-PopCount 98,100 : Top Cost = 1,656; Penalty = 16; 
-Queue Size = 1,308,811; #Invalid = 2,262,627; Mem 352[MB]
-ShortCut 0
-
-PopCount 98,200 : Top Cost = 1,656; Penalty = 16; 
-Queue Size = 1,309,181; #Invalid = 2,265,615; Mem 353[MB]
-ShortCut 0
-
-PopCount 98,300 : Top Cost = 1,656; Penalty = 69; 
-Queue Size = 1,310,683; #Invalid = 2,267,417; Mem 353[MB]
-ShortCut 0
-
-PopCount 98,400 : Top Cost = 1,656; Penalty = 16; 
-Queue Size = 1,311,736; #Invalid = 2,269,515; Mem 272[MB]
-ShortCut 0
-
-PopCount 98,500 : Top Cost = 1,656; Penalty = 69; 
-Queue Size = 1,313,369; #Invalid = 2,271,810; Mem 272[MB]
-ShortCut 0
-
-PopCount 98,600 : Top Cost = 1,656; Penalty = 16; 
-Queue Size = 1,314,835; #Invalid = 2,273,644; Mem 272[MB]
-ShortCut 0
-
-PopCount 98,700 : Top Cost = 1,656; Penalty = 16; 
-Queue Size = 1,315,271; #Invalid = 2,276,785; Mem 275[MB]
-ShortCut 0
-
-PopCount 98,800 : Top Cost = 1,657; Penalty = 16; 
-Queue Size = 1,316,974; #Invalid = 2,278,690; Mem 275[MB]
-ShortCut 0
-
-PopCount 98,900 : Top Cost = 1,657; Penalty = 16; 
-Queue Size = 1,317,911; #Invalid = 2,281,148; Mem 275[MB]
-ShortCut 0
-
-PopCount 99,000 : Top Cost = 1,657; Penalty = 69; 
-Queue Size = 1,318,436; #Invalid = 2,284,393; Mem 277[MB]
-ShortCut 0
-
-PopCount 99,100 : Top Cost = 1,657; Penalty = 69; 
-Queue Size = 1,320,542; #Invalid = 2,285,789; Mem 277[MB]
-ShortCut 0
-
-PopCount 99,200 : Top Cost = 1,657; Penalty = 69; 
-Queue Size = 1,321,302; #Invalid = 2,288,431; Mem 277[MB]
-ShortCut 0
-
-PopCount 99,300 : Top Cost = 1,657; Penalty = 69; 
-Queue Size = 1,323,837; #Invalid = 2,289,883; Mem 279[MB]
-ShortCut 0
-
-PopCount 99,400 : Top Cost = 1,657; Penalty = 16; 
-Queue Size = 1,325,010; #Invalid = 2,292,604; Mem 279[MB]
-ShortCut 0
-
-PopCount 99,500 : Top Cost = 1,657; Penalty = 69; 
-Queue Size = 1,325,649; #Invalid = 2,295,658; Mem 279[MB]
-ShortCut 0
-
-PopCount 99,600 : Top Cost = 1,658; Penalty = 16; 
-Queue Size = 1,327,179; #Invalid = 2,297,433; Mem 282[MB]
-ShortCut 0
-
-PopCount 99,700 : Top Cost = 1,658; Penalty = 16; 
-Queue Size = 1,327,415; #Invalid = 2,300,446; Mem 282[MB]
-ShortCut 0
-
-PopCount 99,800 : Top Cost = 1,658; Penalty = 69; 
-Queue Size = 1,329,172; #Invalid = 2,302,488; Mem 282[MB]
-ShortCut 0
-
-PopCount 99,900 : Top Cost = 1,658; Penalty = 69; 
-Queue Size = 1,330,841; #Invalid = 2,303,824; Mem 284[MB]
-ShortCut 0
-
-PopCount 100,000 : Top Cost = 1,658; Penalty = 16; 
-Queue Size = 1,331,929; #Invalid = 2,306,295; Mem 284[MB]
-ShortCut 0
-
-PopCount 100,100 : Top Cost = 1,658; Penalty = 69; 
-Queue Size = 1,333,878; #Invalid = 2,308,302; Mem 284[MB]
-ShortCut 0
-
-PopCount 100,200 : Top Cost = 1,658; Penalty = 16; 
-Queue Size = 1,334,122; #Invalid = 2,311,722; Mem 287[MB]
-ShortCut 0
-
-PopCount 100,300 : Top Cost = 1,659; Penalty = 16; 
-Queue Size = 1,335,551; #Invalid = 2,314,187; Mem 287[MB]
-ShortCut 0
-
-PopCount 100,400 : Top Cost = 1,659; Penalty = 16; 
-Queue Size = 1,336,743; #Invalid = 2,316,919; Mem 287[MB]
-ShortCut 0
-
-PopCount 100,500 : Top Cost = 1,659; Penalty = 16; 
-Queue Size = 1,337,188; #Invalid = 2,319,570; Mem 289[MB]
-ShortCut 0
-
-PopCount 100,600 : Top Cost = 1,659; Penalty = 69; 
-Queue Size = 1,338,451; #Invalid = 2,321,617; Mem 289[MB]
-ShortCut 0
-
-PopCount 100,700 : Top Cost = 1,659; Penalty = 16; 
-Queue Size = 1,339,604; #Invalid = 2,323,609; Mem 289[MB]
-ShortCut 0
-
-PopCount 100,800 : Top Cost = 1,659; Penalty = 315; 
-Queue Size = 1,340,711; #Invalid = 2,326,185; Mem 289[MB]
-ShortCut 0
-
-PopCount 100,900 : Top Cost = 1,659; Penalty = 69; 
-Queue Size = 1,342,694; #Invalid = 2,327,605; Mem 292[MB]
-ShortCut 0
-
-PopCount 101,000 : Top Cost = 1,659; Penalty = 69; 
-Queue Size = 1,342,961; #Invalid = 2,330,694; Mem 292[MB]
-ShortCut 0
-
-PopCount 101,100 : Top Cost = 1,660; Penalty = 16; 
-Queue Size = 1,344,452; #Invalid = 2,333,331; Mem 292[MB]
-ShortCut 0
-
-PopCount 101,200 : Top Cost = 1,660; Penalty = 16; 
-Queue Size = 1,344,967; #Invalid = 2,336,463; Mem 294[MB]
-ShortCut 0
-
-PopCount 101,300 : Top Cost = 1,660; Penalty = 69; 
-Queue Size = 1,346,589; #Invalid = 2,337,874; Mem 294[MB]
-ShortCut 0
-
-PopCount 101,400 : Top Cost = 1,660; Penalty = 16; 
-Queue Size = 1,348,329; #Invalid = 2,339,827; Mem 294[MB]
-ShortCut 0
-
-PopCount 101,500 : Top Cost = 1,660; Penalty = 69; 
-Queue Size = 1,349,842; #Invalid = 2,341,854; Mem 297[MB]
-ShortCut 0
-
-PopCount 101,600 : Top Cost = 1,660; Penalty = 16; 
-Queue Size = 1,352,180; #Invalid = 2,343,130; Mem 297[MB]
-ShortCut 0
-
-PopCount 101,700 : Top Cost = 1,660; Penalty = 16; 
-Queue Size = 1,352,449; #Invalid = 2,346,660; Mem 297[MB]
-ShortCut 0
-
-PopCount 101,800 : Top Cost = 1,660; Penalty = 16; 
-Queue Size = 1,354,016; #Invalid = 2,349,332; Mem 299[MB]
-ShortCut 0
-
-PopCount 101,900 : Top Cost = 1,661; Penalty = 16; 
-Queue Size = 1,354,939; #Invalid = 2,351,559; Mem 299[MB]
-ShortCut 0
-
-PopCount 102,000 : Top Cost = 1,661; Penalty = 16; 
-Queue Size = 1,355,386; #Invalid = 2,354,637; Mem 299[MB]
-ShortCut 0
-
-PopCount 102,100 : Top Cost = 1,661; Penalty = 69; 
-Queue Size = 1,357,536; #Invalid = 2,356,035; Mem 302[MB]
-ShortCut 0
-
-PopCount 102,200 : Top Cost = 1,661; Penalty = 16; 
-Queue Size = 1,358,795; #Invalid = 2,358,044; Mem 302[MB]
-ShortCut 0
-
-PopCount 102,300 : Top Cost = 1,661; Penalty = 16; 
-Queue Size = 1,360,562; #Invalid = 2,360,205; Mem 302[MB]
-ShortCut 0
-
-PopCount 102,400 : Top Cost = 1,661; Penalty = 16; 
-Queue Size = 1,361,969; #Invalid = 2,362,088; Mem 304[MB]
-ShortCut 0
-
-PopCount 102,500 : Top Cost = 1,661; Penalty = 16; 
-Queue Size = 1,362,154; #Invalid = 2,365,448; Mem 304[MB]
-ShortCut 0
-
-PopCount 102,600 : Top Cost = 1,662; Penalty = 69; 
-Queue Size = 1,363,998; #Invalid = 2,367,157; Mem 304[MB]
-ShortCut 0
-
-PopCount 102,700 : Top Cost = 1,662; Penalty = 16; 
-Queue Size = 1,364,724; #Invalid = 2,370,203; Mem 307[MB]
-ShortCut 0
-
-PopCount 102,800 : Top Cost = 1,662; Penalty = 16; 
-Queue Size = 1,365,276; #Invalid = 2,373,029; Mem 307[MB]
-ShortCut 0
-
-PopCount 102,900 : Top Cost = 1,662; Penalty = 69; 
-Queue Size = 1,368,082; #Invalid = 2,373,886; Mem 307[MB]
-ShortCut 0
-
-PopCount 103,000 : Top Cost = 1,662; Penalty = 16; 
-Queue Size = 1,369,065; #Invalid = 2,376,238; Mem 309[MB]
-ShortCut 0
-
-PopCount 103,100 : Top Cost = 1,662; Penalty = 16; 
-Queue Size = 1,370,703; #Invalid = 2,378,263; Mem 309[MB]
-ShortCut 0
-
-PopCount 103,200 : Top Cost = 1,662; Penalty = 16; 
-Queue Size = 1,372,735; #Invalid = 2,379,894; Mem 309[MB]
-ShortCut 0
-
-PopCount 103,300 : Top Cost = 1,662; Penalty = 16; 
-Queue Size = 1,373,454; #Invalid = 2,383,104; Mem 312[MB]
-ShortCut 0
-
-PopCount 103,400 : Top Cost = 1,663; Penalty = 69; 
-Queue Size = 1,374,766; #Invalid = 2,385,486; Mem 312[MB]
-ShortCut 0
-
-PopCount 103,500 : Top Cost = 1,663; Penalty = 16; 
-Queue Size = 1,375,445; #Invalid = 2,388,222; Mem 312[MB]
-ShortCut 0
-
-PopCount 103,600 : Top Cost = 1,663; Penalty = 16; 
-Queue Size = 1,375,639; #Invalid = 2,391,376; Mem 314[MB]
-ShortCut 0
-
-PopCount 103,700 : Top Cost = 1,663; Penalty = 16; 
-Queue Size = 1,378,214; #Invalid = 2,392,084; Mem 314[MB]
-ShortCut 0
-
-PopCount 103,800 : Top Cost = 1,663; Penalty = 16; 
-Queue Size = 1,378,907; #Invalid = 2,394,527; Mem 314[MB]
-ShortCut 0
-
-PopCount 103,900 : Top Cost = 1,663; Penalty = 16; 
-Queue Size = 1,380,920; #Invalid = 2,396,228; Mem 317[MB]
-ShortCut 0
-
-PopCount 104,000 : Top Cost = 1,663; Penalty = 16; 
-Queue Size = 1,382,266; #Invalid = 2,398,369; Mem 317[MB]
-ShortCut 0
-
-PopCount 104,100 : Top Cost = 1,663; Penalty = 69; 
-Queue Size = 1,382,587; #Invalid = 2,401,505; Mem 317[MB]
-ShortCut 0
-
-PopCount 104,200 : Top Cost = 1,664; Penalty = 16; 
-Queue Size = 1,383,820; #Invalid = 2,403,914; Mem 319[MB]
-ShortCut 0
-
-PopCount 104,300 : Top Cost = 1,664; Penalty = 16; 
-Queue Size = 1,384,780; #Invalid = 2,406,637; Mem 319[MB]
-ShortCut 0
-
-PopCount 104,400 : Top Cost = 1,664; Penalty = 69; 
-Queue Size = 1,385,456; #Invalid = 2,409,441; Mem 319[MB]
-ShortCut 0
-
-PopCount 104,500 : Top Cost = 1,664; Penalty = 16; 
-Queue Size = 1,387,763; #Invalid = 2,410,300; Mem 322[MB]
-ShortCut 0
-
-PopCount 104,600 : Top Cost = 1,664; Penalty = 16; 
-Queue Size = 1,388,581; #Invalid = 2,412,491; Mem 322[MB]
-ShortCut 0
-
-PopCount 104,700 : Top Cost = 1,664; Penalty = 361; 
-Queue Size = 1,390,849; #Invalid = 2,413,879; Mem 322[MB]
-ShortCut 0
-
-PopCount 104,800 : Top Cost = 1,664; Penalty = 16; 
-Queue Size = 1,391,803; #Invalid = 2,416,439; Mem 324[MB]
-ShortCut 0
-
-PopCount 104,900 : Top Cost = 1,664; Penalty = 69; 
-Queue Size = 1,392,445; #Invalid = 2,419,700; Mem 324[MB]
-ShortCut 0
-
-PopCount 105,000 : Top Cost = 1,665; Penalty = 69; 
-Queue Size = 1,394,531; #Invalid = 2,421,524; Mem 324[MB]
-ShortCut 0
-
-PopCount 105,100 : Top Cost = 1,665; Penalty = 16; 
-Queue Size = 1,394,736; #Invalid = 2,424,325; Mem 327[MB]
-ShortCut 0
-
-PopCount 105,200 : Top Cost = 1,665; Penalty = 315; 
-Queue Size = 1,396,201; #Invalid = 2,426,117; Mem 327[MB]
-ShortCut 0
-
-PopCount 105,300 : Top Cost = 1,665; Penalty = 16; 
-Queue Size = 1,397,893; #Invalid = 2,427,466; Mem 327[MB]
-ShortCut 0
-
-PopCount 105,400 : Top Cost = 1,665; Penalty = 16; 
-Queue Size = 1,398,648; #Invalid = 2,429,860; Mem 327[MB]
-ShortCut 0
-
-PopCount 105,500 : Top Cost = 1,665; Penalty = 69; 
-Queue Size = 1,400,535; #Invalid = 2,431,618; Mem 329[MB]
-ShortCut 0
-
-PopCount 105,600 : Top Cost = 1,665; Penalty = 16; 
-Queue Size = 1,401,133; #Invalid = 2,434,422; Mem 329[MB]
-ShortCut 0
-
-PopCount 105,700 : Top Cost = 1,665; Penalty = 16; 
-Queue Size = 1,401,741; #Invalid = 2,437,382; Mem 329[MB]
-ShortCut 0
-
-PopCount 105,800 : Top Cost = 1,666; Penalty = 16; 
-Queue Size = 1,403,205; #Invalid = 2,439,109; Mem 332[MB]
-ShortCut 0
-
-PopCount 105,900 : Top Cost = 1,666; Penalty = 16; 
-Queue Size = 1,403,241; #Invalid = 2,442,095; Mem 332[MB]
-ShortCut 0
-
-PopCount 106,000 : Top Cost = 1,666; Penalty = 69; 
-Queue Size = 1,404,587; #Invalid = 2,444,819; Mem 332[MB]
-ShortCut 0
-
-PopCount 106,100 : Top Cost = 1,666; Penalty = 16; 
-Queue Size = 1,406,134; #Invalid = 2,446,693; Mem 334[MB]
-ShortCut 0
-
-PopCount 106,200 : Top Cost = 1,666; Penalty = 304; 
-Queue Size = 1,407,124; #Invalid = 2,449,297; Mem 334[MB]
-ShortCut 0
-
-PopCount 106,300 : Top Cost = 1,666; Penalty = 16; 
-Queue Size = 1,409,313; #Invalid = 2,450,579; Mem 334[MB]
-ShortCut 0
-
-PopCount 106,400 : Top Cost = 1,666; Penalty = 16; 
-Queue Size = 1,410,020; #Invalid = 2,453,957; Mem 337[MB]
-ShortCut 0
-
-PopCount 106,500 : Top Cost = 1,667; Penalty = 69; 
-Queue Size = 1,411,099; #Invalid = 2,456,433; Mem 337[MB]
-ShortCut 0
-
-PopCount 106,600 : Top Cost = 1,667; Penalty = 16; 
-Queue Size = 1,412,463; #Invalid = 2,458,489; Mem 337[MB]
-ShortCut 0
-
-PopCount 106,700 : Top Cost = 1,667; Penalty = 16; 
-Queue Size = 1,412,499; #Invalid = 2,462,150; Mem 339[MB]
-ShortCut 0
-
-PopCount 106,800 : Top Cost = 1,667; Penalty = 69; 
-Queue Size = 1,414,369; #Invalid = 2,463,750; Mem 339[MB]
-ShortCut 0
-
-PopCount 106,900 : Top Cost = 1,667; Penalty = 16; 
-Queue Size = 1,415,721; #Invalid = 2,465,451; Mem 339[MB]
-ShortCut 0
-
-PopCount 107,000 : Top Cost = 1,667; Penalty = 304; 
-Queue Size = 1,416,758; #Invalid = 2,467,812; Mem 342[MB]
-ShortCut 0
-
-PopCount 107,100 : Top Cost = 1,667; Penalty = 16; 
-Queue Size = 1,419,295; #Invalid = 2,469,082; Mem 342[MB]
-ShortCut 0
-
-PopCount 107,200 : Top Cost = 1,667; Penalty = 16; 
-Queue Size = 1,419,982; #Invalid = 2,471,901; Mem 342[MB]
-ShortCut 0
-
-PopCount 107,300 : Top Cost = 1,667; Penalty = 16; 
-Queue Size = 1,420,865; #Invalid = 2,474,550; Mem 344[MB]
-ShortCut 0
-
-PopCount 107,400 : Top Cost = 1,668; Penalty = 16; 
-Queue Size = 1,422,044; #Invalid = 2,476,893; Mem 344[MB]
-ShortCut 0
-
-PopCount 107,500 : Top Cost = 1,668; Penalty = 69; 
-Queue Size = 1,422,676; #Invalid = 2,479,967; Mem 344[MB]
-ShortCut 0
-
-PopCount 107,600 : Top Cost = 1,668; Penalty = 69; 
-Queue Size = 1,424,479; #Invalid = 2,481,372; Mem 346[MB]
-ShortCut 0
-
-PopCount 107,700 : Top Cost = 1,668; Penalty = 16; 
-Queue Size = 1,425,587; #Invalid = 2,483,892; Mem 346[MB]
-ShortCut 0
-
-PopCount 107,800 : Top Cost = 1,668; Penalty = 16; 
-Queue Size = 1,427,929; #Invalid = 2,485,415; Mem 346[MB]
-ShortCut 0
-
-PopCount 107,900 : Top Cost = 1,668; Penalty = 16; 
-Queue Size = 1,429,790; #Invalid = 2,487,246; Mem 349[MB]
-ShortCut 0
-
-PopCount 108,000 : Top Cost = 1,668; Penalty = 16; 
-Queue Size = 1,429,912; #Invalid = 2,490,812; Mem 349[MB]
-ShortCut 0
-
-PopCount 108,100 : Top Cost = 1,669; Penalty = 69; 
-Queue Size = 1,431,443; #Invalid = 2,493,002; Mem 349[MB]
-ShortCut 0
-
-PopCount 108,200 : Top Cost = 1,669; Penalty = 16; 
-Queue Size = 1,432,269; #Invalid = 2,495,362; Mem 351[MB]
-ShortCut 0
-
-PopCount 108,300 : Top Cost = 1,669; Penalty = 69; 
-Queue Size = 1,432,562; #Invalid = 2,498,913; Mem 351[MB]
-ShortCut 0
-
-PopCount 108,400 : Top Cost = 1,669; Penalty = 69; 
-Queue Size = 1,434,550; #Invalid = 2,500,329; Mem 351[MB]
-ShortCut 0
-
-PopCount 108,500 : Top Cost = 1,669; Penalty = 69; 
-Queue Size = 1,436,018; #Invalid = 2,502,329; Mem 354[MB]
-ShortCut 0
-
-PopCount 108,600 : Top Cost = 1,669; Penalty = 304; 
-Queue Size = 1,436,932; #Invalid = 2,504,758; Mem 354[MB]
-ShortCut 0
-
-PopCount 108,700 : Top Cost = 1,669; Penalty = 304; 
-Queue Size = 1,439,829; #Invalid = 2,506,377; Mem 354[MB]
-ShortCut 0
-
-PopCount 108,800 : Top Cost = 1,669; Penalty = 16; 
-Queue Size = 1,440,906; #Invalid = 2,508,630; Mem 356[MB]
-ShortCut 0
-
-PopCount 108,900 : Top Cost = 1,669; Penalty = 69; 
-Queue Size = 1,441,386; #Invalid = 2,511,568; Mem 356[MB]
-ShortCut 0
-
-PopCount 109,000 : Top Cost = 1,670; Penalty = 16; 
-Queue Size = 1,442,827; #Invalid = 2,514,128; Mem 356[MB]
-ShortCut 0
-
-PopCount 109,100 : Top Cost = 1,670; Penalty = 16; 
-Queue Size = 1,442,861; #Invalid = 2,517,564; Mem 359[MB]
-ShortCut 0
-
-PopCount 109,200 : Top Cost = 1,670; Penalty = 69; 
-Queue Size = 1,445,158; #Invalid = 2,519,026; Mem 359[MB]
-ShortCut 0
-
-PopCount 109,300 : Top Cost = 1,670; Penalty = 16; 
-Queue Size = 1,446,803; #Invalid = 2,520,224; Mem 359[MB]
-ShortCut 0
-
-PopCount 109,400 : Top Cost = 1,670; Penalty = 16; 
-Queue Size = 1,447,635; #Invalid = 2,522,877; Mem 361[MB]
-ShortCut 0
-
-PopCount 109,500 : Top Cost = 1,670; Penalty = 16; 
-Queue Size = 1,450,036; #Invalid = 2,524,712; Mem 361[MB]
-ShortCut 0
-
-PopCount 109,600 : Top Cost = 1,670; Penalty = 16; 
-Queue Size = 1,451,144; #Invalid = 2,527,009; Mem 361[MB]
-ShortCut 0
-
-PopCount 109,700 : Top Cost = 1,670; Penalty = 69; 
-Queue Size = 1,451,516; #Invalid = 2,530,048; Mem 364[MB]
-ShortCut 0
-
-PopCount 109,800 : Top Cost = 1,671; Penalty = 16; 
-Queue Size = 1,452,881; #Invalid = 2,532,026; Mem 364[MB]
-ShortCut 0
-
-PopCount 109,900 : Top Cost = 1,671; Penalty = 16; 
-Queue Size = 1,452,928; #Invalid = 2,535,345; Mem 364[MB]
-ShortCut 0
-
-PopCount 110,000 : Top Cost = 1,671; Penalty = 315; 
-Queue Size = 1,454,404; #Invalid = 2,537,325; Mem 366[MB]
-ShortCut 0
-
-PopCount 110,100 : Top Cost = 1,671; Penalty = 16; 
-Queue Size = 1,456,447; #Invalid = 2,538,446; Mem 366[MB]
-ShortCut 0
-
-PopCount 110,200 : Top Cost = 1,671; Penalty = 69; 
-Queue Size = 1,457,431; #Invalid = 2,540,680; Mem 366[MB]
-ShortCut 0
-
-PopCount 110,300 : Top Cost = 1,671; Penalty = 16; 
-Queue Size = 1,459,388; #Invalid = 2,542,398; Mem 366[MB]
-ShortCut 0
-
-PopCount 110,400 : Top Cost = 1,671; Penalty = 16; 
-Queue Size = 1,460,119; #Invalid = 2,545,323; Mem 369[MB]
-ShortCut 0
-
-PopCount 110,500 : Top Cost = 1,671; Penalty = 69; 
-Queue Size = 1,460,438; #Invalid = 2,548,687; Mem 369[MB]
-ShortCut 0
-
-PopCount 110,600 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,462,143; #Invalid = 2,550,922; Mem 371[MB]
-ShortCut 0
-
-PopCount 110,700 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,462,169; #Invalid = 2,553,889; Mem 371[MB]
-ShortCut 0
-
-PopCount 110,800 : Top Cost = 1,672; Penalty = 69; 
-Queue Size = 1,462,635; #Invalid = 2,557,029; Mem 371[MB]
-ShortCut 0
-
-PopCount 110,900 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,465,490; #Invalid = 2,558,057; Mem 374[MB]
-ShortCut 0
-
-PopCount 111,000 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,466,524; #Invalid = 2,560,252; Mem 374[MB]
-ShortCut 0
-
-PopCount 111,100 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,468,157; #Invalid = 2,562,228; Mem 374[MB]
-ShortCut 0
-
-PopCount 111,200 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,469,871; #Invalid = 2,563,810; Mem 374[MB]
-ShortCut 0
-
-PopCount 111,300 : Top Cost = 1,672; Penalty = 16; 
-Queue Size = 1,470,003; #Invalid = 2,567,560; Mem 376[MB]
-ShortCut 0
-
-PopCount 111,400 : Top Cost = 1,672; Penalty = 304; 
-Queue Size = 1,471,135; #Invalid = 2,570,125; Mem 376[MB]
-ShortCut 0
-
-PopCount 111,500 : Top Cost = 1,673; Penalty = 16; 
-Queue Size = 1,471,864; #Invalid = 2,572,793; Mem 376[MB]
-ShortCut 0
-
-PopCount 111,600 : Top Cost = 1,673; Penalty = 16; 
-Queue Size = 1,471,921; #Invalid = 2,576,089; Mem 379[MB]
-ShortCut 0
-
-PopCount 111,700 : Top Cost = 1,673; Penalty = 304; 
-Queue Size = 1,474,207; #Invalid = 2,576,762; Mem 379[MB]
-ShortCut 0
-
-PopCount 111,800 : Top Cost = 1,673; Penalty = 16; 
-Queue Size = 1,475,387; #Invalid = 2,578,576; Mem 379[MB]
-ShortCut 0
-
-PopCount 111,900 : Top Cost = 1,673; Penalty = 69; 
-Queue Size = 1,476,789; #Invalid = 2,581,041; Mem 381[MB]
-ShortCut 0
-
-PopCount 112,000 : Top Cost = 1,673; Penalty = 16; 
-Queue Size = 1,478,394; #Invalid = 2,583,221; Mem 381[MB]
-ShortCut 0
-
-PopCount 112,100 : Top Cost = 1,673; Penalty = 69; 
-Queue Size = 1,478,658; #Invalid = 2,586,680; Mem 381[MB]
-ShortCut 0
-
-PopCount 112,200 : Top Cost = 1,674; Penalty = 69; 
-Queue Size = 1,480,175; #Invalid = 2,588,976; Mem 384[MB]
-ShortCut 0
-
-PopCount 112,300 : Top Cost = 1,674; Penalty = 16; 
-Queue Size = 1,481,182; #Invalid = 2,591,545; Mem 384[MB]
-ShortCut 0
-
-PopCount 112,400 : Top Cost = 1,674; Penalty = 16; 
-Queue Size = 1,481,278; #Invalid = 2,594,661; Mem 384[MB]
-ShortCut 0
-
-PopCount 112,500 : Top Cost = 1,674; Penalty = 69; 
-Queue Size = 1,483,448; #Invalid = 2,595,933; Mem 386[MB]
-ShortCut 0
-
-PopCount 112,600 : Top Cost = 1,674; Penalty = 69; 
-Queue Size = 1,484,933; #Invalid = 2,597,795; Mem 386[MB]
-ShortCut 0
-
-PopCount 112,700 : Top Cost = 1,674; Penalty = 304; 
-Queue Size = 1,485,642; #Invalid = 2,600,256; Mem 386[MB]
-ShortCut 0
-
-PopCount 112,800 : Top Cost = 1,674; Penalty = 69; 
-Queue Size = 1,488,263; #Invalid = 2,601,619; Mem 389[MB]
-ShortCut 0
-
-PopCount 112,900 : Top Cost = 1,674; Penalty = 16; 
-Queue Size = 1,489,016; #Invalid = 2,604,513; Mem 389[MB]
-ShortCut 0
-
-PopCount 113,000 : Top Cost = 1,674; Penalty = 16; 
-Queue Size = 1,489,619; #Invalid = 2,607,566; Mem 389[MB]
-ShortCut 0
-
-PopCount 113,100 : Top Cost = 1,675; Penalty = 16; 
-Queue Size = 1,491,151; #Invalid = 2,609,996; Mem 391[MB]
-ShortCut 0
-
-PopCount 113,200 : Top Cost = 1,675; Penalty = 16; 
-Queue Size = 1,491,193; #Invalid = 2,613,028; Mem 391[MB]
-ShortCut 0
-
-PopCount 113,300 : Top Cost = 1,675; Penalty = 69; 
-Queue Size = 1,491,611; #Invalid = 2,615,879; Mem 391[MB]
-ShortCut 0
-
-PopCount 113,400 : Top Cost = 1,675; Penalty = 69; 
-Queue Size = 1,494,483; #Invalid = 2,616,272; Mem 394[MB]
-ShortCut 0
-
-PopCount 113,500 : Top Cost = 1,675; Penalty = 16; 
-Queue Size = 1,495,708; #Invalid = 2,618,463; Mem 394[MB]
-ShortCut 0
-
-PopCount 113,600 : Top Cost = 1,675; Penalty = 69; 
-Queue Size = 1,496,527; #Invalid = 2,621,183; Mem 394[MB]
-ShortCut 0
-
-PopCount 113,700 : Top Cost = 1,675; Penalty = 16; 
-Queue Size = 1,498,432; #Invalid = 2,622,668; Mem 395[MB]
-ShortCut 0
-
-PopCount 113,800 : Top Cost = 1,675; Penalty = 16; 
-Queue Size = 1,498,689; #Invalid = 2,626,387; Mem 395[MB]
-ShortCut 0
-
-PopCount 113,900 : Top Cost = 1,676; Penalty = 69; 
-Queue Size = 1,500,182; #Invalid = 2,628,232; Mem 309[MB]
-ShortCut 0
-
-PopCount 114,000 : Top Cost = 1,676; Penalty = 16; 
-Queue Size = 1,501,826; #Invalid = 2,630,887; Mem 309[MB]
-ShortCut 0
-
-PopCount 114,100 : Top Cost = 1,676; Penalty = 16; 
-Queue Size = 1,501,874; #Invalid = 2,634,082; Mem 309[MB]
-ShortCut 0
-
-PopCount 114,200 : Top Cost = 1,676; Penalty = 531; 
-Queue Size = 1,503,288; #Invalid = 2,636,326; Mem 312[MB]
-ShortCut 0
-
-PopCount 114,300 : Top Cost = 1,676; Penalty = 16; 
-Queue Size = 1,505,107; #Invalid = 2,638,033; Mem 312[MB]
-ShortCut 0
-
-PopCount 114,400 : Top Cost = 1,676; Penalty = 16; 
-Queue Size = 1,506,188; #Invalid = 2,640,248; Mem 312[MB]
-ShortCut 0
-
-PopCount 114,500 : Top Cost = 1,676; Penalty = 69; 
-Queue Size = 1,507,936; #Invalid = 2,642,502; Mem 314[MB]
-ShortCut 0
-
-PopCount 114,600 : Top Cost = 1,676; Penalty = 16; 
-Queue Size = 1,509,560; #Invalid = 2,643,929; Mem 314[MB]
-ShortCut 0
-
-PopCount 114,700 : Top Cost = 1,676; Penalty = 16; 
-Queue Size = 1,510,075; #Invalid = 2,647,432; Mem 314[MB]
-ShortCut 0
-
-PopCount 114,800 : Top Cost = 1,677; Penalty = 69; 
-Queue Size = 1,511,728; #Invalid = 2,649,010; Mem 317[MB]
-ShortCut 0
-
-PopCount 114,900 : Top Cost = 1,677; Penalty = 16; 
-Queue Size = 1,512,876; #Invalid = 2,651,523; Mem 317[MB]
-ShortCut 0
-
-PopCount 115,000 : Top Cost = 1,677; Penalty = 16; 
-Queue Size = 1,512,920; #Invalid = 2,654,763; Mem 317[MB]
-ShortCut 0
-
-PopCount 115,100 : Top Cost = 1,677; Penalty = 69; 
-Queue Size = 1,515,020; #Invalid = 2,656,282; Mem 319[MB]
-ShortCut 0
-
-PopCount 115,200 : Top Cost = 1,677; Penalty = 304; 
-Queue Size = 1,516,678; #Invalid = 2,657,926; Mem 319[MB]
-ShortCut 0
-
-PopCount 115,300 : Top Cost = 1,677; Penalty = 348; 
-Queue Size = 1,517,497; #Invalid = 2,660,404; Mem 319[MB]
-ShortCut 0
-
-PopCount 115,400 : Top Cost = 1,677; Penalty = 16; 
-Queue Size = 1,519,159; #Invalid = 2,662,477; Mem 322[MB]
-ShortCut 0
-
-PopCount 115,500 : Top Cost = 1,677; Penalty = 16; 
-Queue Size = 1,520,488; #Invalid = 2,664,556; Mem 322[MB]
-ShortCut 0
-
-PopCount 115,600 : Top Cost = 1,677; Penalty = 16; 
-Queue Size = 1,520,915; #Invalid = 2,667,603; Mem 322[MB]
-ShortCut 0
-
-PopCount 115,700 : Top Cost = 1,678; Penalty = 69; 
-Queue Size = 1,522,319; #Invalid = 2,669,666; Mem 322[MB]
-ShortCut 0
-
-PopCount 115,800 : Top Cost = 1,678; Penalty = 16; 
-Queue Size = 1,522,704; #Invalid = 2,672,497; Mem 324[MB]
-ShortCut 0
-
-PopCount 115,900 : Top Cost = 1,678; Penalty = 16; 
-Queue Size = 1,522,751; #Invalid = 2,676,007; Mem 324[MB]
-ShortCut 0
-
-PopCount 116,000 : Top Cost = 1,678; Penalty = 69; 
-Queue Size = 1,525,492; #Invalid = 2,676,792; Mem 324[MB]
-ShortCut 0
-
-PopCount 116,100 : Top Cost = 1,678; Penalty = 69; 
-Queue Size = 1,526,465; #Invalid = 2,678,879; Mem 327[MB]
-ShortCut 0
-
-PopCount 116,200 : Top Cost = 1,678; Penalty = 16; 
-Queue Size = 1,527,215; #Invalid = 2,680,932; Mem 327[MB]
-ShortCut 0
-
-PopCount 116,300 : Top Cost = 1,678; Penalty = 69; 
-Queue Size = 1,530,216; #Invalid = 2,682,562; Mem 327[MB]
-ShortCut 0
-
-PopCount 116,400 : Top Cost = 1,678; Penalty = 16; 
-Queue Size = 1,531,000; #Invalid = 2,684,974; Mem 329[MB]
-ShortCut 0
-
-PopCount 116,500 : Top Cost = 1,679; Penalty = 69; 
-Queue Size = 1,531,735; #Invalid = 2,687,646; Mem 329[MB]
-ShortCut 0
-
-PopCount 116,600 : Top Cost = 1,679; Penalty = 16; 
-Queue Size = 1,532,710; #Invalid = 2,690,165; Mem 329[MB]
-ShortCut 0
-
-PopCount 116,700 : Top Cost = 1,679; Penalty = 16; 
-Queue Size = 1,532,992; #Invalid = 2,693,322; Mem 332[MB]
-ShortCut 0
-
-PopCount 116,800 : Top Cost = 1,679; Penalty = 69; 
-Queue Size = 1,534,526; #Invalid = 2,695,668; Mem 332[MB]
-ShortCut 0
-
-PopCount 116,900 : Top Cost = 1,679; Penalty = 16; 
-Queue Size = 1,537,002; #Invalid = 2,696,475; Mem 332[MB]
-ShortCut 0
-
-PopCount 117,000 : Top Cost = 1,679; Penalty = 16; 
-Queue Size = 1,538,066; #Invalid = 2,699,106; Mem 334[MB]
-ShortCut 0
-
-PopCount 117,100 : Top Cost = 1,679; Penalty = 304; 
-Queue Size = 1,539,415; #Invalid = 2,701,601; Mem 334[MB]
-ShortCut 0
-
-PopCount 117,200 : Top Cost = 1,679; Penalty = 16; 
-Queue Size = 1,540,763; #Invalid = 2,703,534; Mem 334[MB]
-ShortCut 0
-
-PopCount 117,300 : Top Cost = 1,679; Penalty = 16; 
-Queue Size = 1,540,908; #Invalid = 2,707,094; Mem 337[MB]
-ShortCut 0
-
-PopCount 117,400 : Top Cost = 1,680; Penalty = 69; 
-Queue Size = 1,542,199; #Invalid = 2,709,052; Mem 337[MB]
-ShortCut 0
-
-PopCount 117,500 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,543,090; #Invalid = 2,711,024; Mem 337[MB]
-ShortCut 0
-
-PopCount 117,600 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,543,127; #Invalid = 2,714,832; Mem 339[MB]
-ShortCut 0
-
-PopCount 117,700 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,544,984; #Invalid = 2,716,737; Mem 339[MB]
-ShortCut 0
-
-PopCount 117,800 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,546,603; #Invalid = 2,718,263; Mem 339[MB]
-ShortCut 0
-
-PopCount 117,900 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,547,342; #Invalid = 2,720,867; Mem 339[MB]
-ShortCut 0
-
-PopCount 118,000 : Top Cost = 1,680; Penalty = 304; 
-Queue Size = 1,549,251; #Invalid = 2,722,567; Mem 342[MB]
-ShortCut 0
-
-PopCount 118,100 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,551,510; #Invalid = 2,724,228; Mem 342[MB]
-ShortCut 0
-
-PopCount 118,200 : Top Cost = 1,680; Penalty = 16; 
-Queue Size = 1,551,880; #Invalid = 2,727,707; Mem 342[MB]
-ShortCut 0
-
-PopCount 118,300 : Top Cost = 1,681; Penalty = 69; 
-Queue Size = 1,552,920; #Invalid = 2,730,099; Mem 345[MB]
-ShortCut 0
-
-PopCount 118,400 : Top Cost = 1,681; Penalty = 16; 
-Queue Size = 1,553,796; #Invalid = 2,732,387; Mem 345[MB]
-ShortCut 0
-
-PopCount 118,500 : Top Cost = 1,681; Penalty = 16; 
-Queue Size = 1,553,945; #Invalid = 2,735,553; Mem 345[MB]
-ShortCut 0
-
-PopCount 118,600 : Top Cost = 1,681; Penalty = 69; 
-Queue Size = 1,555,760; #Invalid = 2,737,525; Mem 347[MB]
-ShortCut 0
-
-PopCount 118,700 : Top Cost = 1,681; Penalty = 16; 
-Queue Size = 1,557,635; #Invalid = 2,738,829; Mem 347[MB]
-ShortCut 0
-
-PopCount 118,800 : Top Cost = 1,681; Penalty = 16; 
-Queue Size = 1,558,320; #Invalid = 2,741,298; Mem 347[MB]
-ShortCut 0
-
-PopCount 118,900 : Top Cost = 1,681; Penalty = 16; 
-Queue Size = 1,560,136; #Invalid = 2,743,241; Mem 350[MB]
-ShortCut 0
-
-PopCount 119,000 : Top Cost = 1,681; Penalty = 69; 
-Queue Size = 1,560,990; #Invalid = 2,745,428; Mem 350[MB]
-ShortCut 0
-
-PopCount 119,100 : Top Cost = 1,682; Penalty = 69; 
-Queue Size = 1,561,572; #Invalid = 2,748,071; Mem 350[MB]
-ShortCut 0
-
-PopCount 119,200 : Top Cost = 1,682; Penalty = 69; 
-Queue Size = 1,563,660; #Invalid = 2,749,477; Mem 352[MB]
-ShortCut 0
-
-PopCount 119,300 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,564,590; #Invalid = 2,751,983; Mem 352[MB]
-ShortCut 0
-
-PopCount 119,400 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,564,617; #Invalid = 2,755,285; Mem 352[MB]
-ShortCut 0
-
-PopCount 119,500 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,566,212; #Invalid = 2,757,559; Mem 352[MB]
-ShortCut 0
-
-PopCount 119,600 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,566,443; #Invalid = 2,761,024; Mem 355[MB]
-ShortCut 0
-
-PopCount 119,700 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,567,285; #Invalid = 2,763,761; Mem 355[MB]
-ShortCut 0
-
-PopCount 119,800 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,569,975; #Invalid = 2,765,499; Mem 357[MB]
-ShortCut 0
-
-PopCount 119,900 : Top Cost = 1,682; Penalty = 16; 
-Queue Size = 1,572,334; #Invalid = 2,767,091; Mem 357[MB]
-ShortCut 0
-
-PopCount 120,000 : Top Cost = 1,683; Penalty = 69; 
-Queue Size = 1,573,630; #Invalid = 2,769,266; Mem 357[MB]
-ShortCut 0
-
-PopCount 120,100 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,575,293; #Invalid = 2,770,465; Mem 357[MB]
-ShortCut 0
-
-PopCount 120,200 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,576,192; #Invalid = 2,773,043; Mem 360[MB]
-ShortCut 0
-
-PopCount 120,300 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,576,289; #Invalid = 2,776,615; Mem 360[MB]
-ShortCut 0
-
-PopCount 120,400 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,578,146; #Invalid = 2,778,730; Mem 360[MB]
-ShortCut 0
-
-PopCount 120,500 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,578,830; #Invalid = 2,781,881; Mem 362[MB]
-ShortCut 0
-
-PopCount 120,600 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,579,435; #Invalid = 2,784,444; Mem 362[MB]
-ShortCut 0
-
-PopCount 120,700 : Top Cost = 1,683; Penalty = 69; 
-Queue Size = 1,581,655; #Invalid = 2,786,297; Mem 362[MB]
-ShortCut 0
-
-PopCount 120,800 : Top Cost = 1,683; Penalty = 16; 
-Queue Size = 1,583,787; #Invalid = 2,787,832; Mem 365[MB]
-ShortCut 0
-
-PopCount 120,900 : Top Cost = 1,684; Penalty = 16; 
-Queue Size = 1,584,202; #Invalid = 2,791,334; Mem 365[MB]
-ShortCut 0
-
-PopCount 121,000 : Top Cost = 1,684; Penalty = 69; 
-Queue Size = 1,585,597; #Invalid = 2,792,815; Mem 365[MB]
-ShortCut 0
-
-PopCount 121,100 : Top Cost = 1,684; Penalty = 16; 
-Queue Size = 1,588,240; #Invalid = 2,793,830; Mem 367[MB]
-ShortCut 0
-
-PopCount 121,200 : Top Cost = 1,684; Penalty = 16; 
-Queue Size = 1,588,902; #Invalid = 2,796,651; Mem 367[MB]
-ShortCut 0
-
-PopCount 121,300 : Top Cost = 1,684; Penalty = 16; 
-Queue Size = 1,588,920; #Invalid = 2,800,072; Mem 367[MB]
-ShortCut 0
-
-PopCount 121,400 : Top Cost = 1,684; Penalty = 16; 
-Queue Size = 1,590,384; #Invalid = 2,802,662; Mem 370[MB]
-ShortCut 0
-
-PopCount 121,500 : Top Cost = 1,684; Penalty = 16; 
-Queue Size = 1,591,190; #Invalid = 2,805,428; Mem 370[MB]
-ShortCut 0
-
-PopCount 121,600 : Top Cost = 1,684; Penalty = 69; 
-Queue Size = 1,593,218; #Invalid = 2,807,479; Mem 370[MB]
-ShortCut 0
-
-PopCount 121,700 : Top Cost = 1,684; Penalty = 69; 
-Queue Size = 1,595,468; #Invalid = 2,808,929; Mem 372[MB]
-ShortCut 0
-
-PopCount 121,800 : Top Cost = 1,684; Penalty = 304; 
-Queue Size = 1,596,183; #Invalid = 2,811,643; Mem 372[MB]
-ShortCut 0
-
-PopCount 121,900 : Top Cost = 1,685; Penalty = 16; 
-Queue Size = 1,596,944; #Invalid = 2,814,317; Mem 372[MB]
-ShortCut 0
-
-PopCount 122,000 : Top Cost = 1,685; Penalty = 69; 
-Queue Size = 1,599,129; #Invalid = 2,815,486; Mem 375[MB]
-ShortCut 0
-
-PopCount 122,100 : Top Cost = 1,685; Penalty = 16; 
-Queue Size = 1,600,216; #Invalid = 2,817,921; Mem 375[MB]
-ShortCut 0
-
-PopCount 122,200 : Top Cost = 1,685; Penalty = 16; 
-Queue Size = 1,600,318; #Invalid = 2,821,030; Mem 375[MB]
-ShortCut 0
-
-PopCount 122,300 : Top Cost = 1,685; Penalty = 304; 
-Queue Size = 1,601,659; #Invalid = 2,822,908; Mem 377[MB]
-ShortCut 0
-
-PopCount 122,400 : Top Cost = 1,685; Penalty = 16; 
-Queue Size = 1,602,503; #Invalid = 2,825,844; Mem 377[MB]
-ShortCut 0
-
-PopCount 122,500 : Top Cost = 1,685; Penalty = 16; 
-Queue Size = 1,603,459; #Invalid = 2,827,969; Mem 377[MB]
-ShortCut 0
-
-PopCount 122,600 : Top Cost = 1,685; Penalty = 69; 
-Queue Size = 1,605,974; #Invalid = 2,829,672; Mem 380[MB]
-ShortCut 0
-
-PopCount 122,700 : Top Cost = 1,685; Penalty = 69; 
-Queue Size = 1,606,662; #Invalid = 2,832,452; Mem 380[MB]
-ShortCut 0
-
-PopCount 122,800 : Top Cost = 1,686; Penalty = 16; 
-Queue Size = 1,607,121; #Invalid = 2,835,442; Mem 380[MB]
-ShortCut 0
-
-PopCount 122,900 : Top Cost = 1,686; Penalty = 69; 
-Queue Size = 1,609,099; #Invalid = 2,836,349; Mem 380[MB]
-ShortCut 0
-
-PopCount 123,000 : Top Cost = 1,686; Penalty = 16; 
-Queue Size = 1,610,807; #Invalid = 2,838,152; Mem 383[MB]
-ShortCut 0
-
-PopCount 123,100 : Top Cost = 1,686; Penalty = 16; 
-Queue Size = 1,610,993; #Invalid = 2,841,115; Mem 383[MB]
-ShortCut 0
-
-PopCount 123,200 : Top Cost = 1,686; Penalty = 16; 
-Queue Size = 1,611,080; #Invalid = 2,844,290; Mem 383[MB]
-ShortCut 0
-
-[0, 578, 1418, 1172, 1159, 1186, 1126, 784, 1175]
-[949, 0, 840, 594, 581, 608, 548, 206, 597]
-[109, 687, 0, 1281, 1268, 1295, 1235, 893, 1284]
-[355, 933, 246, 0, 1514, 1541, 1481, 1139, 1530]
-[368, 946, 259, 13, 0, 27, 1494, 1152, 16]
-[500, 1078, 391, 145, 132, 0, 1626, 1284, 148]
-[401, 979, 292, 46, 33, 60, 0, 1185, 49]
-[743, 1321, 634, 388, 375, 402, 342, 0, 391]
-[511, 1089, 402, 156, 143, 11, 1637, 1295, 0]
+260 machines and 20 compounds
+Mem memory = 2,730 [MB]
+PopCount 10 : Top Cost = 41,862; Penalty = 35,585; 
+Queue Size = 117,742; #Invalid = 0; Mem 28[MB]
+Max Q Cost 76,332
+
+PopCount 20 : Top Cost = 41,927; Penalty = 35,585; 
+Queue Size = 184,538; #Invalid = 0; Mem 45[MB]
+Max Q Cost 76,332
+
+PopCount 30 : Top Cost = 41,959; Penalty = 25,132; 
+Queue Size = 238,854; #Invalid = 0; Mem 55[MB]
+Max Q Cost 76,332
+
+PopCount 40 : Top Cost = 41,977; Penalty = 37,699; 
+Queue Size = 313,282; #Invalid = 0; Mem 72[MB]
+Max Q Cost 76,332
+
+PopCount 50 : Top Cost = 41,993; Penalty = 23,122; 
+Queue Size = 381,710; #Invalid = 0; Mem 89[MB]
+Max Q Cost 76,332
+
+PopCount 60 : Top Cost = 42,001; Penalty = 33,472; 
+Queue Size = 438,282; #Invalid = 0; Mem 101[MB]
+Max Q Cost 76,332
+
+PopCount 70 : Top Cost = 42,012; Penalty = 35,585; 
+Queue Size = 498,478; #Invalid = 0; Mem 114[MB]
+Max Q Cost 76,332
+
+PopCount 80 : Top Cost = 42,015; Penalty = 29,412; 
+Queue Size = 570,194; #Invalid = 0; Mem 132[MB]
+Max Q Cost 76,332
+
+PopCount 90 : Top Cost = 42,022; Penalty = 35,585; 
+Queue Size = 611,526; #Invalid = 0; Mem 142[MB]
+Max Q Cost 76,332
+
+PopCount 100 : Top Cost = 42,028; Penalty = 31,472; 
+Queue Size = 658,162; #Invalid = 0; Mem 153[MB]
+Max Q Cost 76,332
+
+PopCount 110 : Top Cost = 42,035; Penalty = 19,004; 
+Queue Size = 715,834; #Invalid = 0; Mem 164[MB]
+Max Q Cost 76,332
+
+PopCount 120 : Top Cost = 42,040; Penalty = 21,036; 
+Queue Size = 769,142; #Invalid = 0; Mem 182[MB]
+Max Q Cost 76,332
+
+PopCount 130 : Top Cost = 42,045; Penalty = 31,472; 
+Queue Size = 805,914; #Invalid = 0; Mem 187[MB]
+Max Q Cost 76,332
+
+PopCount 140 : Top Cost = 42,047; Penalty = 27,304; 
+Queue Size = 870,982; #Invalid = 0; Mem 202[MB]
+Max Q Cost 76,332
+
+PopCount 150 : Top Cost = 42,052; Penalty = 27,304; 
+Queue Size = 906,042; #Invalid = 0; Mem 210[MB]
+Max Q Cost 76,332
+
+PopCount 160 : Top Cost = 42,055; Penalty = 19,004; 
+Queue Size = 958,102; #Invalid = 0; Mem 221[MB]
+Max Q Cost 76,332
+
+PopCount 170 : Top Cost = 42,056; Penalty = 31,472; 
+Queue Size = 1,001,522; #Invalid = 0; Mem 230[MB]
+Max Q Cost 76,332
+
+42715
+44229
+44394
+44517
+44627
+44721
+44807
+44886
+44972
+45061
+45171
+45294
+45484
+46170
+46432
+46550
+46627
+46692
+46742
+46787
+46830
+46868
+46903
+46936
+46966
+46998
+47026
+47057
+47085
+47114
+47141
+47170
+47196
+47222
+47246
+47271
+47298
+47324
+47352
+47378
+47405
+47429
+47455
+47480
+47508
+47534
+47564
+47593
+47624
+47655
+47684
+47714
+47748
+47784
+47828
+47871
+47921
+47967
+48023
+48107
+48184
+48304
+48468
+48648
+48761
+48836
+48892
+48936
+48976
+49008
+49040
+49068
+49094
+49117
+49142
+49164
+49185
+49206
+49225
+49246
+49264
+49281
+49298
+49315
+49332
+49348
+49364
+49379
+49394
+49409
+49424
+49440
+49454
+49468
+49483
+49496
+49510
+49523
+49537
+49551
+49563
+49576
+49589
+49602
+49614
+49626
+49638
+49649
+49661
+49673
+49685
+49697
+49708
+49719
+49731
+49743
+49755
+49767
+49779
+49791
+49802
+49813
+49825
+49836
+49848
+49859
+49872
+49884
+49896
+49908
+49920
+49932
+49945
+49957
+49969
+49982
+49994
+50007
+50021
+50034
+50047
+50061
+50075
+50088
+50102
+50115
+50130
+50144
+50159
+50172
+50188
+50202
+50217
+50233
+50248
+50264
+50281
+50299
+50317
+50335
+50352
+50369
+50388
+50407
+50426
+50446
+50468
+50492
+50516
+50543
+50569
+50599
+50628
+50660
+50693
+50730
+50779
+50831
+50881
+50931
+50984
+51043
+51094
+51139
+51180
+51216
+51252
+51286
+51313
+51340
+51365
+51387
+51410
+51430
+51450
+51470
+51488
+51506
+51524
+51541
+51557
+51573
+51589
+51605
+51619
+51634
+51648
+51661
+51674
+51686
+51698
+51710
+51721
+51733
+51744
+51756
+51766
+51777
+51787
+51798
+51808
+51818
+51828
+51838
+51848
+51858
+51868
+51878
+51888
+51897
+51906
+51916
+51925
+51934
+51942
+51951
+51960
+51969
+51977
+51985
+51994
+52002
+52011
+52019
+52027
+52035
+52044
+52052
+52061
+52069
+52077
+52085
+52093
+52101
+52109
+52118
+52126
+52133
+52141
+52149
+52157
+52166
+52174
+52181
+52190
+52197
+52205
+52213
+52221
+52229
+52236
+52244
+52252
+52261
+52269
+52277
+52285
+52293
+52301
+52309
+52318
+52326
+52334
+52342
+52350
+52359
+52367
+52376
+52383
+52391
+52400
+52408
+52416
+52424
+52432
+52440
+52448
+52456
+52464
+52473
+52481
+52490
+52497
+52506
+52515
+52523
+52531
+52540
+52548
+52556
+52565
+52574
+52583
+52592
+52602
+52611
+52620
+52630
+52639
+52648
+52657
+52666
+52675
+52685
+52694
+52703
+52713
+52724
+52733
+52743
+52753
+52764
+52774
+52785
+52797
+52809
+52821
+52833
+52844
+52856
+52869
+52881
+52893
+52904
+52917
+52930
+52942
+52955
+52968
+52982
+52997
+53012
+53027
+53044
+53060
+53077
+53093
+53109
+53126
+53144
+53162
+53181
+53201
+53221
+53242
+53266
+53290
+53314
+53340
+53364
+53390
+53414
+53440
+53465
+53494
+53524
+53553
+53581
+53607
+53632
+53655
+53679
+53703
+53729
+53752
+53774
+53796
+53814
+53833
+53850
+53866
+53882
+53897
+53913
+53927
+53942
+53957
+53972
+53986
+53999
+54013
+54027
+54040
+54052
+54064
+54076
+54088
+54098
+54109
+54120
+54131
+54142
+54152
+54162
+54172
+54183
+54193
+54202
+54212
+54222
+54232
+54243
+54252
+54262
+54271
+54281
+54290
+54300
+54309
+54318
+54327
+54336
+54345
+54354
+54362
+54371
+54379
+54388
+54396
+54404
+54413
+54421
+54429
+54438
+54446
+54454
+54462
+54470
+54479
+54487
+54494
+54502
+54510
+54518
+54525
+54533
+54541
+54548
+54556
+54564
+54572
+54579
+54587
+54595
+54602
+54610
+54617
+54625
+54632
+54640
+54647
+54654
+54662
+54669
+54676
+54684
+54691
+54699
+54706
+54713
+54720
+54727
+54735
+54742
+54750
+54757
+54764
+54772
+54779
+54787
+54794
+54801
+54809
+54816
+54823
+54831
+54838
+54846
+54853
+54861
+54868
+54875
+54882
+54890
+54897
+54904
+54912
+54918
+54926
+54933
+54941
+54948
+54955
+54963
+54971
+54979
+54987
+54995
+55003
+55011
+55019
+55027
+55035
+55044
+55051
+55060
+55068
+55076
+55084
+55092
+55100
+55109
+55117
+55125
+55133
+55141
+55149
+55158
+55167
+55175
+55184
+55193
+55202
+55212
+55221
+55230
+55239
+55249
+55258
+55268
+55277
+55286
+55296
+55306
+55316
+55326
+55336
+55346
+55356
+55367
+55377
+55388
+55398
+55408
+55419
+55430
+55441
+55453
+55464
+55476
+55487
+55500
+55513
+55525
+55538
+55552
+55566
+55580
+55594
+55608
+55622
+55635
+55649
+55664
+55678
+55693
+55710
+55727
+55745
+55764
+55784
+55801
+55821
+55839
+55857
+55876
+55894
+55914
+55936
+55957
+55979
+56001
+56024
+56046
+56068
+56090
+56112
+56133
+56153
+56174
+56194
+56214
+56234
+56253
+56273
+56292
+56310
+56327
+56345
+56362
+56378
+56395
+56411
+56427
+56443
+56460
+56476
+56491
+56507
+56522
+56536
+56550
+56563
+56576
+56588
+56601
+56613
+56625
+56637
+56649
+56661
+56674
+56686
+56698
+56710
+56722
+56734
+56745
+56757
+56768
+56779
+56790
+56801
+56812
+56822
+56833
+56844
+56854
+56864
+56874
+56885
+56895
+56905
+56916
+56926
+56936
+56946
+56957
+56967
+56978
+56987
+56997
+57007
+57017
+57027
+57037
+57046
+57056
+57066
+57076
+57085
+57094
+57104
+57113
+57123
+57133
+57142
+57152
+57161
+57171
+57181
+57190
+57200
+57209
+57218
+57228
+57237
+57246
+57255
+57264
+57274
+57283
+57293
+57302
+57312
+57321
+57331
+57340
+57349
+57359
+57369
+57378
+57387
+57397
+57406
+57416
+57425
+57435
+57444
+57454
+57463
+57473
+57483
+57492
+57502
+57511
+57521
+57531
+57541
+57551
+57561
+57571
+57581
+57592
+57601
+57611
+57621
+57631
+57641
+57651
+57661
+57671
+57681
+57692
+57703
+57713
+57725
+57736
+57747
+57758
+57769
+57781
+57792
+57804
+57815
+57827
+57839
+57851
+57863
+57876
+57888
+57901
+57913
+57926
+57939
+57953
+57966
+57981
+57995
+58009
+58023
+58038
+58053
+58068
+58083
+58100
+58116
+58132
+58148
+58165
+58182
+58199
+58217
+58236
+58256
+58276
+58297
+58319
+58340
+58360
+58381
+58402
+58423
+58446
+58470
+58498
+58523
+58549
+58573
+58597
+58620
+58644
+58669
+58695
+58722
+58748
+58775
+58800
+58825
+58850
+58873
+58898
+58922
+58946
+58969
+58992
+59013
+59034
+59053
+59073
+59093
+59113
+59132
+59153
+59173
+59194
+59214
+59234
+59253
+59272
+59290
+59309
+59327
+59345
+59362
+59380
+59398
+59415
+59433
+59450
+59467
+59483
+59501
+59518
+59535
+59551
+59568
+59585
+59601
+59617
+59634
+59649
+59666
+59682
+59700
+59716
+59733
+59750
+59766
+59783
+59798
+59814
+59829
+59845
+59861
+59877
+59893
+59910
+59926
+59943
+59959
+59975
+59991
+60007
+60023
+60039
+60055
+60071
+60088
+60104
+60121
+60136
+60153
+60169
+60185
+60201
+60218
+60234
+60252
+60270
+60288
+60308
+60326
+60345
+60364
+60382
+60401
+60421
+60442
+60463
+60485
+60508
+60531
+60555
+60578
+60602
+60626
+60651
+60677
+60705
+60733
+60762
+60793
+60825
+60857
+60892
+60926
+60963
+61006
+61049
+61091
+61130
+61171
+61220
+61271
+61316
+61361
+61405
+61452
+61503
+61550
+61594
+61641
+61691
+61736
+61779
+61819
+61858
+61900
+61944
+61985
+62025
+62063
+62102
+62144
+62183
+62220
+62255
+62292
+62326
+62361
+62396
+62433
+62469
+62506
+62542
+62576
+62609
+62645
+62682
+62718
+62755
+62792
+62830
+62870
+62911
+62953
+62995
+63040
+63089
+63139
+63191
+63256
+63330
+63407
+63495
+63587
+63694
+63821
+63952
+64091
+64241
+64384
+64519
+64646
+64754
+64853
+64958
+65061
+65164
+65269
+65381
+65501
+65642
+65826
+66111
+66634
+67203
+67613
+68047
+69803

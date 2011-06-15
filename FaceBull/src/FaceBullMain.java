@@ -58,6 +58,7 @@ class Compound {
 	public Compound(String name, int index) {
 		m_name = name;
 		m_index = index;
+		m_mask = 1L << m_index;
 		m_consumers = new Machine[0];
 		m_producers = new Machine[0];
 		
@@ -102,9 +103,9 @@ class Compound {
 	private int m_minProducerCost;
 	private int m_minConsumerCost;
 	
-	public long Mask() {
-		return 1L << m_index;
-	}
+	private long m_mask;
+	
+	public long Mask() { return m_mask;	}
 
 	public int MinProducerCost() {
 		return m_minProducerCost;
@@ -206,7 +207,6 @@ public class FaceBullMain {
 	
 	class State implements Comparable<State> {
 		public State() {
-			m_machines = new ArrayList<Machine>();
 			m_connectivity = new long[m_compounds.length];
 			// Even with no machines we can get from each compound to itself
 			for (Compound c : m_compounds)
@@ -217,39 +217,32 @@ public class FaceBullMain {
 			m_iNextCompound = 0;	
 		}
 
-		public State(ArrayList<Machine> machines, long[] connectivity, int cost, int iNextCompound) {
-			m_machines = new ArrayList<Machine>(machines);
+		public State(State parent, long[] connectivity, long newConsumed, int cost) {
 			m_connectivity = connectivity;
 			m_cost = cost;
-			m_iNextCompound = iNextCompound;
+			m_iNextCompound = parent.m_iNextCompound + 1;
+			m_newConsumed = newConsumed;
+			m_consumed = parent.m_consumed | newConsumed;
+			m_parent = parent;
 			
 			// Penalty based just on producers we need yet
 			m_penalty = m_minProducerCost[m_iNextCompound];
 
-			long consumed = 0;
-			for (Machine m : machines)
-				consumed |= m.Input().Mask();
-			
-			long availableConsumers = consumed | m_remainingConsumers[m_iNextCompound];
-
 			int consumerPenalty = 0;
-			if ((availableConsumers) != m_fullMask) {
-				consumerPenalty = Integer.MAX_VALUE;
-			}
-			else {
-				for (Compound c : m_compounds)
-					if ((availableConsumers & c.Mask()) == 0)
-						consumerPenalty += c.MinConsumerCost();
-			}
+			for (Compound c : m_compounds)
+				if ((m_consumed & c.Mask()) == 0)
+					consumerPenalty += c.MinConsumerCost();
 			
 			m_penalty = Math.max(m_penalty, consumerPenalty);
 		}
 		
-		private ArrayList<Machine> m_machines;
 		private long[] m_connectivity;
-		private int m_cost;			// Add penalty for min cost of all further machines
+		private long m_consumed;
+		private long m_newConsumed;
+		private int m_cost;			
 		private int m_iNextCompound;
 		private int m_penalty;
+		private State m_parent;
 
 		public int compareTo(State o) {
 			return Util.CompareInt(m_cost + m_penalty, o.m_cost + o.m_penalty);
@@ -266,48 +259,49 @@ public class FaceBullMain {
 			Compound c = m_compounds[m_iNextCompound];
 
 			Machine[] producers = c.Producers();
-			ArrayList<Machine> childUsedMachines = new ArrayList<Machine>(m_machines);
-			for (int i = 0; i < producers.length; i++) {
-				Machine p = producers[i];
-				
-				assert IsNewConnection(m_connectivity, p); 
 
-				childUsedMachines.add(p);
-				long[] childCon = UpdateConnectivity(m_connectivity, p);
-				
-				EnumCombos(producers, childCon, i+1, childUsedMachines, m_cost + p.Price(), queue);
-
-				childUsedMachines.remove(childUsedMachines.size() - 1);
-			}
+			EnumCombos(producers, m_connectivity, 0, 0, m_cost, queue);
 		}
 
-		private void EnumCombos(Machine[] producers, long[] connectivity, int iFirst, ArrayList<Machine> usedMachines, int totalCost,
+		private void EnumCombos(Machine[] producers, long[] connectivity, int iFirst, long newConsumed, int totalCost,
 				PriorityQueue<State> q) 
 		{
 			if (iFirst == producers.length) {
-				State child = new State(usedMachines, connectivity, totalCost, m_iNextCompound + 1);
-				if (child.Penalty() == Integer.MAX_VALUE)
-					m_countInvalidStates++;
-				else
-					q.add(child);
+				if (newConsumed != 0) {
+					long availableConsumers = m_consumed | newConsumed | m_remainingConsumers[m_iNextCompound+1];
+					if (availableConsumers == m_fullMask) {
+						State child = new State(this, connectivity, newConsumed, totalCost);
+						
+						if (child.TotalCost() < m_bestCost) {
+							q.add(child);
+							m_maxCostInQueue = Math.max(m_maxCostInQueue, child.TotalCost());
+						}
+
+						if (child.IsFullyConnected()) {
+							m_bestCost = child.m_cost;
+							s_log.printf("\n***Found solution : cost = %,d\n\n", m_bestCost);
+						}
+						
+					} else {
+						m_countInvalidStates++;
+					}
+				}
 				
 				return;
 			}
 			
-			// Combinations without iFirst
-			EnumCombos(producers, connectivity, iFirst + 1, usedMachines, totalCost, q);
-
 			// Combinations with iFirst
 			Machine p = producers[iFirst];
 			if (IsNewConnection(connectivity, p)) {
-				
 				long[] newCon = UpdateConnectivity(connectivity, p);
-				
-				usedMachines.add(p);
-				EnumCombos(producers, newCon, iFirst + 1, usedMachines, totalCost + p.Price(), q);
-				usedMachines.remove(usedMachines.size() - 1);
+				EnumCombos(producers, newCon, iFirst + 1, newConsumed | p.Input().Mask(), totalCost + p.Price(), q);
 			}
+
+			// Combinations without iFirst
+			EnumCombos(producers, connectivity, iFirst + 1, newConsumed, totalCost, q);
 		}
+
+		private int TotalCost() { return m_cost + m_penalty; }
 
 		private boolean IsNewConnection(long[] connectivity, Machine p) {
 			long existingOutputsMask = connectivity[p.Input().Index()];
@@ -339,7 +333,16 @@ public class FaceBullMain {
 		}
 
 		public Machine[] MachinesUsed() {
-			return m_machines.toArray(new Machine[m_machines.size()]);
+			ArrayList<Machine> allUsed = new ArrayList<Machine>();
+			
+			for (State cursor = this; cursor.m_iNextCompound > 0; cursor = cursor.m_parent) {
+				Machine[] options = m_compounds[cursor.m_iNextCompound-1].Producers();
+				for (Machine m : options)
+					if ((m.Input().Mask() & cursor.m_newConsumed) != 0)
+						allUsed.add(m);
+			}
+			
+			return allUsed.toArray(new Machine[allUsed.size()]);
 		}
 
 		public int  Cost() { return m_cost; }
@@ -355,7 +358,6 @@ public class FaceBullMain {
 		s_log.printf("Mem memory = %,d [MB]\n", runtime.maxMemory() / 1024 / 1024);
 		
 		int popCount = 0;
-		int shortcutCount = 0;
 		
 		for (;;) {
 			State top = q.poll();
@@ -364,14 +366,28 @@ public class FaceBullMain {
 			
 			popCount++;
 			
-			if ((popCount % 100) == 0) {
+			if ((popCount % 10) == 0) {
 				long usedMem = runtime.totalMemory() - runtime.freeMemory();
 				usedMem /= 1024 * 1024;
 				s_log.printf("PopCount %,d : Top Cost = %,d; Penalty = %,d; \nQueue Size = %,d; #Invalid = %,d; Mem %,d[MB]\n", popCount, 
 						top.Cost() + top.Penalty(), top.Penalty(), 
 						q.size(), m_countInvalidStates, usedMem);
-				s_log.printf("ShortCut %,d\n\n", shortcutCount);
+				s_log.printf("Max Q Cost %,d\n\n", m_maxCostInQueue);
 				s_log.flush();
+			}
+			
+			if (q.size() > 1000 * 1000) {
+				while (true)
+				{
+					for (int i = 1; i < 1000; i++)
+						q.poll();
+					
+					State t = q.poll();
+					if (t == null)
+						return null;
+					
+					s_log.println(t.TotalCost());
+				}
 			}
 			
 			if (top.IsFullyConnected())
@@ -448,6 +464,8 @@ public class FaceBullMain {
 	private int[] m_minProducerCost;
 	
 	private int m_countInvalidStates;
+	private int m_bestCost = Integer.MAX_VALUE;
+	private int m_maxCostInQueue;
 	
 	private static PrintWriter s_log;
 	
