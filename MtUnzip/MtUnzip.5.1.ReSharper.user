@@ -1,0 +1,173 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1890" fromTop="42" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="4523" fromTop="100" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="2136" fromTop="29" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="3155" fromTop="46" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="3151" fromTop="51" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="258" fromTop="7" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="5412" fromTop="61" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="0" fromTop="0" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="411" fromTop="0" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1255" fromTop="23" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1134" fromTop="23" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1134" fromTop="27" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1066" fromTop="29" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="2660" fromTop="32" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="2157" fromTop="59" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="2660" fromTop="50" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="2938" fromTop="52" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="2653" fromTop="47" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="483" fromTop="21" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="2036" fromTop="41" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="3356" fromTop="23" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:MultiThreadBufferedReader.cs" caret="5384" fromTop="53" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1484" fromTop="26" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1761" fromTop="36" />
+      <File id="A972B77D-D0FB-4081-AD8B-66DA1DDC4E25/f:Program.cs" caret="1908" fromTop="42" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="const" priority="0" />
+      <Item value="string" priority="5" />
+      <Item value="ICSharpCode" priority="0" />
+      <Item value="SharpZipLib" priority="0" />
+      <Item value="BZip2" priority="0" />
+      <Item value="BZip2InputStream`0" priority="0" />
+      <Item value="FileStyleUriParser`0" priority="0" />
+      <Item value="args" priority="4" />
+      <Item value="if" priority="7" />
+      <Item value="File`0" priority="0" />
+      <Item value="Console`0" priority="3" />
+      <Item value="Length" priority="0" />
+      <Item value="return" priority="3" />
+      <Item value="unzipper" priority="2" />
+      <Item value="for" priority="1" />
+      <Item value="rd" priority="16" />
+      <Item value="while" priority="0" />
+      <Item value="Element" priority="1" />
+      <Item value="var" priority="3" />
+      <Item value="new" priority="4" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="nodeNameCounts" priority="8" />
+      <Item value="name" priority="3" />
+      <Item value="else" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="nodeName" priority="0" />
+      <Item value="timer" priority="0" />
+      <Item value="Process`0" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="void" priority="0" />
+      <Item value="XmlReader`0" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="Trace`0" priority="1" />
+      <Item value="m_name" priority="1" />
+      <Item value="SortedDictionary" priority="0" />
+      <Item value="int" priority="2" />
+      <Item value="long" priority="0" />
+      <Item value="iAttr" priority="1" />
+      <Item value="do" priority="0" />
+      <Item value="decimal" priority="0" />
+      <Item value="m_attributeCounts" priority="4" />
+      <Item value="attrName" priority="2" />
+      <Item value="List" priority="0" />
+      <Item value="NodeStats`0" priority="1" />
+      <Item value="nodeStats" priority="0" />
+      <Item value="stats" priority="3" />
+      <Item value="NodeStats" priority="1" />
+      <Item value="SortedDictionary&lt;string,long&gt;" priority="0" />
+      <Item value="lhs" priority="0" />
+      <Item value="rhs" priority="0" />
+      <Item value="m_count" priority="0" />
+      <Item value="bufferedReader" priority="1" />
+      <Item value="bool" priority="1" />
+      <Item value="mtIsEnabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="OpenRead`0" priority="0" />
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.XmlReader">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlReader">
+      <Item value="Read`0" priority="1" />
+      <Item value="NodeType" priority="2" />
+      <Item value="Name" priority="1" />
+      <Item value="AttributeCount" priority="0" />
+      <Item value="MoveToFirstAttribute`0" priority="1" />
+      <Item value="MoveToNextAttribute`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+KeyCollection">
+      <Item value="OrderBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Stopwatch">
+      <Item value="StartNew`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="ElapsedMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="GetCurrentProcess`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="TotalProcessorTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Trace">
+      <Item value="Assert`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.SortedDictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Sort`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MtUnzip.NodeStats">
+      <Item value="Count`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
