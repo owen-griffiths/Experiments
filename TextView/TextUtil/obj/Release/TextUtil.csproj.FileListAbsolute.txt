@@ -1,0 +1,12 @@
+D:\Experiments\TextUtil\bin\Release\TextUtil.dll
+D:\Experiments\TextUtil\bin\Release\TextUtil.pdb
+D:\Experiments\TextUtil\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Experiments\TextUtil\obj\Release\ResolveAssemblyReference.cache
+D:\Experiments\TextUtil\obj\Release\TextUtil.dll
+D:\Experiments\TextUtil\obj\Release\TextUtil.pdb
+D:\Git\Experiments\TextView\TextUtil\bin\Release\TextUtil.dll
+D:\Git\Experiments\TextView\TextUtil\bin\Release\TextUtil.pdb
+D:\Git\Experiments\TextView\TextUtil\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Git\Experiments\TextView\TextUtil\obj\Release\ResolveAssemblyReference.cache
+D:\Git\Experiments\TextView\TextUtil\obj\Release\TextUtil.dll
+D:\Git\Experiments\TextView\TextUtil\obj\Release\TextUtil.pdb

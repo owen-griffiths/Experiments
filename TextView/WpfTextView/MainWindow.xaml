@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfTextView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyCode="clr-namespace:WpfTextView"
+        Title="MainWindow" Height="659" Width="1166"
+        AllowDrop="True" DragEnter="Window_DragEnter" Drop="Window_Drop" KeyUp="Window_KeyUp" KeyDown="Window_KeyDown">
+    <Window.DataContext>
+        <MyCode:TextModel>
+            
+        </MyCode:TextModel>
+    </Window.DataContext>
+    <Grid>
+        <ProgressBar Name="memoryStatus"
+            Maximum="{Binding Path=MaxMemoryMb, Mode=OneTime}" 
+            Value="{Binding Path=UsedMemoryMb, Mode=OneWay}" ToolTip="{Binding Path=MemoryStatusDescription, Mode=OneWay}"
+            Height="28" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="110" Margin="190,0,0,0" />
+        
+        <Label Name="fileStatus" 
+            Content="{Binding Path=CurrentFileStatus}" 
+            Height="28" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="184" />
+
+        <Label Name="gcStatus"
+                Content="{Binding Path=GcStatus, Mode=OneWay}"
+                Height="28" HorizontalAlignment="Stretch" Margin="306,0,0,0"  VerticalAlignment="Bottom" />
+
+        <TabControl Name="openFiles" 
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" Margin="0,0,0,34" SelectionChanged="openFiles_SelectionChanged">
+        </TabControl>
+    </Grid>
+</Window>
