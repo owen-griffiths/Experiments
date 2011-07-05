@@ -47,7 +47,7 @@
 
         <ListView Name="listView1"  
             Grid.Row="2" 
-            Margin="0,29,0,-29" VerticalAlignment="Stretch" 
+            Margin="0,29,0,0" VerticalAlignment="Stretch" 
             HorizontalAlignment="Stretch" Width="Auto"
             ItemsSource="{Binding Path=FindResults}" SelectionChanged="listView1_SelectionChanged" SelectionMode="Single" MouseLeftButtonUp="listView1_MouseLeftButtonUp">
             

@@ -29,7 +29,7 @@ class Machine implements Comparable<Machine>
 	}
 	
 	public String toString() {
-		return String.format("%s - %s : %,d", m_input.Name(), m_output.Name(), m_price);
+		return String.format("%S (%s - %s) : $%,d", m_name, m_input.Name(), m_output.Name(), m_price);
 	}
 	
 	public Compound Output() { return m_output; }
@@ -42,11 +42,33 @@ class Machine implements Comparable<Machine>
 		return m_number;
 	}
 	
+	public String Name() { return m_name; }
+	
+	public boolean[][] RemainingConnectivity()
+	{
+		return m_remainingConnectivity;
+	}
+
+	public void SetRemainingConnectivity(int[][] connectivity)
+	{
+		m_remainingConnectivity = new boolean[connectivity.length][];
+		for (int i = 0; i < connectivity.length; i++)
+		{
+			m_remainingConnectivity[i] = new boolean[connectivity.length];
+			
+			for (int j = 0; j < connectivity.length; j++)
+			{
+				m_remainingConnectivity[i][j] = (connectivity[i][j] != FaceBullMain.NOT_CONNECTED); 
+			}
+		}
+	}
+	
 	private String m_name;
 	private Compound m_input;
 	private Compound m_output;
 	private int m_price;
 	private int m_number;
+	private boolean[][] m_remainingConnectivity;	// Floyd Warshall connectivity of all machines left after this one
 
 	public int compareTo(Machine o) {
 		return Util.CompareInt(m_number, o.m_number);
@@ -192,14 +214,23 @@ public class FaceBullMain {
 			}
 		}
 		
+		SetUpRemainingMachineConnectivity();
+		
 		assert countMachines == m_machinesByProducer.length;
+	}
+	
+	private void SetUpRemainingMachineConnectivity()
+	{
+		ArrayList<Machine> remainingMachines = new ArrayList<Machine>();
+		for (Machine m : m_machinesByProducer)
+			remainingMachines.add(m);
 		
-		m_remainingConsumers = new long[countMachines+1];
-		m_remainingProducers = new long[countMachines + 1];
-		
-		for (int i = countMachines-1; i >= 0; i--) {
-			m_remainingConsumers[i] = m_remainingConsumers[i + 1] | m_machinesByProducer[i].Input().Mask();
-			m_remainingProducers[i] = m_remainingProducers[i + 1] | m_machinesByProducer[i].Output().Mask();
+		while (remainingMachines.size() > 0)
+		{
+			Machine head = remainingMachines.remove(0);
+			
+			int[][] connectivity = FloydWarshall(remainingMachines.toArray(new Machine[0]));
+			head.SetRemainingConnectivity(connectivity);
 		}
 	}
 	
@@ -212,15 +243,213 @@ public class FaceBullMain {
 		return true;
 	}
 	
+	
+	private Result BreathFirst() {
+		PriorityQueue<State> q = new PriorityQueue<State>();
+		q.add(new State());
+		Runtime runtime = Runtime.getRuntime();
+		
+		s_log.printf("Mem memory = %,d [MB]\n", runtime.maxMemory() / 1024 / 1024);
+		
+		int popCount = 0;
+		
+		for (;;) {
+			State top = q.poll();
+			if (top == null)
+				break;
+			
+			popCount++;
+			
+//			if ((popCount % 100) == 0) {
+//				long usedMem = runtime.totalMemory() - runtime.freeMemory();
+//				usedMem /= 1024 * 1024;
+//				s_log.printf("PopCount %,d : Top Cost = %,d; Penalty = %,d; \nQueue Size = %,d; #Invalid = %,d; Mem %,d[MB]\n\n", popCount, 
+//						top.Cost() + top.Penalty(), top.Penalty(), 
+//						q.size(), m_countInvalidStates, usedMem);
+//				s_log.flush();
+//			}
+			
+			if (q.size() > 1000 * 1000) {
+				s_log.println("\n\nQueue Too Large****\n");
+				
+				while (true)
+				{
+					for (int i = 1; i < 1000; i++)
+						q.poll();
+					
+					State t = q.poll();
+					if (t == null)
+						return null;
+					
+					s_log.println(t.TotalCost());
+				}
+			}
+			
+			if (top.IsFullyConnected())
+				return new Result(top.MachinesUsed());
+			
+			top.AddChildren(q);
+		}
+
+		assert false;
+		return null;
+	}
+	
+	public void Run() {
+		s_log.printf("%d machines and %d compounds\n", m_machines.size(), m_compounds.length);
+		long start = System.currentTimeMillis(); 
+			
+		for (Compound c : m_compounds)
+		{
+			m_fullMask = m_fullMask | c.Mask();
+			m_sumMinProducerCost += c.MinProducerCost();
+			m_sumMinConsumerCost += c.MinConsumerCost();
+		}
+		
+//		new State().TryPath("M6 M15 M37 M47 M67 M79 M91 M96 M108 M123 M134 M147 M164 M169 M193 M197 M216 M219 M234 M255 ");
+		
+		Result result = BreathFirst();
+		
+		System.out.println(result.TotalPrice());
+		System.out.println(result);
+		
+		s_log.printf("Took %,d[ms]\n\n", System.currentTimeMillis() - start);
+
+		int[][] connectivity = FloydWarshall(result.RequiredMachines());
+		
+		for (int[] row : connectivity) {
+			s_log.println(Arrays.toString(row));
+		}
+		
+		assert IsConnected(connectivity);
+	}
+	
+
+	public static final int NOT_CONNECTED = Integer.MAX_VALUE / 2;
+	
+	public int[][] FloydWarshall(Machine[] machines) {
+
+		int n = m_compounds.length;
+		
+		int[][] result = new int[n][];
+		for (int i = 0; i < n; i++) {
+			result[i] = new int[n];
+			Arrays.fill(result[i], NOT_CONNECTED);
+			result[i][i] = 0;
+		}
+		
+		for (Machine m : machines) {
+			result[m.Input().Index()][m.Output().Index()] = m.Price();
+		}
+
+		for (int k = 0; k < n; k++)
+			for (int i = 0; i < n; i++)
+				for (int j = 0; j < n; j++) {
+					int bestByK = result[i][k] + result[k][j];
+					result[i][j] = Math.min(result[i][j], bestByK);
+				}
+		
+		return result;
+	}
+	
+	private Compound FindCompound(String name, HashMap<String, Compound> nameToCompound) {
+		Compound result = nameToCompound.get(name);
+		if (result == null) {
+			result = new Compound(name, nameToCompound.size());
+			nameToCompound.put(name, result);
+		}
+		return result;
+	}
+	
+	private Compound[] m_compounds;
+	private HashMap<String, Machine> m_machines;
+	
+	private Machine[] m_machinesByProducer;
+	
+	private long m_fullMask;
+	
+	private int m_sumMinConsumerCost;
+	private int m_sumMinProducerCost;
+	
+	private int m_countInvalidStates;
+	
+	private static PrintWriter s_log;
+	
+	
 	class State implements Comparable<State> {
+		public void TryPath(String path) {
+			State s = new State();
+			System.out.printf("Seed state %s\n\n", s.toString());
+			
+			for (Machine m : m_machinesByProducer)
+			{
+				boolean isInPath = path.contains(m.Name() + " ");
+				
+				if (isInPath)
+				{
+					if (!IsNewConnection(s.m_connectivity, m))
+					{
+						System.out.printf("%s unexpectedly not new connection", m.toString());
+						return;
+					}
+					
+					s = new State(s, UpdateConnectivity(s.m_connectivity, m), m);
+					System.out.printf("Added %s\n", m.toString());
+					System.out.printf("New State %s\n\n", s.toString());
+				}
+				else
+				{
+					if (!IsRedundant(m, s.m_connectivity, m.RemainingConnectivity()))
+					{
+						System.out.printf("%s unexpectedly not redundant", m.toString());
+						
+						int[][] usedConn = FloydWarshall(s.MachinesUsed());
+						System.out.println("Used Machines Conn");
+						for (Compound c : m_compounds)
+						{
+							System.out.print(c.Name() + " -> ");
+							for (Compound o : m_compounds)
+								if (usedConn[c.Index()][o.Index()] != NOT_CONNECTED)
+									System.out.print(o.Name() + " ");
+							
+							System.out.println();
+						}
+						
+						
+						System.out.println("Remaining Machines Conn");
+						for (Compound c : m_compounds)
+						{
+							System.out.print(c.Name() + " -> ");
+							for (Compound o : m_compounds)
+								if (m.RemainingConnectivity()[c.Index()][o.Index()])
+									System.out.print(o.Name() + " ");
+							
+							System.out.println();
+						}
+						
+						
+						return;
+					}
+					
+					s = new State(s, s.m_connectivity, null);
+
+					System.out.printf("Skipped %s\n", m.toString());
+					System.out.printf("New State %s\n\n", s.toString());
+				}
+			}
+		}
+
 		public State() {
 			m_connectivity = new long[m_compounds.length];
 			// Even with no machines we can get from each compound to itself
 			for (Compound c : m_compounds)
 				m_connectivity[c.Index()] = c.Mask();
 			
-			m_cost = 0;
-			m_penalty = 0;
+			m_rawCost = 0;
+			m_penalizedCost = 0;
+			m_consumerPenalty = m_sumMinConsumerCost;
+			m_producerPenalty = m_sumMinProducerCost;
+			
 			m_iNextMachine = 0;	
 		}
 
@@ -229,67 +458,67 @@ public class FaceBullMain {
 			m_connectivity = connectivity;
 			m_parent = parent;
 			
-			m_cost = parent.m_cost;
+			m_rawCost = parent.m_rawCost;
 			m_consumed = parent.m_consumed;
 			m_produced = parent.m_produced;
+			
+			m_consumerPenalty = parent.m_consumerPenalty;
+			m_producerPenalty = parent.m_producerPenalty;
 			
 			m_machineAdded = newMachine;
 
 			if (newMachine != null) {
-				m_cost += newMachine.Price();
+				m_rawCost += newMachine.Price();
 				m_consumed |= newMachine.Input().Mask();
+				if (m_consumed != parent.m_consumed)
+					m_consumerPenalty -= newMachine.Input().MinConsumerCost();
+				
 				m_produced |= newMachine.Output().Mask();
+				if (m_produced != parent.m_produced)
+					m_producerPenalty -= newMachine.Output().MinProducerCost();
 			}
 			
 			m_iNextMachine = parent.m_iNextMachine + 1;
-			
-			int consumerPenalty = 0;
-			int producerPenalty = 0;
-			
-			for (Compound c : m_compounds) {
-				if ((m_consumed & c.Mask()) == 0)
-					consumerPenalty += c.MinConsumerCost();
-				
-				if ((m_produced & c.Mask()) == 0)
-					producerPenalty += c.MinProducerCost();
-			}
-			
-			m_penalty = Math.max(producerPenalty, consumerPenalty);
+			m_penalizedCost = m_rawCost + Math.max(m_consumerPenalty, m_producerPenalty);
 		}
 		
 		private long[] m_connectivity;
 		private long m_consumed;
 		private long m_produced;
-		private int m_cost;			
+		private int m_rawCost;
+		private int m_penalizedCost;
 		private int m_iNextMachine;
-		private int m_penalty;
+		private int m_consumerPenalty;
+		private int m_producerPenalty;
 		private Machine m_machineAdded;
 		
 		private State m_parent;
 
 		public int compareTo(State o) {
-			return Util.CompareInt(m_cost + m_penalty, o.m_cost + o.m_penalty);
+			return Util.CompareInt(m_penalizedCost, o.m_penalizedCost);
 		}
 		
 		public String toString() {
-			return String.format("%s; %,d; %s", m_machines.toString(), m_cost, Arrays.toString(m_connectivity));
+			String result = String.format("RawCost : $%,d; Consumer Penalty : $%,d; Producer Penalty : $%,d; Penalized Cost : $%,d", m_rawCost, m_consumerPenalty, m_producerPenalty, m_penalizedCost);
+			if (IsFullyConnected())
+				return "SOLUTION " + result;
+			
+			return result;
 		}
 		
 		public void AddChildren(PriorityQueue<State> queue) {
-			if (m_iNextMachine >= m_machinesByProducer.length)
+			if (m_iNextMachine >= m_machinesByProducer.length) {
 				return;
+			}
 			
 			Machine next = m_machinesByProducer[m_iNextMachine];
 			State child;
 			
 			// See if we can skip this machine
-			long availableProducers = m_produced | m_remainingProducers[m_iNextMachine + 1];
-			long availableConsumers = m_consumed | m_remainingConsumers[m_iNextMachine + 1];
-			if ((availableProducers == m_fullMask) && (availableConsumers == m_fullMask))
+			if (IsRedundant(next, m_connectivity, next.RemainingConnectivity()))
 			{			
 				child = new State(this, m_connectivity, null);
 				queue.add(child);
-				m_maxCostInQueue = Math.max(m_maxCostInQueue, child.TotalCost());
 			}
 			else {
 				m_countInvalidStates++;
@@ -301,11 +530,40 @@ public class FaceBullMain {
 				long[] newCon = UpdateConnectivity(m_connectivity, next);
 				child = new State(this, newCon, next);
 				queue.add(child);
-				m_maxCostInQueue = Math.max(m_maxCostInQueue, child.TotalCost());
 			}
 		}
 
-		private int TotalCost() { return m_cost + m_penalty; }
+		private boolean IsRedundant(Machine m, long[] usedConnectivity, boolean[][] remainingConnectivity) {
+			boolean[] hasReached = new boolean[m_compounds.length];
+			long[] totalCon = usedConnectivity.clone();
+			for (Compound f : m_compounds)
+				for (Compound t : m_compounds)
+					if (remainingConnectivity[f.Index()][t.Index()])
+						totalCon[f.Index()] |= t.Mask();
+			
+			return RecurseCanReach(hasReached, m.Input(), m.Output(), totalCon);
+		}
+
+		private boolean RecurseCanReach(boolean[] hasReached, Compound reached,
+				Compound target, long[] totalCon) {
+			
+			if (reached == target)
+				return true;
+			
+			if (hasReached[reached.Index()])
+				return false;
+			
+			hasReached[reached.Index()] = true;
+			
+			for (Compound c : m_compounds)
+				if ((totalCon[reached.Index()] & c.Mask()) != 0)
+					if (RecurseCanReach(hasReached, c, target, totalCon))
+						return true;
+			
+			return false;
+		}
+
+		private int TotalCost() { return m_penalizedCost; }
 
 		private boolean IsNewConnection(long[] connectivity, Machine p) {
 			long existingOutputsMask = connectivity[p.Input().Index()];
@@ -350,130 +608,11 @@ public class FaceBullMain {
 
 		private Machine MachineAdded() { return m_machineAdded; }
 
-		public int  Cost() { return m_cost; }
+		public int  Cost() { return m_rawCost; }
 
-		public int Penalty() { return m_penalty; }
+		public int Penalty() { return m_penalizedCost - m_rawCost; }
 	}
-	
-	private Result BreathFirst() {
-		PriorityQueue<State> q = new PriorityQueue<State>();
-		q.add(new State());
-		Runtime runtime = Runtime.getRuntime();
-		
-		s_log.printf("Mem memory = %,d [MB]\n", runtime.maxMemory() / 1024 / 1024);
-		
-		int popCount = 0;
-		
-		for (;;) {
-			State top = q.poll();
-			if (top == null)
-				break;
-			
-			popCount++;
-			
-//			if ((popCount % 100) == 0) {
-//				long usedMem = runtime.totalMemory() - runtime.freeMemory();
-//				usedMem /= 1024 * 1024;
-//				s_log.printf("PopCount %,d : Top Cost = %,d; Penalty = %,d; \nQueue Size = %,d; #Invalid = %,d; Mem %,d[MB]\n", popCount, 
-//						top.Cost() + top.Penalty(), top.Penalty(), 
-//						q.size(), m_countInvalidStates, usedMem);
-//				s_log.printf("Max Q Cost %,d\n\n", m_maxCostInQueue);
-//				s_log.flush();
-//			}
-			
-			if (q.size() > 1000 * 1000) {
-				while (true)
-				{
-					for (int i = 1; i < 1000; i++)
-						q.poll();
-					
-					State t = q.poll();
-					if (t == null)
-						return null;
-					
-					s_log.println(t.TotalCost());
-				}
-			}
-			
-			if (top.IsFullyConnected())
-				return new Result(top.MachinesUsed());
-			
-			top.AddChildren(q);
-		}
 
-		assert false;
-		return null;
-	}
-	
-	public void Run() {
-		s_log.printf("%d machines and %d compounds\n", m_machines.size(), m_compounds.length);
-		
-		for (Compound c : m_compounds)
-			m_fullMask = m_fullMask | c.Mask();
-		
-		Result result = BreathFirst();
-		
-		System.out.println(result.TotalPrice());
-		System.out.println(result);
-
-		int[][] connectivity = FloydWarshall(result.RequiredMachines());
-		
-		for (int[] row : connectivity) {
-			s_log.println(Arrays.toString(row));
-		}
-		
-		assert IsConnected(connectivity);
-	}
-	
-	public int[][] FloydWarshall(Machine[] machines) {
-
-		int n = m_compounds.length;
-		
-		int[][] result = new int[n][];
-		for (int i = 0; i < n; i++) {
-			result[i] = new int[n];
-			Arrays.fill(result[i], Integer.MAX_VALUE / 2);
-			result[i][i] = 0;
-		}
-		
-		for (Machine m : machines) {
-			result[m.Input().Index()][m.Output().Index()] = m.Price();
-		}
-
-		for (int k = 0; k < n; k++)
-			for (int i = 0; i < n; i++)
-				for (int j = 0; j < n; j++) {
-					int bestByK = result[i][k] + result[k][j];
-					result[i][j] = Math.min(result[i][j], bestByK);
-				}
-		
-		return result;
-	}
-	
-	private Compound FindCompound(String name, HashMap<String, Compound> nameToCompound) {
-		Compound result = nameToCompound.get(name);
-		if (result == null) {
-			result = new Compound(name, nameToCompound.size());
-			nameToCompound.put(name, result);
-		}
-		return result;
-	}
-	
-	private Compound[] m_compounds;
-	private HashMap<String, Machine> m_machines;
-	
-	private Machine[] m_machinesByProducer;
-	
-	private long m_fullMask;
-	
-	// If you are up to Machine i, records which Compounds are consumed by this and subsequent machines 
-	private long[] m_remainingConsumers;
-	private long[] m_remainingProducers;
-	
-	private int m_countInvalidStates;
-	private int m_maxCostInQueue;
-	
-	private static PrintWriter s_log;
 	
 	/**
 	 * @param args
