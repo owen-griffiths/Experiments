@@ -1,5 +1,6 @@
 package com.omgcodes;
 
+import org.apache.commons.cli.*;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -16,15 +17,24 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            List<CSVRecord> input = loadInput(args[0]);
+            CommandLine cli = parseCli(args);
+            File graphInput = new File(cli.getOptionValue("graph"));
+            File odPairInput = new File(cli.getOptionValue("odPairs"));
+            File outputPath = new File(cli.getOptionValue("output"));
+
+                    graphInput.getAbsolutePath(),
+                    odPairInput.getAbsolutePath(),
+                    outputPath.getAbsolutePath());
+
+            List<CSVRecord> input = loadInput(graphInput);
 
             Graph graph = buildGraph(input);
-            List<Pair<Integer, Integer>> pathsToSave = loadPathsToOutput(args[1], graph);
+            List<Pair<Integer, Integer>> pathsToSave = loadPathsToOutput(odPairInput, graph);
 
             FloydWarshallOutput output = graph.floydWarshall();
 
             long startTimeMs = System.currentTimeMillis();
-            saveBestPaths(pathsToSave, output, args[2]);
+            saveBestPaths(pathsToSave, output, outputPath);
             long takenMs = System.currentTimeMillis() - startTimeMs;
             System.out.printf("Took %,d[ms] to save output\n", takenMs);
         } catch (Exception e) {
@@ -33,8 +43,34 @@ public class Main {
         }
     }
 
-    private static List<CSVRecord> loadInput(String arg) throws IOException {
-        File source = new File(arg);
+    private static CommandLine parseCli(String[] args) throws ParseException {
+        Options options = new Options();
+        options.addOption(
+                Option.builder("graph")
+                        .hasArg()
+                        .required()
+                        .desc("Input path to source graph CSV file")
+                        .build());
+        options.addOption(
+                Option.builder("odPairs")
+                        .hasArg()
+                        .required()
+                        .desc("Input path to OD Pair list CSV file")
+                        .build());
+        options.addOption(
+                Option.builder("output")
+                        .hasArg()
+                        .required()
+                        .desc("Path to save best found best paths")
+                        .build());
+
+        CommandLineParser parser = new DefaultParser();
+        CommandLine cli = parser.parse(options, args);
+
+        return cli;
+    }
+
+    private static List<CSVRecord> loadInput(File source) throws IOException {
         System.out.printf("Loading Links for %s\n", source.getAbsolutePath());
 
         CSVFormat format = CSVFormat.DEFAULT.withSkipHeaderRecord();
@@ -65,7 +101,7 @@ public class Main {
 
         assert arcIndex == arcs.length;
 
-        System.out.printf("%,d Ids indexed, %,d arcs", idToIndex.size(), arcs.length);
+        System.out.printf("%,d Ids indexed, %,d arcs\n", idToIndex.size(), arcs.length);
 
         Graph result = new Graph(idToIndex, arcs);
         return result;
@@ -81,9 +117,8 @@ public class Main {
         return idToIndex.get(id);
     }
 
-    private static List<Pair<Integer, Integer>> loadPathsToOutput(String filename, Graph graph) throws IOException {
-        File source = new File(filename);
-        System.out.printf("Saving best paths for OD Pairs defined in %s\n", source.getAbsolutePath());
+    private static List<Pair<Integer, Integer>> loadPathsToOutput(File source, Graph graph) throws IOException {
+        System.out.printf("Saving best paths for OD Pairs\n");
 
         CSVFormat format = CSVFormat.DEFAULT.withSkipHeaderRecord();
         CSVParser rd = CSVParser.parse(source, Charset.defaultCharset(), format);
@@ -122,9 +157,9 @@ public class Main {
     private static void saveBestPaths(
             List<Pair<Integer, Integer>> pathsToSave,
             FloydWarshallOutput output,
-            String outputPath) throws IOException {
+            File outputPath) throws IOException {
         long startTimeMs = System.currentTimeMillis();
-        System.out.printf("Saving shortest paths to %s\n", outputPath);
+        System.out.printf("Saving shortest paths to %s\n", outputPath.getAbsolutePath());
         PrintStream wr = new PrintStream(new FileOutputStream(outputPath));
 
         final int size = output.indexToId.length;
