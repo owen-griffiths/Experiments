@@ -10,7 +10,7 @@ Ctrl-Alt-Numpad 1 - Place window in the bottom left corner of the screen.
 Ctrl-Alt-Numpad 2 - Place window in the bottom half of the screen.
 Ctrl-Alt-Numpad 3 - Place window in the bottom right corner of the screen.
 
-Multi Screen has 2 extensions to the unity shortcuts. The first is support for multiple monitors. The shortcuts above will place the current focus window on the specified portion of the left most monitor. To move a window to the 2nd monitor add a "Nunpad +" to the keyboard sequence (without lifting Ctrl - Alt). If the system has 3 monitors, press "Numpad +" twice.
+Multi Screen has 2 extensions to the unity shortcuts. The first is support for multiple monitors, possibly with different resolutions. The shortcuts above will place the current focus window on the specified portion of the left most monitor. To move a window to the 2nd monitor add a "Nunpad +" to the keyboard sequence (without lifting Ctrl - Alt). If the system has 3 monitors, press "Numpad +" twice.
 
 Some examples, assuming a 3 monitor system, the window will end up on the screen portion denoted with #
 Ctrl Alt, "+ + 6"
