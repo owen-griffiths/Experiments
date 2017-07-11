@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Drawing;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
@@ -99,10 +100,14 @@ namespace MultiScreen
             }
         }
 
+        private static readonly int SW_RESTORE = 9;
+        private static readonly int SW_MAXIMIZE = 3;
+
         public static void SetActiveWindowPosition(Rectangle toCover, int targetScreen)
         {
-            int iScreen = Math.Min(targetScreen, Screen.AllScreens.Length - 1);
-            Screen s = Screen.AllScreens[iScreen];
+            var screens = Screen.AllScreens.OrderBy(scr => scr.Bounds.X).ToArray();
+            int iScreen = Math.Min(targetScreen, screens.Length - 1);
+            Screen s = screens[iScreen];
             Rectangle whole = s.WorkingArea;
 
             int left = whole.Left + (toCover.Left * whole.Width) / 6;
@@ -115,9 +120,17 @@ namespace MultiScreen
             StringBuilder targetWindowTitle = new StringBuilder(132);
             GetWindowText(foregroundWindow, targetWindowTitle, targetWindowTitle.Capacity);
 
-            Console.WriteLine($"Moving window titled '{targetWindowTitle}'");
+            int width = right - left;
+            int height = bottom - top;
+            bool isFull = (width == whole.Width) && (height == whole.Height);
+            Console.WriteLine($"Moving window titled '{targetWindowTitle}' to screen {s.DeviceName} @ L{left} T{top} W{width} H{height} IsFull {isFull}");
 
-            SetWindowPos(GetForegroundWindow(), IntPtr.Zero, left, top, right - left, bottom - top, 0);
+            IntPtr hWnd = GetForegroundWindow();
+
+            ShowWindow(hWnd, SW_RESTORE);
+            SetWindowPos(hWnd, IntPtr.Zero, left, top, width, height, 0);
+
+            if (isFull) ShowWindow(hWnd, SW_MAXIMIZE);
         }
 
 
@@ -127,10 +140,12 @@ namespace MultiScreen
         public static extern int SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int x, int y, int width, int height, uint flags);
 
         [DllImport("user32.dll")]
+        public static extern int ShowWindow(IntPtr hWnd, int cmd);
+
+        [DllImport("user32.dll")]
         static extern IntPtr GetForegroundWindow();
 
         [DllImport("user32.dll")]
         static extern int GetWindowText(IntPtr hWnd, StringBuilder text, int count);
     }
 }
-
